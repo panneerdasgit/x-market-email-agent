@@ -17,6 +17,12 @@
       "job_type": "education",
       "post": "P/E ratio shows what you pay for ₹1 of profit. If a stock costs ₹100 and earns ₹5, the P/E is 20. A lower P/E may mean a bargain; higher may mean investors expect growth. Always look beyond just this number. For information only. #Investing #Learn",
       "character_count": 247
+    },
+    {
+      "date": "2026-07-11",
+      "job_type": "closing",
+      "post": "Indian markets clocked a 3rd day of gains as volatility cooled. Mid and small caps outperformed the benchmarks today. Watch for Q4 earnings reports to drive specific stock moves tomorrow. For information only. #StockMarket #Investing",
+      "character_count": 233
     }
   ],
   "emails_sent": [
@@ -36,6 +42,12 @@
       "date": "2026-07-11",
       "time": "23:38:41",
       "job_type": "education",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-11",
+      "time": "23:39:21",
+      "job_type": "closing",
       "model": "gemini-flash-lite-latest"
     }
   ],
