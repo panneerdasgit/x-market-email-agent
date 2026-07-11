@@ -155,6 +155,16 @@
         "https://www.livemint.com/market/stock-market-news/fino-payments-bank-june-update-deposits-rise-11-loan-referrals-surge-35x-11783703589983.html",
         "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-extends-weekly-losses-amid-renewed-middle-east-tensions-11783700259415.html"
       ]
+    },
+    {
+      "job_type": "education",
+      "generated_at": "2026-07-11T17:12:37.023352+00:00",
+      "model": "gemini-flash-lite-latest",
+      "character_count": 248
     }
+  ],
+  "education_topic_index": 1,
+  "sent_posts": [
+    "P/E ratio shows how much you pay for ₹1 of earnings. If a stock costs ₹100 and earns ₹5, the P/E is 20. It helps check if a share is expensive relative to its profit. Compare with peers, not just price. For information only. #Investing #StockMarket"
   ]
 }
