@@ -1,6 +1,20 @@
 {
-  "processed_links": [],
-  "sent_posts": [],
-  "emails_sent": [],
+  "processed_links": [
+    "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+    "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+    "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+    "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html"
+  ],
+  "sent_posts": [
+    "Markets are seeing lower volatility as we head into the session. With corporate earnings season active, focus remains on stock-specific movements. Watch for how results influence today's sentiment. For information only. #StockMarketIndia #Nifty"
+  ],
+  "emails_sent": [
+    {
+      "job_type": "premarket",
+      "generated_at": "2026-07-11T17:25:08.328630+00:00",
+      "model": "gemini-flash-lite-latest",
+      "character_count": 244
+    }
+  ],
   "education_topic_index": 0
 }
