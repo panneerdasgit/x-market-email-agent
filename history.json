@@ -11,7 +11,19 @@
     "https://economictimes.indiatimes.com/markets/ipos/fpos/sbi-mf-ipo-vs-icici-amc-which-is-the-better-bet-for-investors-ahead-of-rs-11600-crore-issue/articleshow/132324805.cms",
     "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-next-week-sbi-mf-among-3-new-issues-to-raise-rs-11980-cr-gmps-soar-up-to-111/articleshow/132324713.cms",
     "https://economictimes.indiatimes.com/markets/stocks/news/will-google-be-berkshire-ceo-greg-abels-best-stock-pick-after-predecessor-warren-buffetts-apple-bet/articleshow/132324438.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/tcs-hdfc-bank-8-others-with-up-to-49-upside-how-many-in-your-portfolio/slideshow/132324420.cms"
+    "https://economictimes.indiatimes.com/markets/stocks/news/tcs-hdfc-bank-8-others-with-up-to-49-upside-how-many-in-your-portfolio/slideshow/132324420.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/132324291.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-investors-to-grapple-with-packed-week-of-earnings-cpi-iran-headlines/articleshow/132324249.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-officials-fret-over-inflation-risk-weigh-rate-hikes/articleshow/132324219.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-shares-jump-in-marquee-us-debut-as-ai-euphoria-persists/articleshow/132324183.cms",
+    "https://economictimes.indiatimes.com/markets/ipos/fpos/sbi-funds-raises-rs-1655-crore-in-a-pre-ipo-placement/articleshow/132323686.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/groww-restores-services-after-technical-glitch-affects-fund-withdrawals/articleshow/132323541.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/it-rally-powers-markets-over-1-sensex-nifty-end-week-with-marginal-losses/articleshow/132323425.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-higher-as-investors-turn-to-earnings-season/articleshow/132320373.cms",
+    "https://economictimes.indiatimes.com/markets/forex/forex-news/forex-reserves-rise-7-3-billion-as-fcnr-ecb-flows-pick-up/articleshow/132323389.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-drops-capital-raising-plan-on-lower-ecl-hit/articleshow/132318232.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-shares-jump-14-in-debut-on-us-stock-market-riding-on-ai-wave/articleshow/132316923.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-to-pursue-acquisitions-alongside-organic-growth/articleshow/132323655.cms"
   ],
   "emails_sent": [
     {
@@ -30,6 +42,25 @@
         "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-next-week-sbi-mf-among-3-new-issues-to-raise-rs-11980-cr-gmps-soar-up-to-111/articleshow/132324713.cms",
         "https://economictimes.indiatimes.com/markets/stocks/news/will-google-be-berkshire-ceo-greg-abels-best-stock-pick-after-predecessor-warren-buffetts-apple-bet/articleshow/132324438.cms",
         "https://economictimes.indiatimes.com/markets/stocks/news/tcs-hdfc-bank-8-others-with-up-to-49-upside-how-many-in-your-portfolio/slideshow/132324420.cms"
+      ]
+    },
+    {
+      "job_type": "premarket",
+      "generated_at": "2026-07-11T10:32:09.148822+00:00",
+      "model": "gemini-3.1-flash-lite",
+      "news_links": [
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/132324291.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-investors-to-grapple-with-packed-week-of-earnings-cpi-iran-headlines/articleshow/132324249.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-officials-fret-over-inflation-risk-weigh-rate-hikes/articleshow/132324219.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-shares-jump-in-marquee-us-debut-as-ai-euphoria-persists/articleshow/132324183.cms",
+        "https://economictimes.indiatimes.com/markets/ipos/fpos/sbi-funds-raises-rs-1655-crore-in-a-pre-ipo-placement/articleshow/132323686.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/groww-restores-services-after-technical-glitch-affects-fund-withdrawals/articleshow/132323541.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/it-rally-powers-markets-over-1-sensex-nifty-end-week-with-marginal-losses/articleshow/132323425.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-higher-as-investors-turn-to-earnings-season/articleshow/132320373.cms",
+        "https://economictimes.indiatimes.com/markets/forex/forex-news/forex-reserves-rise-7-3-billion-as-fcnr-ecb-flows-pick-up/articleshow/132323389.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-drops-capital-raising-plan-on-lower-ecl-hit/articleshow/132318232.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-shares-jump-14-in-debut-on-us-stock-market-riding-on-ai-wave/articleshow/132316923.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-to-pursue-acquisitions-alongside-organic-growth/articleshow/132323655.cms"
       ]
     }
   ]
