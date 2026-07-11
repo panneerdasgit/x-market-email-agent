@@ -1,0 +1,19 @@
+Create one ready-to-post educational X post for an Indian stock market beginner.
+
+Topic: {education_topic}
+
+Explain the idea in very simple, natural English. Use one practical example when it fits. Make the reader feel they learned something useful in a few seconds.
+
+Do not refer to today's news.
+Do not give buy or sell recommendations.
+Do not promise returns.
+Do not use clickbait or exaggerated claims.
+
+Writing:
+- Maximum {max_characters} characters including spaces, disclaimer and hashtags.
+- Use no more than {hashtags_count} relevant hashtags.
+- Use {language}.
+- Tone: {tone}
+- Style: {writing_style}
+- End with: {disclaimer}
+- Return only the final X post.

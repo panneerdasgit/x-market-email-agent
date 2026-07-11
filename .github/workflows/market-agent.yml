@@ -1,43 +1,38 @@
-name: Indian Market Email Agent
+name: X Market Email Agent V2
 
 on:
   schedule:
-    # 8:30 AM IST, Monday-Friday
     - cron: "30 8 * * 1-5"
       timezone: "Asia/Kolkata"
-
-    # 10:30 AM IST, Monday-Friday
     - cron: "30 10 * * 1-5"
       timezone: "Asia/Kolkata"
-
-    # 12:30 PM IST, Monday-Friday
     - cron: "30 12 * * 1-5"
       timezone: "Asia/Kolkata"
-
-    # 2:30 PM IST, Monday-Friday
     - cron: "30 14 * * 1-5"
       timezone: "Asia/Kolkata"
-
-    # 4:15 PM IST, Monday-Friday
     - cron: "15 16 * * 1-5"
       timezone: "Asia/Kolkata"
 
   workflow_dispatch:
     inputs:
       job_type:
-        description: "Select the email type"
+        description: "Choose the content type"
         required: true
         default: "premarket"
         type: choice
         options:
           - premarket
           - breaking
-          - midday
-          - sector
+          - stock_focus
+          - education
           - closing
 
 permissions:
   contents: write
+
+concurrency:
+  group: x-market-email-agent-v2
+  cancel-in-progress: false
 
 jobs:
   generate-and-email:
@@ -58,29 +53,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Determine job type
-        id: job
+      - name: Determine content type
+        id: content
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             JOB_TYPE="${{ inputs.job_type }}"
           else
             case "${{ github.event.schedule }}" in
-              "30 8 * * 1-5")
-                JOB_TYPE="premarket"
-                ;;
-              "30 10 * * 1-5")
-                JOB_TYPE="breaking"
-                ;;
-              "30 12 * * 1-5")
-                JOB_TYPE="midday"
-                ;;
-              "30 14 * * 1-5")
-                JOB_TYPE="sector"
-                ;;
-              "15 16 * * 1-5")
-                JOB_TYPE="closing"
-                ;;
+              "30 8 * * 1-5") JOB_TYPE="premarket" ;;
+              "30 10 * * 1-5") JOB_TYPE="breaking" ;;
+              "30 12 * * 1-5") JOB_TYPE="stock_focus" ;;
+              "30 14 * * 1-5") JOB_TYPE="education" ;;
+              "15 16 * * 1-5") JOB_TYPE="closing" ;;
               *)
                 echo "Unknown schedule: ${{ github.event.schedule }}"
                 exit 1
@@ -89,27 +74,27 @@ jobs:
           fi
 
           echo "job_type=$JOB_TYPE" >> "$GITHUB_OUTPUT"
-          echo "Selected job type: $JOB_TYPE"
+          echo "Selected content type: $JOB_TYPE"
 
-      - name: Generate post and send email
+      - name: Generate post and email it
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python agent.py "${{ steps.job.outputs.job_type }}"
+        run: python agent.py "${{ steps.content.outputs.job_type }}"
 
       - name: Commit updated history
         shell: bash
         run: |
           if git diff --quiet history.json; then
-            echo "No history changes to commit."
+            echo "No history changes."
             exit 0
           fi
 
-          git config user.name "market-email-agent"
-          git config user.email "market-email-agent@users.noreply.github.com"
+          git config user.name "x-market-email-agent"
+          git config user.email "x-market-email-agent@users.noreply.github.com"
 
           git add history.json
-          git commit -m "Update market agent history"
+          git commit -m "Update Version 2 history"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"

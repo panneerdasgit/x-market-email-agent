@@ -1,13 +1,12 @@
-Create one ready-to-post X post summarising the Indian stock market after the close.
+Create one ready-to-post X post about one important stock or company in focus today.
 
-Include the most useful available points:
-- Overall market mood
-- Strong or weak sectors
-- Important stocks or company developments
-- Main reason behind the session
-- One item to watch in the next session
+Explain:
+- What happened
+- Why the company is in focus
+- Which sector it belongs to
+- One useful point investors can understand
 
-Write for readers who missed the market. Do not claim closing values unless clearly present in the supplied news.
+Do not turn the post into a recommendation. Use the company only when it is clearly present in the supplied news.
 
 Accuracy and safety:
 - Use only facts present in the supplied news.

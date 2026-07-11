@@ -1,25 +1,28 @@
-Create one ready-to-post X post about the Indian stock market pre-market outlook.
+Create one ready-to-post X post for the Indian stock market before the market opens.
 
-Use only the supplied news information.
+Choose the most useful available points:
+- Global market mood
+- Expected Indian market direction
+- Important sectors or stocks in focus
+- A major policy, economic or global event to watch
 
-Include:
-- Global market mood if available
-- Expected Indian market opening
-- Important sectors in focus
-- Important stocks in focus
-- Major economic or policy event to watch
+Open with a short, truthful hook. Help a beginner understand what may matter at the opening.
 
-Do not invent live prices or percentages.
-If a detail is not present in the supplied news, leave it out.
+Accuracy and safety:
+- Use only facts present in the supplied news.
+- Do not invent prices, percentages, index values or events.
+- Do not give buy or sell recommendations.
+- Do not promise returns.
+- Do not copy sentences from the source.
+- Do not mention the source website.
+- Do not include links.
+- Do not use clickbait, fake urgency or exaggerated claims.
 
-Write approximately {word_count} words.
-Language: {language}
-Tone: {tone}
-
-Do not give buy or sell recommendations.
-Do not promise returns.
-End with: Not financial advice.
-Add no more than {hashtags_count} relevant hashtags.
-
-Return only the final X post.
-Do not add headings, explanations or source links.
+Writing:
+- Maximum {max_characters} characters including spaces, disclaimer and hashtags.
+- Use no more than {hashtags_count} relevant hashtags.
+- Use {language}.
+- Tone: {tone}
+- Style: {writing_style}
+- End with: {disclaimer}
+- Return only the final X post.

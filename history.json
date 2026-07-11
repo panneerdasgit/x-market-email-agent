@@ -1,36 +1,6 @@
 {
-  "processed_links": [
-    "https://economictimes.indiatimes.com/markets/us-stocks/news/george-goodmans-investing-wisdom-why-sometimes-the-best-move-is-to-do-nothing/articleshow/132327422.cms",
-    "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-holds-near-64000-despite-etf-outflows-crypto-market-remains-resilient/articleshow/132326051.cms",
-    "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-mid-smallcaps-to-continue-outperformance-as-q1-begins-says-sudeep-shah-outlines-kalyan-jewellers-tcs-strategy/articleshow/132326016.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/unique-picks-7-stocks-held-by-a-single-mf-scheme-in-june-rally-up-to-120-in-3-months/slideshow/132325855.cms",
-    "https://economictimes.indiatimes.com/markets/commodities/news/could-oil-prices-spike-further-inside-the-fragile-us-iran-stance-in-the-gulf/articleshow/132325682.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/midcap-bets-incred-picks-6-stocks-with-up-to-54-upside-potential-see-full-list/slideshow/132325125.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-10-stocks-that-gained-for-5-days-in-a-row/slideshow/132325025.cms",
-    "https://economictimes.indiatimes.com/markets/us-stocks/news/koreas-sk-hynix-shares-make-stellar-us-market-debut-rocket-13-on-continued-ai-optimism/articleshow/132324857.cms",
-    "https://economictimes.indiatimes.com/markets/ipos/fpos/sbi-mf-ipo-vs-icici-amc-which-is-the-better-bet-for-investors-ahead-of-rs-11600-crore-issue/articleshow/132324805.cms",
-    "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-next-week-sbi-mf-among-3-new-issues-to-raise-rs-11980-cr-gmps-soar-up-to-111/articleshow/132324713.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/will-google-be-berkshire-ceo-greg-abels-best-stock-pick-after-predecessor-warren-buffetts-apple-bet/articleshow/132324438.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/tcs-hdfc-bank-8-others-with-up-to-49-upside-how-many-in-your-portfolio/slideshow/132324420.cms"
-  ],
-  "emails_sent": [
-    {
-      "job_type": "premarket",
-      "generated_at": "2026-07-11T10:17:48.292838",
-      "news_links": [
-        "https://economictimes.indiatimes.com/markets/us-stocks/news/george-goodmans-investing-wisdom-why-sometimes-the-best-move-is-to-do-nothing/articleshow/132327422.cms",
-        "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-holds-near-64000-despite-etf-outflows-crypto-market-remains-resilient/articleshow/132326051.cms",
-        "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-mid-smallcaps-to-continue-outperformance-as-q1-begins-says-sudeep-shah-outlines-kalyan-jewellers-tcs-strategy/articleshow/132326016.cms",
-        "https://economictimes.indiatimes.com/markets/stocks/news/unique-picks-7-stocks-held-by-a-single-mf-scheme-in-june-rally-up-to-120-in-3-months/slideshow/132325855.cms",
-        "https://economictimes.indiatimes.com/markets/commodities/news/could-oil-prices-spike-further-inside-the-fragile-us-iran-stance-in-the-gulf/articleshow/132325682.cms",
-        "https://economictimes.indiatimes.com/markets/stocks/news/midcap-bets-incred-picks-6-stocks-with-up-to-54-upside-potential-see-full-list/slideshow/132325125.cms",
-        "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-10-stocks-that-gained-for-5-days-in-a-row/slideshow/132325025.cms",
-        "https://economictimes.indiatimes.com/markets/us-stocks/news/koreas-sk-hynix-shares-make-stellar-us-market-debut-rocket-13-on-continued-ai-optimism/articleshow/132324857.cms",
-        "https://economictimes.indiatimes.com/markets/ipos/fpos/sbi-mf-ipo-vs-icici-amc-which-is-the-better-bet-for-investors-ahead-of-rs-11600-crore-issue/articleshow/132324805.cms",
-        "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-next-week-sbi-mf-among-3-new-issues-to-raise-rs-11980-cr-gmps-soar-up-to-111/articleshow/132324713.cms",
-        "https://economictimes.indiatimes.com/markets/stocks/news/will-google-be-berkshire-ceo-greg-abels-best-stock-pick-after-predecessor-warren-buffetts-apple-bet/articleshow/132324438.cms",
-        "https://economictimes.indiatimes.com/markets/stocks/news/tcs-hdfc-bank-8-others-with-up-to-49-upside-how-many-in-your-portfolio/slideshow/132324420.cms"
-      ]
-    }
-  ]
+  "processed_links": [],
+  "sent_posts": [],
+  "emails_sent": [],
+  "education_topic_index": 0
 }

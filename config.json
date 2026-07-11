@@ -1,27 +1,31 @@
 {
   "to_email": "panirdas@gmail.com",
-  "word_count": 80,
-  "hashtags_count": 3,
+  "max_characters": 250,
+  "hashtags_count": 2,
   "language": "English",
-  "tone": "Simple, professional and useful for Indian retail investors",
-  "models": [
-    "gemini-3.1-flash-lite",
-    "gemini-3.5-flash"
-  ],
+  "tone": "Simple, natural, clear and friendly English for Indian retail investors",
+  "writing_style": "Use a truthful hook, short sentences and easy words. Explain why the update matters without sounding promotional.",
+  "disclaimer": "For information only.",
   "max_news_items": 12,
-  "source_links_in_email": 5,
+  "history_link_limit": 500,
+  "history_post_limit": 100,
+  "preferred_models": [],
   "rss_sources": [
-    {
-      "name": "Economic Times Markets",
-      "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"
-    },
     {
       "name": "Moneycontrol Markets",
       "url": "https://www.moneycontrol.com/rss/marketreports.xml"
-    },
-    {
-      "name": "LiveMint Markets",
-      "url": "https://www.livemint.com/rss/markets"
     }
+  ],
+  "education_topics": [
+    "What is a P/E ratio and why does it matter?",
+    "What is market capitalisation?",
+    "What is the difference between revenue and profit?",
+    "How can an RBI rate cut affect banks and borrowers?",
+    "Why can crude oil prices affect Indian markets?",
+    "Why can the rupee movement affect IT companies?",
+    "What do FII and DII mean?",
+    "What is the difference between Nifty and Sensex?",
+    "What is market breadth?",
+    "Why do bond yields matter to stock markets?"
   ]
 }
