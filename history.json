@@ -47,7 +47,19 @@
     "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-war-strikes-hormuz-deal-brent-crude-oil-sk-hynix-intel-micron-delta-airlines-ai-chip-crypto-bitcoin-stock-price-news-10-july-2026/liveblog/132311653.cms",
     "https://economictimes.indiatimes.com/markets/stocks/news/nykaa-among-6-midcap-stocks-that-hit-52-week-highs-rally-up-to-30-in-a-month/slideshow/132311162.cms",
     "https://economictimes.indiatimes.com/markets/stocks/news/shapoorji-pallonji-prices-rs-21-500-cr-financing-with-deutsche-blackrock-among-investors/articleshow/132323359.cms",
-    "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-said-to-launch-213-million-india-ipo-this-month/articleshow/132276227.cms"
+    "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-said-to-launch-213-million-india-ipo-this-month/articleshow/132276227.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/multibaggers-13-stocks-surged-up-to-225-in-just-3-months/slideshow/132309891.cms",
+    "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-slips-on-week-as-iran-flare-up-spurs-caution-merchant-hedging/articleshow/132309601.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/smallcap-company-announces-110-stock-split-7-days-after-listing-on-market/articleshow/132309190.cms",
+    "https://www.livemint.com/market/stock-market-news/nomura-sees-22-upside-in-ather-energy-heres-why-its-the-brokerages-top-ev-pick-11783759286706.html",
+    "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
+    "https://www.livemint.com/market/stock-market-news/ai-chip-fever-returns-sk-hynix-share-price-surges-13-after-blockbuster-26-5-billion-us-listing-11783751790334.html",
+    "https://www.livemint.com/market/ipo/sbi-funds-management-ipo-sbi-offloads-1-42-stake-to-30-investors-ahead-of-issue-check-latest-gmp-ipo-details-11783747611365.html",
+    "https://www.livemint.com/market/stock-market-news/greed-and-fear-report-christopher-wood-sees-ai-fatigue-setting-in-why-jefferies-is-turning-bullish-on-india-11783742010435.html",
+    "https://www.livemint.com/market/stock-market-news/buy-or-sell-sumeet-bagadia-recommends-three-stocks-to-buy-on-monday-13-july-2026-11783739561129.html",
+    "https://www.livemint.com/market/stock-market-news/good-psu-stocks-in-india-psu-stocks-to-buy-psu-companies-with-strong-growth-11783682677438.html",
+    "https://www.livemint.com/market/stock-market-news/fino-payments-bank-june-update-deposits-rise-11-loan-referrals-surge-35x-11783703589983.html",
+    "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-extends-weekly-losses-amid-renewed-middle-east-tensions-11783700259415.html"
   ],
   "emails_sent": [
     {
@@ -123,6 +135,25 @@
         "https://economictimes.indiatimes.com/markets/stocks/news/nykaa-among-6-midcap-stocks-that-hit-52-week-highs-rally-up-to-30-in-a-month/slideshow/132311162.cms",
         "https://economictimes.indiatimes.com/markets/stocks/news/shapoorji-pallonji-prices-rs-21-500-cr-financing-with-deutsche-blackrock-among-investors/articleshow/132323359.cms",
         "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-said-to-launch-213-million-india-ipo-this-month/articleshow/132276227.cms"
+      ]
+    },
+    {
+      "job_type": "sector",
+      "generated_at": "2026-07-11T10:39:25.081742+00:00",
+      "model": "gemini-3.1-flash-lite",
+      "news_links": [
+        "https://economictimes.indiatimes.com/markets/stocks/news/multibaggers-13-stocks-surged-up-to-225-in-just-3-months/slideshow/132309891.cms",
+        "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-slips-on-week-as-iran-flare-up-spurs-caution-merchant-hedging/articleshow/132309601.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/smallcap-company-announces-110-stock-split-7-days-after-listing-on-market/articleshow/132309190.cms",
+        "https://www.livemint.com/market/stock-market-news/nomura-sees-22-upside-in-ather-energy-heres-why-its-the-brokerages-top-ev-pick-11783759286706.html",
+        "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
+        "https://www.livemint.com/market/stock-market-news/ai-chip-fever-returns-sk-hynix-share-price-surges-13-after-blockbuster-26-5-billion-us-listing-11783751790334.html",
+        "https://www.livemint.com/market/ipo/sbi-funds-management-ipo-sbi-offloads-1-42-stake-to-30-investors-ahead-of-issue-check-latest-gmp-ipo-details-11783747611365.html",
+        "https://www.livemint.com/market/stock-market-news/greed-and-fear-report-christopher-wood-sees-ai-fatigue-setting-in-why-jefferies-is-turning-bullish-on-india-11783742010435.html",
+        "https://www.livemint.com/market/stock-market-news/buy-or-sell-sumeet-bagadia-recommends-three-stocks-to-buy-on-monday-13-july-2026-11783739561129.html",
+        "https://www.livemint.com/market/stock-market-news/good-psu-stocks-in-india-psu-stocks-to-buy-psu-companies-with-strong-growth-11783682677438.html",
+        "https://www.livemint.com/market/stock-market-news/fino-payments-bank-june-update-deposits-rise-11-loan-referrals-surge-35x-11783703589983.html",
+        "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-extends-weekly-losses-amid-renewed-middle-east-tensions-11783700259415.html"
       ]
     }
   ]
