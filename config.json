@@ -7,8 +7,6 @@
   "writing_style": "Use a truthful hook, short sentences and easy words. Explain why the update matters without sounding promotional.",
   "disclaimer": "For information only.",
   "max_news_items": 12,
-  "history_link_limit": 500,
-  "history_post_limit": 100,
   "preferred_models": [],
   "rss_sources": [
     {
@@ -27,5 +25,7 @@
     "What is the difference between Nifty and Sensex?",
     "What is market breadth?",
     "Why do bond yields matter to stock markets?"
-  ]
+  ],
+  "recent_posts_for_prompt": 10,
+  "weekly_history_limit": 25
 }

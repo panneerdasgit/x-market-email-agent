@@ -1,17 +1,22 @@
-name: X Market Email Agent V2
+name: X Market Email Agent V2.1
 
 on:
   schedule:
-    - cron: "30 8 * * 1-5"
-      timezone: "Asia/Kolkata"
-    - cron: "30 10 * * 1-5"
-      timezone: "Asia/Kolkata"
-    - cron: "30 12 * * 1-5"
-      timezone: "Asia/Kolkata"
-    - cron: "30 14 * * 1-5"
-      timezone: "Asia/Kolkata"
-    - cron: "15 16 * * 1-5"
-      timezone: "Asia/Kolkata"
+    # GitHub cron uses UTC.
+    # 8:30 AM IST
+    - cron: "0 3 * * 1-5"
+
+    # 10:30 AM IST
+    - cron: "0 5 * * 1-5"
+
+    # 12:30 PM IST
+    - cron: "0 7 * * 1-5"
+
+    # 2:30 PM IST
+    - cron: "0 9 * * 1-5"
+
+    # 4:15 PM IST
+    - cron: "45 10 * * 1-5"
 
   workflow_dispatch:
     inputs:
@@ -31,7 +36,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: x-market-email-agent-v2
+  group: x-market-email-agent-v2-1
   cancel-in-progress: false
 
 jobs:
@@ -61,11 +66,11 @@ jobs:
             JOB_TYPE="${{ inputs.job_type }}"
           else
             case "${{ github.event.schedule }}" in
-              "30 8 * * 1-5") JOB_TYPE="premarket" ;;
-              "30 10 * * 1-5") JOB_TYPE="breaking" ;;
-              "30 12 * * 1-5") JOB_TYPE="stock_focus" ;;
-              "30 14 * * 1-5") JOB_TYPE="education" ;;
-              "15 16 * * 1-5") JOB_TYPE="closing" ;;
+              "0 3 * * 1-5") JOB_TYPE="premarket" ;;
+              "0 5 * * 1-5") JOB_TYPE="breaking" ;;
+              "0 7 * * 1-5") JOB_TYPE="stock_focus" ;;
+              "0 9 * * 1-5") JOB_TYPE="education" ;;
+              "45 10 * * 1-5") JOB_TYPE="closing" ;;
               *)
                 echo "Unknown schedule: ${{ github.event.schedule }}"
                 exit 1
@@ -95,6 +100,6 @@ jobs:
           git config user.email "x-market-email-agent@users.noreply.github.com"
 
           git add history.json
-          git commit -m "Update Version 2 history"
+          git commit -m "Update Version 2.1 history"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"

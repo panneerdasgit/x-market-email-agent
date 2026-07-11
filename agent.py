@@ -8,6 +8,7 @@ import os
 import smtplib
 import sys
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from email.message import EmailMessage
 from pathlib import Path
 from typing import Any
@@ -21,6 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent
 CONFIG_FILE = BASE_DIR / "config.json"
 HISTORY_FILE = BASE_DIR / "history.json"
 PROMPTS_DIR = BASE_DIR / "prompts"
+INDIA_TZ = ZoneInfo("Asia/Kolkata")
 
 VALID_JOB_TYPES = {
     "premarket",
@@ -75,6 +77,8 @@ def validate_config(config: dict[str, Any]) -> None:
         "writing_style",
         "disclaimer",
         "max_news_items",
+        "recent_posts_for_prompt",
+        "weekly_history_limit",
         "rss_sources",
         "education_topics",
     ]
@@ -117,8 +121,12 @@ def load_prompt(
 
 def fetch_news(
     config: dict[str, Any],
-    processed_links: set[str],
 ) -> list[dict[str, str]]:
+    """Read the latest RSS items on every run.
+
+    Version 2.1 intentionally allows the same day's news to be reused from
+    different angles by different scheduled jobs.
+    """
     items: list[dict[str, str]] = []
 
     for source in config["rss_sources"]:
@@ -131,7 +139,7 @@ def fetch_news(
         feed = feedparser.parse(
             source_url,
             request_headers={
-                "User-Agent": "Mozilla/5.0 (compatible; XMarketEmailAgent/2.0)"
+                "User-Agent": "Mozilla/5.0 (compatible; XMarketEmailAgent/2.1)"
             },
         )
 
@@ -152,7 +160,7 @@ def fetch_news(
                 entry.get("published") or entry.get("updated") or ""
             ).strip()
 
-            if not title or not link or link in processed_links:
+            if not title or not link:
                 continue
 
             items.append(
@@ -339,7 +347,7 @@ def generate_post(
     config: dict[str, Any],
     prompt: str,
     news_items: list[dict[str, str]],
-    recent_posts: list[str],
+    history: dict[str, Any],
 ) -> tuple[str, str]:
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
     if not api_key:
@@ -348,8 +356,22 @@ def generate_post(
     client = genai.Client(api_key=api_key)
     candidates = choose_models(client, config)
 
-    news_context = build_news_context(news_items) if news_items else "No news required."
-    recent_text = "\n".join(f"- {post}" for post in recent_posts[-10:]) or "None"
+    news_context = (
+        build_news_context(news_items)
+        if news_items
+        else "No news is required for this educational post."
+    )
+
+    recent_records = history.get("sent_posts", [])[-int(config["recent_posts_for_prompt"]):]
+    recent_lines: list[str] = []
+    for record in recent_records:
+        if isinstance(record, dict):
+            recent_lines.append(
+                f"- {record.get('job_type', 'unknown')}: {record.get('post', '')}"
+            )
+        else:
+            recent_lines.append(f"- {record}")
+    recent_text = "\n".join(recent_lines) or "None"
 
     complete_prompt = f"""
 {prompt}
@@ -360,7 +382,9 @@ SUPPLIED NEWS:
 RECENT POSTS TO AVOID REPEATING:
 {recent_text}
 
-Return a fresh post that is meaningfully different from the recent posts.
+Create a fresh post for the current job type.
+Reusing the same day's news is allowed when the angle is different.
+Do not repeat the same opening phrase, wording or topic angle from recent posts.
 """.strip()
 
     errors: list[str] = []
@@ -400,7 +424,7 @@ def send_email(
         "closing": "Market Closing Summary",
     }
 
-    generated_at = datetime.now().astimezone()
+    generated_at = datetime.now(INDIA_TZ)
 
     body = f"""
 READY TO POST ON X
@@ -412,7 +436,7 @@ READY TO POST ON X
 --------------------------------------------------
 
 Character count: {len(post)}/{config['max_characters']}
-Generated: {generated_at.strftime('%d %b %Y, %I:%M %p')}
+Generated: {generated_at.strftime('%d %b %Y, %I:%M %p IST')}
 Model: {model_used}
 
 Review before publishing.
@@ -444,36 +468,55 @@ def next_education_topic(
 
 
 def update_history(
-    config: dict[str, Any],
     history: dict[str, Any],
     job_type: str,
     post: str,
     model_used: str,
-    news_items: list[dict[str, str]],
 ) -> None:
-    links = history.setdefault("processed_links", [])
+    """Store structured post and email history."""
+    now = datetime.now(INDIA_TZ)
+
     posts = history.setdefault("sent_posts", [])
     emails = history.setdefault("emails_sent", [])
 
-    # Mark only the news supplied to the successful post.
-    for item in news_items:
-        if item["link"] not in links:
-            links.append(item["link"])
-
-    posts.append(post)
-    emails.append(
+    posts.append(
         {
+            "date": now.strftime("%Y-%m-%d"),
             "job_type": job_type,
-            "generated_at": datetime.now().astimezone().isoformat(),
-            "model": model_used,
+            "post": post,
             "character_count": len(post),
         }
     )
 
-    history["processed_links"] = links[-int(config.get("history_link_limit", 500)) :]
-    history["sent_posts"] = posts[-int(config.get("history_post_limit", 100)) :]
-    history["emails_sent"] = emails[-100:]
+    emails.append(
+        {
+            "date": now.strftime("%Y-%m-%d"),
+            "time": now.strftime("%H:%M:%S"),
+            "job_type": job_type,
+            "model": model_used,
+        }
+    )
 
+
+def weekly_cleanup(
+    config: dict[str, Any],
+    history: dict[str, Any],
+    job_type: str,
+) -> None:
+    """On Friday's closing run, keep only the latest configured history."""
+    now = datetime.now(INDIA_TZ)
+
+    if job_type != "closing" or now.weekday() != 4:
+        return
+
+    limit = int(config["weekly_history_limit"])
+    history["sent_posts"] = history.get("sent_posts", [])[-limit:]
+    history["emails_sent"] = history.get("emails_sent", [])[-limit:]
+
+    LOGGER.info(
+        "Friday cleanup completed. Kept latest %d posts and email records.",
+        limit,
+    )
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
@@ -491,14 +534,13 @@ def main() -> int:
         history = load_json(
             HISTORY_FILE,
             default={
-                "processed_links": [],
                 "sent_posts": [],
                 "emails_sent": [],
                 "education_topic_index": 0,
             },
         )
 
-        LOGGER.info("Starting Version 2 job: %s", args.job_type)
+        LOGGER.info("Starting Version 2.1 job: %s", args.job_type)
 
         education_topic = ""
         news_items: list[dict[str, str]] = []
@@ -507,12 +549,9 @@ def main() -> int:
             education_topic = next_education_topic(config, history)
             LOGGER.info("Education topic: %s", education_topic)
         else:
-            news_items = fetch_news(
-                config,
-                set(history.get("processed_links", [])),
-            )
+            news_items = fetch_news(config)
             if not news_items:
-                LOGGER.warning("No unused news found; no email will be sent.")
+                LOGGER.warning("No RSS news was returned; no email will be sent.")
                 return 0
             LOGGER.info("Collected %d news items.", len(news_items))
 
@@ -521,23 +560,28 @@ def main() -> int:
             config,
             prompt,
             news_items,
-            history.get("sent_posts", []),
+            history,
         )
 
         LOGGER.info("Generated post (%d characters): %s", len(post), post)
 
         send_email(config, args.job_type, post, model_used)
         update_history(
-            config,
-            history,
-            args.job_type,
-            post,
-            model_used,
-            news_items,
+            history=history,
+            job_type=args.job_type,
+            post=post,
+            model_used=model_used,
         )
+
+        weekly_cleanup(
+            config=config,
+            history=history,
+            job_type=args.job_type,
+        )
+
         save_json(HISTORY_FILE, history)
 
-        LOGGER.info("Version 2 job completed successfully.")
+        LOGGER.info("Version 2.1 job completed successfully.")
         return 0
 
     except Exception as exc:
