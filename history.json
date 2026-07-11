@@ -35,7 +35,19 @@
     "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-banks-rule-on-staff-betting-on-prediction-markets-sources-say/articleshow/132314792.cms",
     "https://economictimes.indiatimes.com/markets/us-stocks/news/spacexs-near-term-ai-payoff-seen-tethered-to-earth-not-outer-space/articleshow/132314779.cms",
     "https://economictimes.indiatimes.com/markets/us-stocks/news/oil-heads-for-weekly-gain-as-middle-east-supply-risks-persist/articleshow/132314759.cms",
-    "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132313631.cms"
+    "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132313631.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-opens-steady-ahead-of-sk-hynix-listing-middle-east-in-focus/articleshow/132313400.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-jio-financial-announce-q1-earnings-dates-check-details/articleshow/132312604.cms",
+    "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132312458.cms",
+    "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-logs-best-day-in-over-a-week-on-oil-relief/articleshow/132312436.cms",
+    "https://economictimes.indiatimes.com/markets/ipos/fpos/sebi-approves-ipos-of-defence-electronics-maker-tonbo-imaging-and-3-others/articleshow/132312361.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-makes-us-debut-today-will-investors-sell-micron-to-buy-the-ai-memory-leader/articleshow/132312331.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/quote-of-the-day-by-hetty-green-there-is-no-great-secret-in-fortune-making-all-you-have-to-do-is-to-buy-cheap-and-sell-dear-act-with-thrift-and-shrewdness-and-then-be-persistent/articleshow/132303742.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-top-gainers-and-losers-on-nifty-and-sensex-today/articleshow/132311812.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-war-strikes-hormuz-deal-brent-crude-oil-sk-hynix-intel-micron-delta-airlines-ai-chip-crypto-bitcoin-stock-price-news-10-july-2026/liveblog/132311653.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/nykaa-among-6-midcap-stocks-that-hit-52-week-highs-rally-up-to-30-in-a-month/slideshow/132311162.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/shapoorji-pallonji-prices-rs-21-500-cr-financing-with-deutsche-blackrock-among-investors/articleshow/132323359.cms",
+    "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-said-to-launch-213-million-india-ipo-this-month/articleshow/132276227.cms"
   ],
   "emails_sent": [
     {
@@ -92,6 +104,25 @@
         "https://economictimes.indiatimes.com/markets/us-stocks/news/spacexs-near-term-ai-payoff-seen-tethered-to-earth-not-outer-space/articleshow/132314779.cms",
         "https://economictimes.indiatimes.com/markets/us-stocks/news/oil-heads-for-weekly-gain-as-middle-east-supply-risks-persist/articleshow/132314759.cms",
         "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132313631.cms"
+      ]
+    },
+    {
+      "job_type": "breaking",
+      "generated_at": "2026-07-11T10:38:55.439429+00:00",
+      "model": "gemini-3.1-flash-lite",
+      "news_links": [
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-opens-steady-ahead-of-sk-hynix-listing-middle-east-in-focus/articleshow/132313400.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-jio-financial-announce-q1-earnings-dates-check-details/articleshow/132312604.cms",
+        "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132312458.cms",
+        "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-logs-best-day-in-over-a-week-on-oil-relief/articleshow/132312436.cms",
+        "https://economictimes.indiatimes.com/markets/ipos/fpos/sebi-approves-ipos-of-defence-electronics-maker-tonbo-imaging-and-3-others/articleshow/132312361.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-makes-us-debut-today-will-investors-sell-micron-to-buy-the-ai-memory-leader/articleshow/132312331.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/quote-of-the-day-by-hetty-green-there-is-no-great-secret-in-fortune-making-all-you-have-to-do-is-to-buy-cheap-and-sell-dear-act-with-thrift-and-shrewdness-and-then-be-persistent/articleshow/132303742.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-top-gainers-and-losers-on-nifty-and-sensex-today/articleshow/132311812.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-war-strikes-hormuz-deal-brent-crude-oil-sk-hynix-intel-micron-delta-airlines-ai-chip-crypto-bitcoin-stock-price-news-10-july-2026/liveblog/132311653.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/nykaa-among-6-midcap-stocks-that-hit-52-week-highs-rally-up-to-30-in-a-month/slideshow/132311162.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/shapoorji-pallonji-prices-rs-21-500-cr-financing-with-deutsche-blackrock-among-investors/articleshow/132323359.cms",
+        "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-said-to-launch-213-million-india-ipo-this-month/articleshow/132276227.cms"
       ]
     }
   ]
