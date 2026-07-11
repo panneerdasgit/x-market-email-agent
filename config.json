@@ -4,7 +4,10 @@
   "hashtags_count": 3,
   "language": "English",
   "tone": "Simple, professional and useful for Indian retail investors",
-  "model": "gemini-2.5-flash",
+  "models": [
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash"
+  ],
   "max_news_items": 12,
   "source_links_in_email": 5,
   "rss_sources": [
