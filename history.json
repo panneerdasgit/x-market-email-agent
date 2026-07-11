@@ -5,6 +5,12 @@
       "job_type": "breaking",
       "post": "Volatility in the Indian markets has cooled significantly, with the India VIX seeing a sharp drop. Markets rose for the third straight day as investors focus on Q4 earnings and the ongoing election season. For information only. #StockMarket #India",
       "character_count": 247
+    },
+    {
+      "date": "2026-07-11",
+      "job_type": "stock_focus",
+      "post": "Grasim Industries led the Nifty gainers today as markets ended slightly higher. Being a diversified player in cement and chemicals, its movement reflects ongoing stock-specific focus during the Q4 results season. For information only. #Stocks #Grasim",
+      "character_count": 250
     }
   ],
   "emails_sent": [
@@ -12,6 +18,12 @@
       "date": "2026-07-11",
       "time": "23:37:03",
       "job_type": "breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-11",
+      "time": "23:37:47",
+      "job_type": "stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
