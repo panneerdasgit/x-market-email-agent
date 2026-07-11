@@ -242,10 +242,12 @@ Accuracy requirements:
 
     LOGGER.info("Sending request to Gemini model: %s", config["model"])
 
-    response = client.models.generate_content(
-        model=config["model"],
-        contents=complete_prompt,
-    )
+    print("Available models:")
+
+    for model in client.models.list():
+        print(model.name)
+
+    return
 
     generated_text = (response.text or "").strip()
 
