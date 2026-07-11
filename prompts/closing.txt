@@ -1,0 +1,25 @@
+Create one ready-to-post X post summarizing the Indian stock market closing session.
+
+Use only the supplied news.
+
+Include, when available:
+- Overall closing market mood
+- Strong sectors
+- Weak sectors
+- Important stocks or corporate updates
+- Main reason for the session's movement
+- One important item to watch in the next session
+
+Do not invent index closing values, stock prices or percentage changes.
+Use numerical values only when clearly present in the supplied news.
+
+Write approximately {word_count} words.
+Language: {language}
+Tone: {tone}
+
+Do not give buy or sell recommendations.
+Do not promise returns.
+End with: Not financial advice.
+Add no more than {hashtags_count} relevant hashtags.
+
+Return only the final X post.

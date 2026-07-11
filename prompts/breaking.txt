@@ -1,0 +1,27 @@
+Create one ready-to-post X post using the most important Indian stock market or economy news supplied below.
+
+Select only genuinely important information such as:
+- RBI or government policy
+- SEBI announcement
+- Major company result
+- Merger, acquisition or regulatory action
+- Large market-moving global development
+- Significant sector-related news
+
+Explain:
+- What happened
+- Why it matters
+- Which sectors or companies may be affected
+
+Do not invent facts, prices or percentages.
+
+Write approximately {word_count} words.
+Language: {language}
+Tone: {tone}
+
+Do not give buy or sell recommendations.
+Do not promise returns.
+End with: Not financial advice.
+Add no more than {hashtags_count} relevant hashtags.
+
+Return only the final X post.

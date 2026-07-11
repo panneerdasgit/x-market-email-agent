@@ -1,0 +1,24 @@
+{
+  "to_email": "panirdas@gmail.com",
+  "word_count": 80,
+  "hashtags_count": 3,
+  "language": "English",
+  "tone": "Simple, professional and useful for Indian retail investors",
+  "model": "gemini-2.5-flash-lite",
+  "max_news_items": 12,
+  "source_links_in_email": 5,
+  "rss_sources": [
+    {
+      "name": "Economic Times Markets",
+      "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"
+    },
+    {
+      "name": "Moneycontrol Markets",
+      "url": "https://www.moneycontrol.com/rss/marketreports.xml"
+    },
+    {
+      "name": "LiveMint Markets",
+      "url": "https://www.livemint.com/rss/markets"
+    }
+  ]
+}
