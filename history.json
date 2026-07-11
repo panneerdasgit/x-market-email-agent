@@ -23,7 +23,19 @@
     "https://economictimes.indiatimes.com/markets/forex/forex-news/forex-reserves-rise-7-3-billion-as-fcnr-ecb-flows-pick-up/articleshow/132323389.cms",
     "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-drops-capital-raising-plan-on-lower-ecl-hit/articleshow/132318232.cms",
     "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-shares-jump-14-in-debut-on-us-stock-market-riding-on-ai-wave/articleshow/132316923.cms",
-    "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-to-pursue-acquisitions-alongside-organic-growth/articleshow/132323655.cms"
+    "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-to-pursue-acquisitions-alongside-organic-growth/articleshow/132323655.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/nearly-60-of-foreign-inflows-into-india-focused-funds-withdrawn-since-2024-peak-report/articleshow/132328818.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/news/bank-credit-growth-at-two-year-high-at-18-6-as-debt-market-turns-costlier/articleshow/132323375.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/morgan-stanley-warns-ai-chip-rally-may-be-running-out-of-steam/articleshow/132315698.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/circle-wins-final-regulatory-approval-to-establish-us-trust-bank-shares-rise/articleshow/132315669.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-shein-finally-wins-chinas-approval-for-hong-kong-ipo-in-third-attempt-to-go-public/articleshow/132315636.cms",
+    "https://economictimes.indiatimes.com/markets/bonds/pfc-raises-usd-300-mn-via-bonds-carrying-floating-interest-rates/articleshow/132315575.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-billionaires-risky-bet-pays-off-as-sk-hynix-debuts-in-new-york/articleshow/132315233.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/warsh-task-force-members-get-an-a-at-the-outset-but-results-will-need-broad-buy-in/articleshow/132315199.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-banks-rule-on-staff-betting-on-prediction-markets-sources-say/articleshow/132314792.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/spacexs-near-term-ai-payoff-seen-tethered-to-earth-not-outer-space/articleshow/132314779.cms",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/oil-heads-for-weekly-gain-as-middle-east-supply-risks-persist/articleshow/132314759.cms",
+    "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132313631.cms"
   ],
   "emails_sent": [
     {
@@ -61,6 +73,25 @@
         "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-drops-capital-raising-plan-on-lower-ecl-hit/articleshow/132318232.cms",
         "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-shares-jump-14-in-debut-on-us-stock-market-riding-on-ai-wave/articleshow/132316923.cms",
         "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-to-pursue-acquisitions-alongside-organic-growth/articleshow/132323655.cms"
+      ]
+    },
+    {
+      "job_type": "closing",
+      "generated_at": "2026-07-11T10:35:21.075722+00:00",
+      "model": "gemini-3.1-flash-lite",
+      "news_links": [
+        "https://economictimes.indiatimes.com/markets/stocks/news/nearly-60-of-foreign-inflows-into-india-focused-funds-withdrawn-since-2024-peak-report/articleshow/132328818.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/bank-credit-growth-at-two-year-high-at-18-6-as-debt-market-turns-costlier/articleshow/132323375.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/morgan-stanley-warns-ai-chip-rally-may-be-running-out-of-steam/articleshow/132315698.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/circle-wins-final-regulatory-approval-to-establish-us-trust-bank-shares-rise/articleshow/132315669.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-shein-finally-wins-chinas-approval-for-hong-kong-ipo-in-third-attempt-to-go-public/articleshow/132315636.cms",
+        "https://economictimes.indiatimes.com/markets/bonds/pfc-raises-usd-300-mn-via-bonds-carrying-floating-interest-rates/articleshow/132315575.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-billionaires-risky-bet-pays-off-as-sk-hynix-debuts-in-new-york/articleshow/132315233.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/warsh-task-force-members-get-an-a-at-the-outset-but-results-will-need-broad-buy-in/articleshow/132315199.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-banks-rule-on-staff-betting-on-prediction-markets-sources-say/articleshow/132314792.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/spacexs-near-term-ai-payoff-seen-tethered-to-earth-not-outer-space/articleshow/132314779.cms",
+        "https://economictimes.indiatimes.com/markets/us-stocks/news/oil-heads-for-weekly-gain-as-middle-east-supply-risks-persist/articleshow/132314759.cms",
+        "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/retail-space-rent-in-delhis-khan-market-rises-9pc-annually-in-apr-jun-cw/articleshow/132313631.cms"
       ]
     }
   ]
