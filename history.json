@@ -11,6 +11,12 @@
       "job_type": "stock_focus",
       "post": "Grasim Industries led the Nifty gainers today as markets ended slightly higher. Being a diversified player in cement and chemicals, its movement reflects ongoing stock-specific focus during the Q4 results season. For information only. #Stocks #Grasim",
       "character_count": 250
+    },
+    {
+      "date": "2026-07-11",
+      "job_type": "education",
+      "post": "P/E ratio shows what you pay for ₹1 of profit. If a stock costs ₹100 and earns ₹5, the P/E is 20. A lower P/E may mean a bargain; higher may mean investors expect growth. Always look beyond just this number. For information only. #Investing #Learn",
+      "character_count": 247
     }
   ],
   "emails_sent": [
@@ -25,7 +31,13 @@
       "time": "23:37:47",
       "job_type": "stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-11",
+      "time": "23:38:41",
+      "job_type": "education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 0
+  "education_topic_index": 1
 }
