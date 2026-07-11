@@ -23,6 +23,12 @@
       "job_type": "closing",
       "post": "Indian markets clocked a 3rd day of gains as volatility cooled. Mid and small caps outperformed the benchmarks today. Watch for Q4 earnings reports to drive specific stock moves tomorrow. For information only. #StockMarket #Investing",
       "character_count": 233
+    },
+    {
+      "date": "2026-07-11",
+      "job_type": "premarket",
+      "post": "Markets hope to sustain momentum today with lower volatility. Traders are focused on Q4 earnings for stock-specific moves during the election season. Watch sector trends. #StockMarket #Investing For information only.",
+      "character_count": 216
     }
   ],
   "emails_sent": [
@@ -48,6 +54,12 @@
       "date": "2026-07-11",
       "time": "23:39:21",
       "job_type": "closing",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-11",
+      "time": "23:40:21",
+      "job_type": "premarket",
       "model": "gemini-flash-lite-latest"
     }
   ],
