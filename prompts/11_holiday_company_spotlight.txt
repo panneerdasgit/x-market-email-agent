@@ -1,27 +1,43 @@
-Create one ready-to-post company spotlight for an Indian stock-market holiday.
+Create one holiday company-spotlight X post.
 
-Use one important company clearly present in the supplied news. Explain:
-- What the company does or which sector it belongs to
-- Why it is currently in focus
-- One simple point readers can understand
+Choose one important company clearly present in the supplied news. Explain what the company does, why it is currently in focus and one simple point readers should understand. Do not discuss today's price movement because the market is closed.
 
-Do not discuss today's trading movement because the market is closed.
+Audience and voice:
+- Write for beginners and Indian retail investors.
+- Sound like a knowledgeable person explaining one useful point to a friend.
+- Use short, natural sentences and everyday English.
+- Explain why the update matters.
+- Never sound like a TV anchor, press release or AI assistant.
+- Use only one clear idea.
 
-Accuracy and safety:
+Avoid these phrases:
+{avoid_phrases}
+
+Accuracy:
 - Use only facts present in the supplied news.
 - Do not invent prices, percentages, index values, dates or events.
 - Do not give buy or sell recommendations.
 - Do not promise returns.
-- Do not copy sentences from the source.
-- Do not mention any source website.
-- Do not include links.
+- Do not copy article wording.
+- Do not mention source websites or include links.
 - Do not use clickbait, fake urgency or exaggerated claims.
 
-Writing rules:
-- Maximum {max_characters} characters including spaces, disclaimer and hashtags.
+Format:
+- Start with the supplied short header only when it adds clarity.
+- Maximum {max_characters} characters including spaces, header, disclaimer and hashtags.
 - Use no more than {hashtags_count} relevant hashtags.
 - Use {language}.
 - Tone: {tone}
 - Style: {writing_style}
+- Use no more than {max_sentences} short sentences.
 - End with: {disclaimer}
 - Return only the final X post.
+
+Quality check before returning:
+- Does it sound human?
+- Can a beginner understand it?
+- Does it explain why it matters?
+- Is every sentence useful?
+- Is it within the character limit?
+- Does it avoid the banned phrases?
+If any answer is no, rewrite it.

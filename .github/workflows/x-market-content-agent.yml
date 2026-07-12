@@ -1,21 +1,16 @@
-name: X Market Content Agent V2.2
+name: X Market Content Agent V2.3 Stable
 
 on:
   schedule:
-    # Monday-Friday — UTC times corresponding to IST
     - cron: "0 3 * * 1-5"       # 08:30 IST
     - cron: "0 5 * * 1-5"       # 10:30 IST
     - cron: "0 7 * * 1-5"       # 12:30 IST
     - cron: "0 9 * * 1-5"       # 14:30 IST
     - cron: "45 10 * * 1-5"     # 16:15 IST
-
-    # Saturday
-    - cron: "30 4 * * 6"        # 10:00 IST
-    - cron: "30 12 * * 6"       # 18:00 IST
-
-    # Sunday
-    - cron: "30 4 * * 0"        # 10:00 IST
-    - cron: "30 12 * * 0"       # 18:00 IST
+    - cron: "30 4 * * 6"        # Saturday 10:00 IST
+    - cron: "30 12 * * 6"       # Saturday 18:00 IST
+    - cron: "30 4 * * 0"        # Sunday 10:00 IST
+    - cron: "30 12 * * 0"       # Sunday 18:00 IST
 
   workflow_dispatch:
     inputs:
@@ -33,7 +28,7 @@ on:
           - saturday_weekly_recap
           - saturday_investing_lesson
           - sunday_next_week_outlook
-          - sunday_market_question
+          - sunday_investing_tip
           - holiday_notice
           - holiday_company_spotlight
           - holiday_next_trading_day
@@ -42,7 +37,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: x-market-content-agent-v2-2
+  group: x-market-content-agent-v2-3
   cancel-in-progress: false
 
 jobs:
@@ -82,7 +77,7 @@ jobs:
               "30 4 * * 6") JOB_TYPE="saturday_weekly_recap" ;;
               "30 12 * * 6") JOB_TYPE="saturday_investing_lesson" ;;
               "30 4 * * 0") JOB_TYPE="sunday_next_week_outlook" ;;
-              "30 12 * * 0") JOB_TYPE="sunday_market_question" ;;
+              "30 12 * * 0") JOB_TYPE="sunday_investing_tip" ;;
               *)
                 echo "Unknown schedule: ${{ github.event.schedule }}"
                 exit 1
@@ -92,7 +87,6 @@ jobs:
 
           echo "job_type=$JOB_TYPE" >> "$GITHUB_OUTPUT"
           echo "manual_flag=$MANUAL_FLAG" >> "$GITHUB_OUTPUT"
-          echo "Selected content type: $JOB_TYPE"
 
       - name: Generate post and email it
         env:
@@ -114,8 +108,7 @@ jobs:
 
           git config user.name "x-market-content-agent"
           git config user.email "x-market-content-agent@users.noreply.github.com"
-
           git add history.json
-          git commit -m "Update Version 2.2 history"
+          git commit -m "Update Version 2.3 history"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"

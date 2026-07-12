@@ -1,6 +1,8 @@
-Create one Stock Focus X post.
+Create one Sunday investing-tip X post.
 
-Choose one company clearly present in the supplied news. Explain what happened, why the company is being watched and one simple point readers should understand. Do not turn it into a recommendation.
+Tip topic: {sunday_tip_topic}
+
+Explain the tip naturally in simple English. It should feel useful even to a new investor. Do not ask the audience a question. Do not refer to live prices.
 
 Audience and voice:
 - Write for beginners and Indian retail investors.

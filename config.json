@@ -1,16 +1,91 @@
 {
-  "version": "2.2",
+  "version": "2.3-stable",
   "to_email": "panirdas@gmail.com",
   "max_characters": 250,
   "hashtags_count": 2,
   "language": "English",
-  "tone": "Simple, natural, clear and friendly English for Indian retail investors",
-  "writing_style": "Use a truthful hook, short sentences and easy words. Explain why the update matters without sounding promotional or robotic.",
+  "tone": "Simple, natural and friendly English for Indian retail investors",
+  "writing_style": "Write like an experienced Indian investor explaining one useful point to a friend. Use short sentences and everyday words.",
   "disclaimer": "For information only.",
   "max_news_items": 16,
   "recent_posts_for_prompt": 12,
   "weekly_history_limit": 35,
   "preferred_models": [],
+  "content_style": {
+    "reading_level": "beginner",
+    "voice": "experienced Indian retail investor",
+    "explain_why": true,
+    "max_sentences": 4,
+    "rotate_headers": true,
+    "avoid_ai_phrases": [
+      "market sentiment",
+      "momentum",
+      "positive bias",
+      "mixed cues",
+      "reversal",
+      "headwinds",
+      "tailwinds",
+      "volatility persists",
+      "investors remained cautious",
+      "market trends are shifting",
+      "bullish momentum",
+      "bearish momentum",
+      "underlying strength",
+      "macro environment",
+      "broader markets",
+      "outperform",
+      "underperform"
+    ],
+    "headers": {
+      "weekday_premarket": [
+        "📈 Before the Bell",
+        "📋 Today's Watch",
+        "👀 Watch Today"
+      ],
+      "weekday_breaking": [
+        "🚨 Market Update",
+        "⚡ Just In"
+      ],
+      "weekday_stock_focus": [
+        "📌 Stock Focus"
+      ],
+      "weekday_education": [
+        "💡 Did You Know?",
+        "📚 Market Basics",
+        "💰 Investing Tip"
+      ],
+      "weekday_closing": [
+        "🟢 Market Close",
+        "🟡 Market Close",
+        "🔴 Market Close"
+      ],
+      "saturday_weekly_recap": [
+        "📊 This Week"
+      ],
+      "saturday_investing_lesson": [
+        "📚 Weekend Learning",
+        "💡 Investing Tip"
+      ],
+      "sunday_next_week_outlook": [
+        "📅 Next Week",
+        "👀 Week Ahead"
+      ],
+      "sunday_investing_tip": [
+        "💡 Sunday Tip",
+        "📚 Learn Today",
+        "⚠️ Common Mistake"
+      ],
+      "holiday_notice": [
+        "🎉 Market Holiday"
+      ],
+      "holiday_company_spotlight": [
+        "📌 Company Spotlight"
+      ],
+      "holiday_next_trading_day": [
+        "📅 Next Trading Day"
+      ]
+    }
+  },
   "rss_sources": [
     {
       "name": "Moneycontrol Markets via Google News",
@@ -21,68 +96,7 @@
       "url": "https://www.livemint.com/rss/marketsRSS"
     }
   ],
-  "market_holidays": [
-    {
-      "date": "2026-01-26",
-      "name": "Republic Day"
-    },
-    {
-      "date": "2026-03-03",
-      "name": "Holi"
-    },
-    {
-      "date": "2026-03-26",
-      "name": "Shri Ram Navami"
-    },
-    {
-      "date": "2026-03-31",
-      "name": "Shri Mahavir Jayanti"
-    },
-    {
-      "date": "2026-04-03",
-      "name": "Good Friday"
-    },
-    {
-      "date": "2026-04-14",
-      "name": "Dr. Baba Saheb Ambedkar Jayanti"
-    },
-    {
-      "date": "2026-05-01",
-      "name": "Maharashtra Day"
-    },
-    {
-      "date": "2026-05-28",
-      "name": "Bakri Id"
-    },
-    {
-      "date": "2026-06-26",
-      "name": "Muharram"
-    },
-    {
-      "date": "2026-09-14",
-      "name": "Ganesh Chaturthi"
-    },
-    {
-      "date": "2026-10-02",
-      "name": "Mahatma Gandhi Jayanti"
-    },
-    {
-      "date": "2026-10-20",
-      "name": "Dussehra"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "Diwali-Balipratipada"
-    },
-    {
-      "date": "2026-11-24",
-      "name": "Prakash Gurpurb Sri Guru Nanak Dev"
-    },
-    {
-      "date": "2026-12-25",
-      "name": "Christmas"
-    }
-  ],
+  "market_holidays": [],
   "education_topics": [
     "What is a P/E ratio and why does it matter?",
     "What is market capitalisation?",
@@ -95,14 +109,16 @@
     "What is market breadth?",
     "Why do bond yields matter to stock markets?",
     "What is free cash flow?",
-    "Why does diversification matter?",
-    "What is return on equity?",
-    "What is dividend yield?"
+    "Why does diversification matter?"
   ],
-  "engagement_topics": [
-    "Which sector are you watching next week: Banking, IT, Auto or Pharma?",
-    "What should a beginner learn first: P/E ratio, market cap, mutual funds or index funds?",
-    "Which market update helps you most: pre-market, stock focus, education or closing summary?",
-    "What affects Indian markets more in your view: crude oil, rupee, global markets or interest rates?"
+  "sunday_tip_topics": [
+    "Understand how a company makes money before buying its stock.",
+    "A rising share price does not always mean the business is improving.",
+    "Do not buy a stock only because it is trending.",
+    "Diversification reduces dependence on one company or sector.",
+    "Revenue growth matters, but profit and cash flow matter too.",
+    "Avoid making decisions based only on fear of missing out.",
+    "Check debt before judging a company's growth.",
+    "Prepare a watchlist before the market opens."
   ]
 }

@@ -1,19 +1,45 @@
-Create one ready-to-post educational X post for an Indian stock market beginner.
+Create one beginner-friendly educational X post.
 
 Topic: {education_topic}
 
-Explain the topic in very simple, natural English. Use one short practical example when useful. Make the reader feel they learned something useful in a few seconds.
+Explain the concept in very simple English. Use one short practical example when helpful. Do not refer to today's market news.
 
-Do not refer to today's news.
-Do not give buy or sell recommendations.
-Do not promise returns.
-Do not use clickbait or exaggerated claims.
+Audience and voice:
+- Write for beginners and Indian retail investors.
+- Sound like a knowledgeable person explaining one useful point to a friend.
+- Use short, natural sentences and everyday English.
+- Explain why the update matters.
+- Never sound like a TV anchor, press release or AI assistant.
+- Use only one clear idea.
 
-Writing rules:
-- Maximum {max_characters} characters including spaces, disclaimer and hashtags.
+Avoid these phrases:
+{avoid_phrases}
+
+Accuracy:
+- Use only facts present in the supplied news.
+- Do not invent prices, percentages, index values, dates or events.
+- Do not give buy or sell recommendations.
+- Do not promise returns.
+- Do not copy article wording.
+- Do not mention source websites or include links.
+- Do not use clickbait, fake urgency or exaggerated claims.
+
+Format:
+- Start with the supplied short header only when it adds clarity.
+- Maximum {max_characters} characters including spaces, header, disclaimer and hashtags.
 - Use no more than {hashtags_count} relevant hashtags.
 - Use {language}.
 - Tone: {tone}
 - Style: {writing_style}
+- Use no more than {max_sentences} short sentences.
 - End with: {disclaimer}
 - Return only the final X post.
+
+Quality check before returning:
+- Does it sound human?
+- Can a beginner understand it?
+- Does it explain why it matters?
+- Is every sentence useful?
+- Is it within the character limit?
+- Does it avoid the banned phrases?
+If any answer is no, rewrite it.

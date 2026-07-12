@@ -1,106 +1,80 @@
-# X Market Content Agent — Version 2.2
+# X Market Content Agent — Version 2.3 Stable
 
-This agent creates short Indian stock-market posts, emails them to Gmail, and leaves final publishing to you.
+Version 2.3 focuses on natural, beginner-friendly content.
 
-## News sources
+## Main improvements
 
-1. Moneycontrol market stories through Google News RSS
-2. LiveMint official Markets RSS
+- Simple English
+- Short rotating headers
+- No forced greetings
+- No Sunday questions
+- Sunday investing tips instead
+- Banned AI-sounding finance phrases
+- One clear idea per post
+- Preferred length: 170–230 characters
+- Hard limit: 250 characters
+- Friday history cleanup
+- Moneycontrol and LiveMint sources
+- Weekday, Saturday, Sunday and holiday prompts
 
-The agent balances selected news across both sources where possible. Source names and URLs are not included in the email post.
-
-## Weekly schedule
+## Schedule
 
 ### Monday-Friday
-
-| IST time | Content |
-|---|---|
-| 8:30 AM | Pre-market outlook |
-| 10:30 AM | Important market update |
-| 12:30 PM | Stock in focus |
-| 2:30 PM | Beginner education |
-| 4:15 PM | Closing mood and next-session watch |
+- 8:30 AM — Pre-market
+- 10:30 AM — Important update
+- 12:30 PM — Stock focus
+- 2:30 PM — Education
+- 4:15 PM — Closing
 
 ### Saturday
-
-| IST time | Content |
-|---|---|
-| 10:00 AM | Weekly recap |
-| 6:00 PM | Investing lesson |
+- 10:00 AM — Weekly recap
+- 6:00 PM — Investing lesson
 
 ### Sunday
+- 10:00 AM — Week ahead
+- 6:00 PM — Investing tip
 
-| IST time | Content |
-|---|---|
-| 10:00 AM | Next-week outlook |
-| 6:00 PM | Market question |
-
-## Market holidays
-
-The 2026 NSE equity-market holidays are stored in `config.json`.
-
-On a configured weekday holiday:
-
-- 8:30 AM pre-market becomes `holiday_notice`
-- 10:30 AM breaking is skipped
-- 12:30 PM stock focus becomes `holiday_company_spotlight`
-- 2:30 PM weekday education is skipped
-- 4:15 PM closing becomes `holiday_next_trading_day`
-
-That creates three useful holiday posts instead of five normal trading-session posts.
-
-Update `market_holidays` annually from the official NSE holiday circular.
-
-## Prompt names
-
-The filenames clearly identify weekday, Saturday, Sunday and holiday use:
-
-- `01_weekday_premarket.txt`
-- `02_weekday_breaking.txt`
-- `03_weekday_stock_focus.txt`
-- `04_weekday_education.txt`
-- `05_weekday_closing.txt`
-- `06_saturday_weekly_recap.txt`
-- `07_saturday_investing_lesson.txt`
-- `08_sunday_next_week_outlook.txt`
-- `09_sunday_market_question.txt`
-- `10_holiday_notice.txt`
-- `11_holiday_company_spotlight.txt`
-- `12_holiday_next_trading_day.txt`
-
-## GitHub secrets
-
-Create:
+## Required secrets
 
 - `GEMINI_API_KEY`
 - `GMAIL_USER`
 - `GMAIL_APP_PASSWORD`
 
-Use the Google App Password, not your normal Gmail password.
+## Important configuration
 
-## Manual testing
+`config.json` contains:
+
+- character limit
+- banned phrases
+- rotating headers
+- content voice
+- education topics
+- Sunday tip topics
+- news sources
+- market holidays
+
+`market_holidays` is intentionally empty. Add the current official NSE holiday dates before relying on automatic holiday redirection.
+
+## Manual test
 
 Open:
 
-`Actions → X Market Content Agent V2.2 → Run workflow`
+`Actions → X Market Content Agent V2.3 Stable → Run workflow`
 
-Manual runs use the selected prompt directly. They do not redirect according to today's holiday, so every weekday, weekend and holiday prompt can be tested at any time.
+Choose a content type and run it.
 
-## History
+Manual runs bypass holiday redirection so every prompt can be tested at any time.
 
-The workflow commits `history.json` after successful email delivery, allowing Gemini to avoid recent wording.
+## Git note
 
-The Friday closing run keeps only the latest configured history records.
+The workflow commits `history.json`.
 
-Before making local changes:
+Before editing locally:
 
 ```bash
 git pull origin main
 ```
 
-## Notes
+## Posting
 
-- Review every email before posting.
-- Default limit: 250 characters.
-- The agent never posts directly to X.
-- Version 2.2 is text-only; it does not create charts or images.
+The agent only emails content. Review it, then copy and paste it into X.
