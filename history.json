@@ -55,6 +55,13 @@
       "job_type": "sunday_next_week_outlook",
       "post": "Key things to watch this week: 1. Corporate Q1 earnings for company health. 2. FII activity for market direction. 3. Global market trends. #Markets #Investing For information only.",
       "character_count": 180
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:22:35",
+      "job_type": "holiday_notice",
+      "post": "Indian equity markets are closed today for the holiday. Use this break to review your watchlist or learn a new market concept to improve your strategy. Enjoy your day! #StockMarket #Investing For information only.",
+      "character_count": 213
     }
   ],
   "emails_sent": [
@@ -104,6 +111,12 @@
       "date": "2026-07-12",
       "time": "11:21:52",
       "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:22:35",
+      "job_type": "holiday_notice",
       "model": "gemini-flash-lite-latest"
     }
   ],
