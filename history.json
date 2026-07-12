@@ -1,6 +1,21 @@
 {
-  "sent_posts": [],
-  "emails_sent": [],
+  "sent_posts": [
+    {
+      "date": "2026-07-12",
+      "time": "11:12:59",
+      "job_type": "weekday_premarket",
+      "post": "Market trends are shifting, but a reversal isn't confirmed. Watch upcoming earnings and FII flows as investors sustain momentum with record SIP inflows. Stay informed. #StockMarket #Investing For information only.",
+      "character_count": 213
+    }
+  ],
+  "emails_sent": [
+    {
+      "date": "2026-07-12",
+      "time": "11:12:59",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
   "education_topic_index": 0,
   "engagement_topic_index": 0
 }
