@@ -34,6 +34,13 @@
       "job_type": "saturday_weekly_recap",
       "post": "Markets showed divergence this week, with stock selection becoming critical. NSE launched the Nifty500 Ahimsa Index for ethical investing. Watch earnings and FII flows next week for trend clarity. #MarketUpdate #Investing For information only.",
       "character_count": 243
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:20:39",
+      "job_type": "weekday_closing",
+      "post": "Markets rallied today, with Sensex up 828 points and Nifty over 24,200. Keep an eye on Kalyan Jewellers and upcoming earnings reports for trend signals. #IndianStockMarket #Investing For information only.",
+      "character_count": 204
     }
   ],
   "emails_sent": [
@@ -65,6 +72,12 @@
       "date": "2026-07-12",
       "time": "11:19:30",
       "job_type": "saturday_weekly_recap",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:20:39",
+      "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
     }
   ],
