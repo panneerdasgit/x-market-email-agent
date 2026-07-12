@@ -41,6 +41,13 @@
       "job_type": "weekday_closing",
       "post": "Markets rallied today, with Sensex up 828 points and Nifty over 24,200. Keep an eye on Kalyan Jewellers and upcoming earnings reports for trend signals. #IndianStockMarket #Investing For information only.",
       "character_count": 204
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:21:30",
+      "job_type": "saturday_investing_lesson",
+      "post": "Want to know a company's size? Market cap is Share Price x Total Shares. Think of it as the total value of a shop, not just one item. It helps you pick the right-sized business. #Investing #Stocks For information only.",
+      "character_count": 218
     }
   ],
   "emails_sent": [
@@ -79,8 +86,14 @@
       "time": "11:20:39",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:21:30",
+      "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 1,
+  "education_topic_index": 2,
   "engagement_topic_index": 0
 }
