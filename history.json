@@ -20,6 +20,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: TCS recently beat earnings estimates for the first quarter. It matters because investors watch how top IT firms perform to gauge the sector's health. Good results often draw attention from analysts. For information only. #TCS #Stocks",
       "character_count": 248
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:12:22",
+      "job_type": "weekday_closing",
+      "post": "🟢 Market Close Sensex jumped 828 pts and Nifty topped 24,200 as the recovery continued. Big gains followed strong earnings and firm institutional activity. Watch FII flows next session to see if this trend stays. For information only. #Stocks #Nifty",
+      "character_count": 249
     }
   ],
   "emails_sent": [
@@ -40,6 +47,12 @@
       "time": "14:10:29",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:12:22",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -47,6 +60,7 @@
   "header_indexes": {
     "weekday_premarket": 1,
     "weekday_breaking": 1,
-    "weekday_stock_focus": 0
+    "weekday_stock_focus": 0,
+    "weekday_closing": 1
   }
 }
