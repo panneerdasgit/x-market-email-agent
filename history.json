@@ -13,6 +13,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update: From Sept 1, SEBI allows mutual funds to use intraday borrowing for wider purposes. This improves fund liquidity and management, making it easier for funds to operate. #Investing #MutualFunds For information only.",
       "character_count": 230
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:10:29",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: TCS recently beat earnings estimates for the first quarter. It matters because investors watch how top IT firms perform to gauge the sector's health. Good results often draw attention from analysts. For information only. #TCS #Stocks",
+      "character_count": 248
     }
   ],
   "emails_sent": [
@@ -27,12 +34,19 @@
       "time": "14:09:10",
       "job_type": "weekday_breaking",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:10:29",
+      "job_type": "weekday_stock_focus",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 1
+    "weekday_breaking": 1,
+    "weekday_stock_focus": 0
   }
 }
