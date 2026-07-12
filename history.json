@@ -27,6 +27,13 @@
       "job_type": "weekday_closing",
       "post": "🟢 Market Close Sensex jumped 828 pts and Nifty topped 24,200 as the recovery continued. Big gains followed strong earnings and firm institutional activity. Watch FII flows next session to see if this trend stays. For information only. #Stocks #Nifty",
       "character_count": 249
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:13:25",
+      "job_type": "sunday_investing_tip",
+      "post": "💡 Tip: Only invest in companies you understand. If you can’t explain their business model simply, you can’t accurately track their long-term growth. Stay safe by sticking to what you know. #Investing For information only.",
+      "character_count": 221
     }
   ],
   "emails_sent": [
@@ -53,14 +60,21 @@
       "time": "14:12:22",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:13:25",
+      "job_type": "sunday_investing_tip",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
-  "sunday_tip_index": 0,
+  "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1
+    "weekday_closing": 1,
+    "sunday_investing_tip": 1
   }
 }
