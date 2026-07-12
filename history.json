@@ -6,6 +6,13 @@
       "job_type": "weekday_premarket",
       "post": "Market trends are shifting, but a reversal isn't confirmed. Watch upcoming earnings and FII flows as investors sustain momentum with record SIP inflows. Stay informed. #StockMarket #Investing For information only.",
       "character_count": 213
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:13:56",
+      "job_type": "weekday_breaking",
+      "post": "Indian mutual fund investors are showing strong confidence, with SIP inflows hitting a record ₹31,781 crore in June. This steady commitment highlights the growing retail participation in our markets. For information only. #MutualFunds #Investing",
+      "character_count": 245
     }
   ],
   "emails_sent": [
@@ -13,6 +20,12 @@
       "date": "2026-07-12",
       "time": "11:12:59",
       "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:13:56",
+      "job_type": "weekday_breaking",
       "model": "gemini-flash-lite-latest"
     }
   ],
