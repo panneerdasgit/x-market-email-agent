@@ -48,6 +48,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "Want to know a company's size? Market cap is Share Price x Total Shares. Think of it as the total value of a shop, not just one item. It helps you pick the right-sized business. #Investing #Stocks For information only.",
       "character_count": 218
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:21:52",
+      "job_type": "sunday_next_week_outlook",
+      "post": "Key things to watch this week: 1. Corporate Q1 earnings for company health. 2. FII activity for market direction. 3. Global market trends. #Markets #Investing For information only.",
+      "character_count": 180
     }
   ],
   "emails_sent": [
@@ -91,6 +98,12 @@
       "date": "2026-07-12",
       "time": "11:21:30",
       "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:21:52",
+      "job_type": "sunday_next_week_outlook",
       "model": "gemini-flash-lite-latest"
     }
   ],
