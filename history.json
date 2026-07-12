@@ -13,6 +13,13 @@
       "job_type": "weekday_breaking",
       "post": "Indian mutual fund investors are showing strong confidence, with SIP inflows hitting a record ₹31,781 crore in June. This steady commitment highlights the growing retail participation in our markets. For information only. #MutualFunds #Investing",
       "character_count": 245
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:14:46",
+      "job_type": "weekday_stock_focus",
+      "post": "TCS beat Q1 earnings estimates, highlighting how quarterly reports track a firm's health. Always study fundamentals before investing. #TCS #Investing For information only.",
+      "character_count": 171
     }
   ],
   "emails_sent": [
@@ -26,6 +33,12 @@
       "date": "2026-07-12",
       "time": "11:13:56",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:14:46",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
