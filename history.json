@@ -1,7 +1,24 @@
 {
-  "sent_posts": [],
-  "emails_sent": [],
+  "sent_posts": [
+    {
+      "date": "2026-07-12",
+      "time": "14:08:04",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell SIP inflows hit a record Rs 31,781 crore in June. This shows retail investors are staying committed. Keep an eye on how this steady flow affects long-term stability in the market. For information only. #Investing #MutualFunds",
+      "character_count": 243
+    }
+  ],
+  "emails_sent": [
+    {
+      "date": "2026-07-12",
+      "time": "14:08:04",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
-  "header_indexes": {}
+  "header_indexes": {
+    "weekday_premarket": 1
+  }
 }
