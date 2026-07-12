@@ -1,25 +1,25 @@
 Create one ready-to-post X post using the most important fresh Indian market or economy update.
 
-Prefer genuinely important news:
+Prefer meaningful developments such as:
 - RBI, SEBI or government policy
 - Major company result or corporate action
 - Merger, acquisition or regulatory action
-- Large global development affecting Indian markets
+- Large global event affecting Indian markets
 - Significant sector development
 
 Explain what happened and why it matters. Mention affected sectors or companies only when supported by the news.
 
 Accuracy and safety:
 - Use only facts present in the supplied news.
-- Do not invent prices, percentages, index values or events.
+- Do not invent prices, percentages, index values, dates or events.
 - Do not give buy or sell recommendations.
 - Do not promise returns.
 - Do not copy sentences from the source.
-- Do not mention the source website.
+- Do not mention any source website.
 - Do not include links.
 - Do not use clickbait, fake urgency or exaggerated claims.
 
-Writing:
+Writing rules:
 - Maximum {max_characters} characters including spaces, disclaimer and hashtags.
 - Use no more than {hashtags_count} relevant hashtags.
 - Use {language}.

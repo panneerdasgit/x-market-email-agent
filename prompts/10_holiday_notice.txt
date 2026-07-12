@@ -1,0 +1,17 @@
+Create one ready-to-post X post for an Indian stock-market holiday.
+
+Holiday: {holiday_name}
+
+Clearly say that Indian equity markets are closed today for the named holiday. Add one useful suggestion, such as reviewing a watchlist, reading results, or learning one market concept.
+
+Do not claim markets are closed for any other reason.
+Do not give buy or sell recommendations.
+
+Writing rules:
+- Maximum {max_characters} characters including spaces, disclaimer and hashtags.
+- Use no more than {hashtags_count} relevant hashtags.
+- Use {language}.
+- Tone: {tone}
+- Style: {writing_style}
+- End with: {disclaimer}
+- Return only the final X post.

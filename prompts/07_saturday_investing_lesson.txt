@@ -1,15 +1,14 @@
-Create one ready-to-post educational X post for an Indian stock market beginner.
+Create one ready-to-post Saturday investing lesson for an Indian stock market beginner.
 
 Topic: {education_topic}
 
-Explain the idea in very simple, natural English. Use one practical example when it fits. Make the reader feel they learned something useful in a few seconds.
+Use very simple English and one practical example. Focus on a healthy investing habit or a basic financial concept. Keep it useful, calm and non-promotional.
 
-Do not refer to today's news.
+Do not refer to live market movement.
 Do not give buy or sell recommendations.
 Do not promise returns.
-Do not use clickbait or exaggerated claims.
 
-Writing:
+Writing rules:
 - Maximum {max_characters} characters including spaces, disclaimer and hashtags.
 - Use no more than {hashtags_count} relevant hashtags.
 - Use {language}.

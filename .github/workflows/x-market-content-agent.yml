@@ -1,0 +1,121 @@
+name: X Market Content Agent V2.2
+
+on:
+  schedule:
+    # Monday-Friday — UTC times corresponding to IST
+    - cron: "0 3 * * 1-5"       # 08:30 IST
+    - cron: "0 5 * * 1-5"       # 10:30 IST
+    - cron: "0 7 * * 1-5"       # 12:30 IST
+    - cron: "0 9 * * 1-5"       # 14:30 IST
+    - cron: "45 10 * * 1-5"     # 16:15 IST
+
+    # Saturday
+    - cron: "30 4 * * 6"        # 10:00 IST
+    - cron: "30 12 * * 6"       # 18:00 IST
+
+    # Sunday
+    - cron: "30 4 * * 0"        # 10:00 IST
+    - cron: "30 12 * * 0"       # 18:00 IST
+
+  workflow_dispatch:
+    inputs:
+      job_type:
+        description: "Choose the content type to test"
+        required: true
+        default: "weekday_premarket"
+        type: choice
+        options:
+          - weekday_premarket
+          - weekday_breaking
+          - weekday_stock_focus
+          - weekday_education
+          - weekday_closing
+          - saturday_weekly_recap
+          - saturday_investing_lesson
+          - sunday_next_week_outlook
+          - sunday_market_question
+          - holiday_notice
+          - holiday_company_spotlight
+          - holiday_next_trading_day
+
+permissions:
+  contents: write
+
+concurrency:
+  group: x-market-content-agent-v2-2
+  cancel-in-progress: false
+
+jobs:
+  generate-and-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine content type
+        id: content
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            JOB_TYPE="${{ inputs.job_type }}"
+            MANUAL_FLAG="--manual"
+          else
+            MANUAL_FLAG=""
+            case "${{ github.event.schedule }}" in
+              "0 3 * * 1-5") JOB_TYPE="weekday_premarket" ;;
+              "0 5 * * 1-5") JOB_TYPE="weekday_breaking" ;;
+              "0 7 * * 1-5") JOB_TYPE="weekday_stock_focus" ;;
+              "0 9 * * 1-5") JOB_TYPE="weekday_education" ;;
+              "45 10 * * 1-5") JOB_TYPE="weekday_closing" ;;
+              "30 4 * * 6") JOB_TYPE="saturday_weekly_recap" ;;
+              "30 12 * * 6") JOB_TYPE="saturday_investing_lesson" ;;
+              "30 4 * * 0") JOB_TYPE="sunday_next_week_outlook" ;;
+              "30 12 * * 0") JOB_TYPE="sunday_market_question" ;;
+              *)
+                echo "Unknown schedule: ${{ github.event.schedule }}"
+                exit 1
+                ;;
+            esac
+          fi
+
+          echo "job_type=$JOB_TYPE" >> "$GITHUB_OUTPUT"
+          echo "manual_flag=$MANUAL_FLAG" >> "$GITHUB_OUTPUT"
+          echo "Selected content type: $JOB_TYPE"
+
+      - name: Generate post and email it
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: >-
+          python agent.py
+          "${{ steps.content.outputs.job_type }}"
+          ${{ steps.content.outputs.manual_flag }}
+
+      - name: Commit updated history
+        shell: bash
+        run: |
+          if git diff --quiet history.json; then
+            echo "No history changes."
+            exit 0
+          fi
+
+          git config user.name "x-market-content-agent"
+          git config user.email "x-market-content-agent@users.noreply.github.com"
+
+          git add history.json
+          git commit -m "Update Version 2.2 history"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"

@@ -1,17 +1,86 @@
 {
+  "version": "2.2",
   "to_email": "panirdas@gmail.com",
   "max_characters": 250,
   "hashtags_count": 2,
   "language": "English",
   "tone": "Simple, natural, clear and friendly English for Indian retail investors",
-  "writing_style": "Use a truthful hook, short sentences and easy words. Explain why the update matters without sounding promotional.",
+  "writing_style": "Use a truthful hook, short sentences and easy words. Explain why the update matters without sounding promotional or robotic.",
   "disclaimer": "For information only.",
-  "max_news_items": 12,
+  "max_news_items": 16,
+  "recent_posts_for_prompt": 12,
+  "weekly_history_limit": 35,
   "preferred_models": [],
   "rss_sources": [
     {
-      "name": "Moneycontrol Markets",
-      "url": "https://www.moneycontrol.com/rss/marketreports.xml"
+      "name": "Moneycontrol Markets via Google News",
+      "url": "https://news.google.com/rss/search?q=site%3Amoneycontrol.com%2Fnews%2Fbusiness%2Fmarkets+India+stock+market&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "name": "LiveMint Markets",
+      "url": "https://www.livemint.com/rss/marketsRSS"
+    }
+  ],
+  "market_holidays": [
+    {
+      "date": "2026-01-26",
+      "name": "Republic Day"
+    },
+    {
+      "date": "2026-03-03",
+      "name": "Holi"
+    },
+    {
+      "date": "2026-03-26",
+      "name": "Shri Ram Navami"
+    },
+    {
+      "date": "2026-03-31",
+      "name": "Shri Mahavir Jayanti"
+    },
+    {
+      "date": "2026-04-03",
+      "name": "Good Friday"
+    },
+    {
+      "date": "2026-04-14",
+      "name": "Dr. Baba Saheb Ambedkar Jayanti"
+    },
+    {
+      "date": "2026-05-01",
+      "name": "Maharashtra Day"
+    },
+    {
+      "date": "2026-05-28",
+      "name": "Bakri Id"
+    },
+    {
+      "date": "2026-06-26",
+      "name": "Muharram"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "Ganesh Chaturthi"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Mahatma Gandhi Jayanti"
+    },
+    {
+      "date": "2026-10-20",
+      "name": "Dussehra"
+    },
+    {
+      "date": "2026-11-10",
+      "name": "Diwali-Balipratipada"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "Prakash Gurpurb Sri Guru Nanak Dev"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "Christmas"
     }
   ],
   "education_topics": [
@@ -20,12 +89,20 @@
     "What is the difference between revenue and profit?",
     "How can an RBI rate cut affect banks and borrowers?",
     "Why can crude oil prices affect Indian markets?",
-    "Why can the rupee movement affect IT companies?",
+    "Why can rupee movement affect IT companies?",
     "What do FII and DII mean?",
     "What is the difference between Nifty and Sensex?",
     "What is market breadth?",
-    "Why do bond yields matter to stock markets?"
+    "Why do bond yields matter to stock markets?",
+    "What is free cash flow?",
+    "Why does diversification matter?",
+    "What is return on equity?",
+    "What is dividend yield?"
   ],
-  "recent_posts_for_prompt": 10,
-  "weekly_history_limit": 25
+  "engagement_topics": [
+    "Which sector are you watching next week: Banking, IT, Auto or Pharma?",
+    "What should a beginner learn first: P/E ratio, market cap, mutual funds or index funds?",
+    "Which market update helps you most: pre-market, stock focus, education or closing summary?",
+    "What affects Indian markets more in your view: crude oil, rupee, global markets or interest rates?"
+  ]
 }
