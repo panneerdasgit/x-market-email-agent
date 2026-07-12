@@ -62,6 +62,13 @@
       "job_type": "holiday_notice",
       "post": "Indian equity markets are closed today for the holiday. Use this break to review your watchlist or learn a new market concept to improve your strategy. Enjoy your day! #StockMarket #Investing For information only.",
       "character_count": 213
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:24:06",
+      "job_type": "holiday_company_spotlight",
+      "post": "Kalyan Jewellers is in focus following major interest from institutional investors. Tracking these moves helps identify where big funds are investing. #KalyanJewellers #Investing For information only.",
+      "character_count": 200
     }
   ],
   "emails_sent": [
@@ -117,6 +124,12 @@
       "date": "2026-07-12",
       "time": "11:22:35",
       "job_type": "holiday_notice",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:24:06",
+      "job_type": "holiday_company_spotlight",
       "model": "gemini-flash-lite-latest"
     }
   ],
