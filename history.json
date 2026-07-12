@@ -27,6 +27,13 @@
       "job_type": "weekday_education",
       "post": "P/E ratio shows if a stock is pricey—it’s the cost per ₹1 of profit. A low P/E isn't always a bargain; always check the company's fundamentals. #StockMarket #Investing For information only.",
       "character_count": 189
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:19:30",
+      "job_type": "saturday_weekly_recap",
+      "post": "Markets showed divergence this week, with stock selection becoming critical. NSE launched the Nifty500 Ahimsa Index for ethical investing. Watch earnings and FII flows next week for trend clarity. #MarketUpdate #Investing For information only.",
+      "character_count": 243
     }
   ],
   "emails_sent": [
@@ -52,6 +59,12 @@
       "date": "2026-07-12",
       "time": "11:18:21",
       "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:19:30",
+      "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
     }
   ],
