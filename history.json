@@ -20,6 +20,13 @@
       "job_type": "weekday_stock_focus",
       "post": "TCS beat Q1 earnings estimates, highlighting how quarterly reports track a firm's health. Always study fundamentals before investing. #TCS #Investing For information only.",
       "character_count": 171
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:18:21",
+      "job_type": "weekday_education",
+      "post": "P/E ratio shows if a stock is pricey—it’s the cost per ₹1 of profit. A low P/E isn't always a bargain; always check the company's fundamentals. #StockMarket #Investing For information only.",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -40,8 +47,14 @@
       "time": "11:14:46",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "11:18:21",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 0,
+  "education_topic_index": 1,
   "engagement_topic_index": 0
 }
