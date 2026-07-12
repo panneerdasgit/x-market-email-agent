@@ -6,6 +6,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell SIP inflows hit a record Rs 31,781 crore in June. This shows retail investors are staying committed. Keep an eye on how this steady flow affects long-term stability in the market. For information only. #Investing #MutualFunds",
       "character_count": 243
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:09:10",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update: From Sept 1, SEBI allows mutual funds to use intraday borrowing for wider purposes. This improves fund liquidity and management, making it easier for funds to operate. #Investing #MutualFunds For information only.",
+      "character_count": 230
     }
   ],
   "emails_sent": [
@@ -14,11 +21,18 @@
       "time": "14:08:04",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-12",
+      "time": "14:09:10",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
-    "weekday_premarket": 1
+    "weekday_premarket": 1,
+    "weekday_breaking": 1
   }
 }
