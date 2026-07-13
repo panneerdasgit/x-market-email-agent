@@ -55,6 +55,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: DMart shares fell 4% as quick commerce hurts its growth in major cities. This shows how shifting shopping habits impact retail giants. #DMart #Stocks For information only.",
       "character_count": 186
+    },
+    {
+      "date": "2026-07-13",
+      "time": "17:03:39",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In: The Nifty IT index jumped 4% today, led by strong gains in TCS and LTIMindtree. This matters because big deals and AI partnerships are driving investor interest back into the sector. For information only. #StockMarket #ITSector",
+      "character_count": 238
     }
   ],
   "emails_sent": [
@@ -105,13 +112,19 @@
       "time": "15:51:18",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "17:03:39",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2
