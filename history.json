@@ -48,6 +48,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Crude oil prices are climbing due to tensions in the Middle East. Keep an eye on oil, as higher energy costs often impact company profits and domestic inflation. Stay alert today. For information only. #OilPrices #Investing",
       "character_count": 239
+    },
+    {
+      "date": "2026-07-13",
+      "time": "15:51:18",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: DMart shares fell 4% as quick commerce hurts its growth in major cities. This shows how shifting shopping habits impact retail giants. #DMart #Stocks For information only.",
+      "character_count": 186
     }
   ],
   "emails_sent": [
@@ -91,6 +98,12 @@
       "date": "2026-07-13",
       "time": "11:55:43",
       "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "15:51:18",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
