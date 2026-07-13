@@ -2,15 +2,35 @@ name: X Market Content Agent V2.3 Stable
 
 on:
   schedule:
-    - cron: "0 3 * * 1-5"       # 08:30 IST
-    - cron: "0 5 * * 1-5"       # 10:30 IST
-    - cron: "0 7 * * 1-5"       # 12:30 IST
-    - cron: "0 9 * * 1-5"       # 14:30 IST
-    - cron: "45 10 * * 1-5"     # 16:15 IST
-    - cron: "30 4 * * 6"        # Saturday 10:00 IST
-    - cron: "30 12 * * 6"       # Saturday 18:00 IST
-    - cron: "30 4 * * 0"        # Sunday 10:00 IST
-    - cron: "30 12 * * 0"       # Sunday 18:00 IST
+    # Monday-Friday — IST
+    - cron: "30 8 * * 1-5"
+      timezone: "Asia/Kolkata"
+
+    - cron: "30 10 * * 1-5"
+      timezone: "Asia/Kolkata"
+
+    - cron: "30 12 * * 1-5"
+      timezone: "Asia/Kolkata"
+
+    - cron: "30 14 * * 1-5"
+      timezone: "Asia/Kolkata"
+
+    - cron: "15 16 * * 1-5"
+      timezone: "Asia/Kolkata"
+
+    # Saturday — IST
+    - cron: "0 10 * * 6"
+      timezone: "Asia/Kolkata"
+
+    - cron: "0 18 * * 6"
+      timezone: "Asia/Kolkata"
+
+    # Sunday — IST
+    - cron: "0 10 * * 0"
+      timezone: "Asia/Kolkata"
+
+    - cron: "0 18 * * 0"
+      timezone: "Asia/Kolkata"
 
   workflow_dispatch:
     inputs:
@@ -68,16 +88,35 @@ jobs:
             MANUAL_FLAG="--manual"
           else
             MANUAL_FLAG=""
+
             case "${{ github.event.schedule }}" in
-              "0 3 * * 1-5") JOB_TYPE="weekday_premarket" ;;
-              "0 5 * * 1-5") JOB_TYPE="weekday_breaking" ;;
-              "0 7 * * 1-5") JOB_TYPE="weekday_stock_focus" ;;
-              "0 9 * * 1-5") JOB_TYPE="weekday_education" ;;
-              "45 10 * * 1-5") JOB_TYPE="weekday_closing" ;;
-              "30 4 * * 6") JOB_TYPE="saturday_weekly_recap" ;;
-              "30 12 * * 6") JOB_TYPE="saturday_investing_lesson" ;;
-              "30 4 * * 0") JOB_TYPE="sunday_next_week_outlook" ;;
-              "30 12 * * 0") JOB_TYPE="sunday_investing_tip" ;;
+              "30 8 * * 1-5")
+                JOB_TYPE="weekday_premarket"
+                ;;
+              "30 10 * * 1-5")
+                JOB_TYPE="weekday_breaking"
+                ;;
+              "30 12 * * 1-5")
+                JOB_TYPE="weekday_stock_focus"
+                ;;
+              "30 14 * * 1-5")
+                JOB_TYPE="weekday_education"
+                ;;
+              "15 16 * * 1-5")
+                JOB_TYPE="weekday_closing"
+                ;;
+              "0 10 * * 6")
+                JOB_TYPE="saturday_weekly_recap"
+                ;;
+              "0 18 * * 6")
+                JOB_TYPE="saturday_investing_lesson"
+                ;;
+              "0 10 * * 0")
+                JOB_TYPE="sunday_next_week_outlook"
+                ;;
+              "0 18 * * 0")
+                JOB_TYPE="sunday_investing_tip"
+                ;;
               *)
                 echo "Unknown schedule: ${{ github.event.schedule }}"
                 exit 1
@@ -87,6 +126,9 @@ jobs:
 
           echo "job_type=$JOB_TYPE" >> "$GITHUB_OUTPUT"
           echo "manual_flag=$MANUAL_FLAG" >> "$GITHUB_OUTPUT"
+
+          echo "Selected content type: $JOB_TYPE"
+          echo "Trigger schedule: ${{ github.event.schedule }}"
 
       - name: Generate post and email it
         env:
@@ -108,7 +150,9 @@ jobs:
 
           git config user.name "x-market-content-agent"
           git config user.email "x-market-content-agent@users.noreply.github.com"
+
           git add history.json
           git commit -m "Update Version 2.3 history"
+
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
