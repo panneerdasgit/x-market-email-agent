@@ -97,6 +97,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Global tensions are pushing crude oil prices higher today. Keep an eye on this, as rising energy costs can increase pressure on company margins and local inflation. Stay alert. For information only. #StockMarket #OilPrices",
       "character_count": 238
+    },
+    {
+      "date": "2026-07-14",
+      "time": "12:40:40",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In Renewed tensions between the US and Iran are pushing crude oil prices higher. For Indian investors, this is important because higher oil costs can impact company profits and domestic inflation. Keep an eye on it. For information only. #Oil",
+      "character_count": 249
     }
   ],
   "emails_sent": [
@@ -183,13 +190,19 @@
       "time": "11:04:09",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "12:40:40",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2
