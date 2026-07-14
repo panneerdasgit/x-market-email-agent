@@ -118,6 +118,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Biocon shares rose 6% after a large block deal. This matters because it removes uncertainty about Mylan’s exit, leading to a more stable shareholding structure. #Biocon #Stocks For information only.",
       "character_count": 200
+    },
+    {
+      "date": "2026-07-14",
+      "time": "16:11:03",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex fell 550 points as US-Iran tensions hurt sentiment. Global issues often ripple into our markets, impacting local prices. Watch the Nifty levels in the next session to see how it reacts. For information only. #Stocks #Nifty",
+      "character_count": 244
     }
   ],
   "emails_sent": [
@@ -222,6 +229,12 @@
       "time": "14:41:01",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "16:11:03",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -230,7 +243,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 2
   }
 }
