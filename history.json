@@ -111,6 +111,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Blue Cloud shares hit an upper circuit after its US subsidiary signed a 5-year deal with SpaceX. Large contracts boost visibility for future growth. #Stocks For information only.",
       "character_count": 180
+    },
+    {
+      "date": "2026-07-14",
+      "time": "14:41:01",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Biocon shares rose 6% after a large block deal. This matters because it removes uncertainty about Mylan’s exit, leading to a more stable shareholding structure. #Biocon #Stocks For information only.",
+      "character_count": 200
     }
   ],
   "emails_sent": [
@@ -207,6 +214,12 @@
     {
       "date": "2026-07-14",
       "time": "13:21:20",
+      "job_type": "weekday_stock_focus",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "14:41:01",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
