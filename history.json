@@ -104,6 +104,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In Renewed tensions between the US and Iran are pushing crude oil prices higher. For Indian investors, this is important because higher oil costs can impact company profits and domestic inflation. Keep an eye on it. For information only. #Oil",
       "character_count": 249
+    },
+    {
+      "date": "2026-07-14",
+      "time": "13:21:20",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Blue Cloud shares hit an upper circuit after its US subsidiary signed a 5-year deal with SpaceX. Large contracts boost visibility for future growth. #Stocks For information only.",
+      "character_count": 180
     }
   ],
   "emails_sent": [
@@ -195,6 +202,12 @@
       "date": "2026-07-14",
       "time": "12:40:40",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "13:21:20",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
