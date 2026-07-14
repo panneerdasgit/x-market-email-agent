@@ -76,6 +76,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Sensex rebounded 750 points led by a surge in IT shares, helping Nifty hold above 24,200. Focus on upcoming Q1 earnings to gauge company performance. #Stocks #Nifty For information only.",
       "character_count": 201
+    },
+    {
+      "date": "2026-07-14",
+      "time": "08:10:26",
+      "job_type": "weekday_premarket",
+      "post": "Q1 earnings start now. These results reveal the true health and growth of companies, which drives long-term value. Watch closely. #Stocks #Investing For information only.",
+      "character_count": 170
     }
   ],
   "emails_sent": [
@@ -144,12 +151,18 @@
       "time": "17:18:33",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "08:10:26",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 2,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
