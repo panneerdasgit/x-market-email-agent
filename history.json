@@ -83,6 +83,13 @@
       "job_type": "weekday_premarket",
       "post": "Q1 earnings start now. These results reveal the true health and growth of companies, which drives long-term value. Watch closely. #Stocks #Investing For information only.",
       "character_count": 170
+    },
+    {
+      "date": "2026-07-14",
+      "time": "08:11:07",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell: Earnings season is here. Quarterly results show how companies are really performing, which is key for long-term growth. #Stocks #Investing For information only.",
+      "character_count": 179
     }
   ],
   "emails_sent": [
@@ -157,12 +164,18 @@
       "time": "08:10:26",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "08:11:07",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 2,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
