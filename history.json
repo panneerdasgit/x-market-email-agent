@@ -125,6 +125,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex fell 550 points as US-Iran tensions hurt sentiment. Global issues often ripple into our markets, impacting local prices. Watch the Nifty levels in the next session to see how it reacts. For information only. #Stocks #Nifty",
       "character_count": 244
+    },
+    {
+      "date": "2026-07-14",
+      "time": "16:13:00",
+      "job_type": "weekday_education",
+      "post": "💡 P/E ratio shows how much you pay for ₹1 of company profit. A lower P/E may mean better value, helping you avoid overpaying for stocks. #Investing For information only.",
+      "character_count": 169
     }
   ],
   "emails_sent": [
@@ -235,15 +242,22 @@
       "time": "16:11:03",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "16:13:00",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 0,
+  "education_topic_index": 1,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
-    "sunday_investing_tip": 2
+    "sunday_investing_tip": 2,
+    "weekday_education": 1
   }
 }
