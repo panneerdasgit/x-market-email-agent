@@ -90,6 +90,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell: Earnings season is here. Quarterly results show how companies are really performing, which is key for long-term growth. #Stocks #Investing For information only.",
       "character_count": 179
+    },
+    {
+      "date": "2026-07-14",
+      "time": "11:04:09",
+      "job_type": "weekday_premarket",
+      "post": "📋 Today's Watch Global tensions are pushing crude oil prices higher today. Keep an eye on this, as rising energy costs can increase pressure on company margins and local inflation. Stay alert. For information only. #StockMarket #OilPrices",
+      "character_count": 238
     }
   ],
   "emails_sent": [
@@ -170,12 +177,18 @@
       "time": "08:11:07",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "11:04:09",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 2,
   "header_indexes": {
-    "weekday_premarket": 1,
+    "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
