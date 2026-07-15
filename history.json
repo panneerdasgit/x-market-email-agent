@@ -139,6 +139,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex fell 550 points as US-Iran tensions caused global uncertainty. These international issues often impact local prices quickly. Watch how Nifty reacts around 24,050 in the next session. #Stocks #Nifty For information only.",
       "character_count": 241
+    },
+    {
+      "date": "2026-07-15",
+      "time": "11:05:06",
+      "job_type": "weekday_premarket",
+      "post": "Watch IT stocks today. IBM’s 25% drop could trigger a ripple effect on local tech giants at the market open. Monitor how they react to this global trend. #Stocks #Investing For information only.",
+      "character_count": 194
     }
   ],
   "emails_sent": [
@@ -261,12 +268,18 @@
       "time": "17:32:05",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "11:05:06",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
   "sunday_tip_index": 2,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
