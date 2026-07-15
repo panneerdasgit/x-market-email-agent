@@ -146,6 +146,13 @@
       "job_type": "weekday_premarket",
       "post": "Watch IT stocks today. IBM’s 25% drop could trigger a ripple effect on local tech giants at the market open. Monitor how they react to this global trend. #Stocks #Investing For information only.",
       "character_count": 194
+    },
+    {
+      "date": "2026-07-15",
+      "time": "12:44:22",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Sensex gained 550 points today as lower US inflation data boosted confidence. When US inflation cools, it helps ease global concerns, which usually benefits our markets. Keep an eye on the broader picture. For information only.",
+      "character_count": 243
     }
   ],
   "emails_sent": [
@@ -274,13 +281,19 @@
       "time": "11:05:06",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "12:44:22",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
