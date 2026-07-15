@@ -153,6 +153,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Sensex gained 550 points today as lower US inflation data boosted confidence. When US inflation cools, it helps ease global concerns, which usually benefits our markets. Keep an eye on the broader picture. For information only.",
       "character_count": 243
+    },
+    {
+      "date": "2026-07-15",
+      "time": "14:46:41",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Patanjali Foods shares fell 17% following a large 1.5% block deal. Big off-market sales can trigger quick price drops, so always research the reason behind such moves. #PatanjaliFoods #StockMarket For information only.",
+      "character_count": 233
     }
   ],
   "emails_sent": [
@@ -286,6 +293,12 @@
       "date": "2026-07-15",
       "time": "12:44:22",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "14:46:41",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
