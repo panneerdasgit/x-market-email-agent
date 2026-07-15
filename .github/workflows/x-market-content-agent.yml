@@ -2,34 +2,37 @@ name: X Market Content Agent V2.3 Stable
 
 on:
   schedule:
-    # Monday-Friday — IST
-    - cron: "30 8 * * 1-5"
+    # Monday-Friday — scheduled 2.5 hours early in IST
+    # Expected delivery after the observed GitHub delay:
+    # 08:30, 10:30, 12:30, 14:30 and 16:15 IST
+
+    - cron: "0 6 * * 1-5"
       timezone: "Asia/Kolkata"
 
-    - cron: "30 10 * * 1-5"
+    - cron: "0 8 * * 1-5"
       timezone: "Asia/Kolkata"
 
-    - cron: "30 12 * * 1-5"
+    - cron: "0 10 * * 1-5"
       timezone: "Asia/Kolkata"
 
-    - cron: "30 14 * * 1-5"
+    - cron: "0 12 * * 1-5"
       timezone: "Asia/Kolkata"
 
-    - cron: "15 16 * * 1-5"
+    - cron: "45 13 * * 1-5"
       timezone: "Asia/Kolkata"
 
-    # Saturday — IST
-    - cron: "0 10 * * 6"
+    # Saturday — scheduled 2.5 hours early
+    - cron: "30 7 * * 6"
       timezone: "Asia/Kolkata"
 
-    - cron: "0 18 * * 6"
+    - cron: "30 15 * * 6"
       timezone: "Asia/Kolkata"
 
-    # Sunday — IST
-    - cron: "0 10 * * 0"
+    # Sunday — scheduled 2.5 hours early
+    - cron: "30 7 * * 0"
       timezone: "Asia/Kolkata"
 
-    - cron: "0 18 * * 0"
+    - cron: "30 15 * * 0"
       timezone: "Asia/Kolkata"
 
   workflow_dispatch:
@@ -90,31 +93,31 @@ jobs:
             MANUAL_FLAG=""
 
             case "${{ github.event.schedule }}" in
-              "30 8 * * 1-5")
+              "0 6 * * 1-5")
                 JOB_TYPE="weekday_premarket"
                 ;;
-              "30 10 * * 1-5")
+              "0 8 * * 1-5")
                 JOB_TYPE="weekday_breaking"
                 ;;
-              "30 12 * * 1-5")
+              "0 10 * * 1-5")
                 JOB_TYPE="weekday_stock_focus"
                 ;;
-              "30 14 * * 1-5")
+              "0 12 * * 1-5")
                 JOB_TYPE="weekday_education"
                 ;;
-              "15 16 * * 1-5")
+              "45 13 * * 1-5")
                 JOB_TYPE="weekday_closing"
                 ;;
-              "0 10 * * 6")
+              "30 7 * * 6")
                 JOB_TYPE="saturday_weekly_recap"
                 ;;
-              "0 18 * * 6")
+              "30 15 * * 6")
                 JOB_TYPE="saturday_investing_lesson"
                 ;;
-              "0 10 * * 0")
+              "30 7 * * 0")
                 JOB_TYPE="sunday_next_week_outlook"
                 ;;
-              "0 18 * * 0")
+              "30 15 * * 0")
                 JOB_TYPE="sunday_investing_tip"
                 ;;
               *)
