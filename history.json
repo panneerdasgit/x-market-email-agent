@@ -160,6 +160,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: Patanjali Foods shares fell 17% following a large 1.5% block deal. Big off-market sales can trigger quick price drops, so always research the reason behind such moves. #PatanjaliFoods #StockMarket For information only.",
       "character_count": 233
+    },
+    {
+      "date": "2026-07-15",
+      "time": "16:16:46",
+      "job_type": "weekday_education",
+      "post": "📚 Market Basics Market cap is simply the total value of a company’s shares. Multiply the share price by the total number of shares. Knowing this helps you understand a company's size compared to others. #Investing #Stocks For information only.",
+      "character_count": 243
     }
   ],
   "emails_sent": [
@@ -300,9 +307,15 @@
       "time": "14:46:41",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "16:16:46",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 1,
+  "education_topic_index": 2,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -310,6 +323,6 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
-    "weekday_education": 1
+    "weekday_education": 2
   }
 }
