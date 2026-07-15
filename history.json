@@ -174,6 +174,13 @@
       "job_type": "weekday_closing",
       "post": "Market Close: Sensex rose 550 points today as softer US inflation data cheered investors. This cooling helps ease global economic pressure. Watch Nifty 24,200 next session. #Sensex #Nifty For information only.",
       "character_count": 209
+    },
+    {
+      "date": "2026-07-15",
+      "time": "19:55:38",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In Nuvoco Vistas posted strong quarterly results, causing its shares and other cement companies like UltraTech and Ambuja to climb. Good earnings from one player often signal growth for the whole sector. For information only. #Stocks",
+      "character_count": 240
     }
   ],
   "emails_sent": [
@@ -326,13 +333,19 @@
       "time": "19:54:37",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "19:55:38",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2,
