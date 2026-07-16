@@ -181,6 +181,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In Nuvoco Vistas posted strong quarterly results, causing its shares and other cement companies like UltraTech and Ambuja to climb. Good earnings from one player often signal growth for the whole sector. For information only. #Stocks",
       "character_count": 240
+    },
+    {
+      "date": "2026-07-16",
+      "time": "09:16:17",
+      "job_type": "weekday_premarket",
+      "post": "Before the Bell: South Korea’s Kospi dropped over 7% due to an AI selloff. Global tech moves often influence how our markets open, so watch for similar ripples today. #Stocks #Tech For information only.",
+      "character_count": 202
     }
   ],
   "emails_sent": [
@@ -339,12 +346,18 @@
       "time": "19:55:38",
       "job_type": "weekday_breaking",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "09:16:17",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
   "sunday_tip_index": 2,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
