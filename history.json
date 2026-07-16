@@ -195,6 +195,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update MSCI India may soon add up to 12 stocks to its index, potentially bringing in $2.3 billion in passive inflows. This matters because it often leads to buying activity from large global funds. #Investing #Stocks For information only.",
       "character_count": 247
+    },
+    {
+      "date": "2026-07-16",
+      "time": "12:31:41",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 ICICI Lombard shares fell 13% after reporting lower quarterly profits. Sharp earnings dips often trigger big investor reactions, showing why it’s vital to track company results closely. #Stocks #Investing For information only.",
+      "character_count": 228
     }
   ],
   "emails_sent": [
@@ -364,6 +371,12 @@
       "date": "2026-07-16",
       "time": "10:53:39",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "12:31:41",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
