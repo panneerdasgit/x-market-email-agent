@@ -209,6 +209,13 @@
       "job_type": "weekday_education",
       "post": "Revenue is total sales, but profit is what remains after expenses. Focus on profit to judge a business's true financial health. #Investing #Stocks For information only.",
       "character_count": 168
+    },
+    {
+      "date": "2026-07-16",
+      "time": "15:51:52",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close The Sensex rose 350 points today, helped by strong buying in IT shares. When tech companies see demand, it often lifts the entire index. Watch if the Nifty can hold near 24,200 in the next session. #Nifty #Sensex For information only.",
+      "character_count": 249
     }
   ],
   "emails_sent": [
@@ -391,6 +398,12 @@
       "time": "14:08:16",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "15:51:52",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 3,
@@ -399,7 +412,7 @@
     "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 2,
     "weekday_education": 0
   }
