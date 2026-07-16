@@ -188,6 +188,13 @@
       "job_type": "weekday_premarket",
       "post": "Before the Bell: South Korea’s Kospi dropped over 7% due to an AI selloff. Global tech moves often influence how our markets open, so watch for similar ripples today. #Stocks #Tech For information only.",
       "character_count": 202
+    },
+    {
+      "date": "2026-07-16",
+      "time": "10:53:39",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update MSCI India may soon add up to 12 stocks to its index, potentially bringing in $2.3 billion in passive inflows. This matters because it often leads to buying activity from large global funds. #Investing #Stocks For information only.",
+      "character_count": 247
     }
   ],
   "emails_sent": [
@@ -352,13 +359,19 @@
       "time": "09:16:17",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "10:53:39",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2,
