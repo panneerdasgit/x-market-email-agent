@@ -251,6 +251,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Global chip stocks are sliding as the AI rally cools down. This matters because international tech trends often influence our markets. Keep an eye on local AI-related shares during this shift. For information only. #Stocks #Investing",
       "character_count": 249
+    },
+    {
+      "date": "2026-07-17",
+      "time": "23:49:34",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus JSW Steel reported that its net profit more than doubled to Rs 4,696 crore, beating estimates. Strong earnings like these are key to watch as they show how a business is performing. For information only. #JSWSteel #Stocks",
+      "character_count": 235
     }
   ],
   "emails_sent": [
@@ -468,6 +475,12 @@
       "date": "2026-07-17",
       "time": "23:48:25",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-17",
+      "time": "23:49:34",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
