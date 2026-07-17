@@ -230,6 +230,13 @@
       "job_type": "weekday_breaking",
       "post": "Tech Mahindra shares rose over 2% after beating margin goals and winning new deals. Tracking quarterly results is vital because individual success can shine even in a tough market. #Stocks #Investing For information only.",
       "character_count": 221
+    },
+    {
+      "date": "2026-07-17",
+      "time": "12:09:44",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: CEAT shares fell 7% after quarterly profits plunged 96% due to margin pressure. This highlights why tracking profit margins is just as important as business growth. #CEAT #Stocks For information only.",
+      "character_count": 215
     }
   ],
   "emails_sent": [
@@ -429,6 +436,12 @@
       "date": "2026-07-17",
       "time": "10:55:58",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-17",
+      "time": "12:09:44",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
