@@ -265,6 +265,13 @@
       "job_type": "saturday_weekly_recap",
       "post": "Indian markets stayed steady despite a global AI stock selloff, proving the value of local market strength. Keep an eye on the SBI Funds Management debut on July 21. #Investing #Stocks For information only.",
       "character_count": 206
+    },
+    {
+      "date": "2026-07-18",
+      "time": "11:01:43",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In: AMFI has simplified mutual fund transmission rules to make it easier for nominees to claim investments. This change reduces paperwork, ensuring your family has a smoother process to access your assets if needed. For information only.",
+      "character_count": 244
     }
   ],
   "emails_sent": [
@@ -495,13 +502,19 @@
       "time": "10:15:09",
       "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-18",
+      "time": "11:01:43",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 4,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
