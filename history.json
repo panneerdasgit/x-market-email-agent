@@ -272,6 +272,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In: AMFI has simplified mutual fund transmission rules to make it easier for nominees to claim investments. This change reduces paperwork, ensuring your family has a smoother process to access your assets if needed. For information only.",
       "character_count": 244
+    },
+    {
+      "date": "2026-07-18",
+      "time": "16:39:12",
+      "job_type": "saturday_investing_lesson",
+      "post": "📚 Weekend Learning: India imports most of its oil. When global oil prices rise, our costs increase, which hurts company profits and the rupee. Tracking oil helps you understand why stocks might dip. #Investing #Oil For information only.",
+      "character_count": 236
     }
   ],
   "emails_sent": [
@@ -508,9 +515,15 @@
       "time": "11:01:43",
       "job_type": "weekday_breaking",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-18",
+      "time": "16:39:12",
+      "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 4,
+  "education_topic_index": 5,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -519,6 +532,7 @@
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
     "weekday_education": 1,
-    "saturday_weekly_recap": 0
+    "saturday_weekly_recap": 0,
+    "saturday_investing_lesson": 1
   }
 }
