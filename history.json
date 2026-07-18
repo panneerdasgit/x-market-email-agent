@@ -258,6 +258,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus JSW Steel reported that its net profit more than doubled to Rs 4,696 crore, beating estimates. Strong earnings like these are key to watch as they show how a business is performing. For information only. #JSWSteel #Stocks",
       "character_count": 235
+    },
+    {
+      "date": "2026-07-18",
+      "time": "10:15:09",
+      "job_type": "saturday_weekly_recap",
+      "post": "Indian markets stayed steady despite a global AI stock selloff, proving the value of local market strength. Keep an eye on the SBI Funds Management debut on July 21. #Investing #Stocks For information only.",
+      "character_count": 206
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "23:49:34",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-18",
+      "time": "10:15:09",
+      "job_type": "saturday_weekly_recap",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 4,
@@ -492,6 +505,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
-    "weekday_education": 1
+    "weekday_education": 1,
+    "saturday_weekly_recap": 0
   }
 }
