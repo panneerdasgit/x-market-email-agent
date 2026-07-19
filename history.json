@@ -279,6 +279,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "📚 Weekend Learning: India imports most of its oil. When global oil prices rise, our costs increase, which hurts company profits and the rupee. Tracking oil helps you understand why stocks might dip. #Investing #Oil For information only.",
       "character_count": 236
+    },
+    {
+      "date": "2026-07-19",
+      "time": "10:43:38",
+      "job_type": "sunday_next_week_outlook",
+      "post": "📅 Next Week Keep an eye on the stock market debut of SBI Funds Management this July 21. New listings are a great time to study how companies are priced when they enter the exchange. Watch how the market reacts. For information only. #Stocks #IPO",
+      "character_count": 245
     }
   ],
   "emails_sent": [
@@ -521,6 +528,12 @@
       "time": "16:39:12",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-19",
+      "time": "10:43:38",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
@@ -533,6 +546,7 @@
     "sunday_investing_tip": 2,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
-    "saturday_investing_lesson": 1
+    "saturday_investing_lesson": 1,
+    "sunday_next_week_outlook": 1
   }
 }
