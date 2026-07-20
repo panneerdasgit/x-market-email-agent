@@ -321,6 +321,13 @@
       "job_type": "weekday_education",
       "post": "Market Basics: IT firms earn in dollars but pay costs in rupees. A weaker rupee increases their profits. Track currency shifts to gauge IT earnings. #Investing #Stocks For information only.",
       "character_count": 189
+    },
+    {
+      "date": "2026-07-20",
+      "time": "16:45:09",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close: Sensex fell 443 points today due to a sell-off in private banks. When large banks struggle, the whole market feels the pressure. #Sensex #StockMarket For information only.",
+      "character_count": 187
     }
   ],
   "emails_sent": [
@@ -599,6 +606,12 @@
       "time": "15:10:02",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-20",
+      "time": "16:45:09",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
@@ -607,7 +620,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 0,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
