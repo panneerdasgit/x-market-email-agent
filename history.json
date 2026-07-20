@@ -307,6 +307,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update: Oil prices topping $90 due to Middle East tensions are pressuring markets. As India is a major importer, these costs may hit company profits. Monitor your portfolio. #Markets #Oil For information only.",
       "character_count": 218
+    },
+    {
+      "date": "2026-07-20",
+      "time": "13:11:41",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Axis Bank shares fell 5% after the latest earnings report showed margin pressure despite higher profits. It is a reminder that even when a company grows, costs can still hurt the bottom line. #AxisBank #Stocks For information only.",
+      "character_count": 245
     }
   ],
   "emails_sent": [
@@ -572,6 +579,12 @@
       "date": "2026-07-20",
       "time": "11:22:28",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-20",
+      "time": "13:11:41",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
