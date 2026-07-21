@@ -328,6 +328,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close: Sensex fell 443 points today due to a sell-off in private banks. When large banks struggle, the whole market feels the pressure. #Sensex #StockMarket For information only.",
       "character_count": 187
+    },
+    {
+      "date": "2026-07-21",
+      "time": "09:24:38",
+      "job_type": "weekday_premarket",
+      "post": "Before the Bell: The GIFT Nifty is down over 100 points, signaling a weak market opening due to Middle East tensions. This drop often sets the tone for the entire trading session. #Markets #Investing For information only.",
+      "character_count": 221
     }
   ],
   "emails_sent": [
@@ -612,12 +619,18 @@
       "time": "16:45:09",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-21",
+      "time": "09:24:38",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
   "sunday_tip_index": 3,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
