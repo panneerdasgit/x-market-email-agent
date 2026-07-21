@@ -342,6 +342,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In SEBI has fined CDSL ₹1 crore for past cybersecurity lapses. For retail investors, this serves as a reminder to always enable 2FA and keep your depository account security updated. Stay alert with your digital assets. For information only.",
       "character_count": 248
+    },
+    {
+      "date": "2026-07-21",
+      "time": "12:40:26",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: UltraTech Cement shares are rising after beating Q1 expectations. Strong operations and cost management keep investors interested. #UltraTech #Stocks For information only.",
+      "character_count": 186
     }
   ],
   "emails_sent": [
@@ -637,6 +644,12 @@
       "date": "2026-07-21",
       "time": "11:03:35",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-21",
+      "time": "12:40:26",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
