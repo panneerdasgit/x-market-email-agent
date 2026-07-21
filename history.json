@@ -356,6 +356,13 @@
       "job_type": "weekday_education",
       "post": "💰 Investing Tip FIIs are foreign investors, and DIIs are big Indian institutions. When they buy or sell heavily, share prices often move. Watching their actions helps you see why the market changes. #Investing #Stocks For information only.",
       "character_count": 239
+    },
+    {
+      "date": "2026-07-21",
+      "time": "16:04:34",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex fell 350 pts and Nifty dipped below 24,150 today. Higher oil prices triggered this slide, affecting company costs. Keep a close eye on oil price changes in the next session to gauge further impact. For information only. #Markets",
+      "character_count": 250
     }
   ],
   "emails_sent": [
@@ -664,6 +671,12 @@
       "time": "14:37:23",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-21",
+      "time": "16:04:34",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
@@ -672,7 +685,7 @@
     "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 0,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
