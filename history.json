@@ -391,6 +391,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? Nifty tracks 50 big companies, while Sensex tracks 30. Think of them as different report cards for the stock market. Knowing both helps you track overall growth. #Nifty #Sensex For information only.",
       "character_count": 214
+    },
+    {
+      "date": "2026-07-22",
+      "time": "16:05:04",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex fell 800 points and Nifty neared 23,950 today because higher crude prices pushed costs up. Watch global crude prices in the next session to gauge market direction. #Markets For information only.",
+      "character_count": 216
     }
   ],
   "emails_sent": [
@@ -729,6 +736,12 @@
       "time": "14:35:45",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-22",
+      "time": "16:05:04",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 8,
@@ -737,7 +750,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 0,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
