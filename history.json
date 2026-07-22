@@ -377,6 +377,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Bandhan Bank shares crashed 15% after the lender noted a slight expected drop in margins. This matters because margin dips hurt bank profitability. For information only. #Stocks #BandhanBank",
       "character_count": 206
+    },
+    {
+      "date": "2026-07-22",
+      "time": "12:43:19",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Bajaj Auto shares jumped after beating Q1 margin expectations and sharing positive export views. Strong profit margins matter because they show efficient operations. For information only. #BajajAuto #Stocks",
+      "character_count": 220
     }
   ],
   "emails_sent": [
@@ -702,6 +709,12 @@
       "date": "2026-07-22",
       "time": "11:02:27",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-22",
+      "time": "12:43:19",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
