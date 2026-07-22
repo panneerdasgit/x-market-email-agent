@@ -370,6 +370,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Watch Bajaj Auto shares today after brokerages turned positive following strong Q1 margins. It helps to track how export updates drive demand. For information only. #BajajAuto #Stocks",
       "character_count": 199
+    },
+    {
+      "date": "2026-07-22",
+      "time": "11:02:27",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Bandhan Bank shares crashed 15% after the lender noted a slight expected drop in margins. This matters because margin dips hurt bank profitability. For information only. #Stocks #BandhanBank",
+      "character_count": 206
     }
   ],
   "emails_sent": [
@@ -690,13 +697,19 @@
       "time": "09:26:17",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-22",
+      "time": "11:02:27",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
   "sunday_tip_index": 3,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 0,
