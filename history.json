@@ -426,6 +426,13 @@
       "job_type": "weekday_education",
       "post": "📚 Market Basics Market breadth counts how many stocks go up versus down. If 1,500 stocks rise and 500 fall, the health is good. It matters because it shows if the whole market is winning, not just big names. For information only. #ShareMarket",
       "character_count": 242
+    },
+    {
+      "date": "2026-07-23",
+      "time": "16:05:53",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close Sensex fell 350 pts and Nifty dipped below 23,900 as surging oil prices raised business costs. Watch crude oil prices next. #Markets For information only.",
+      "character_count": 169
     }
   ],
   "emails_sent": [
@@ -794,6 +801,12 @@
       "time": "14:34:46",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-23",
+      "time": "16:05:53",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 9,
@@ -802,7 +815,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 0,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
