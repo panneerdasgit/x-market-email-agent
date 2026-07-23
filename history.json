@@ -419,6 +419,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: Gandhar Oil shares hit a 20% upper circuit because its Q1 net profit quadruples. Big profit jumps show a firm is growing quickly. #GandharOil #Stocks For information only.",
       "character_count": 186
+    },
+    {
+      "date": "2026-07-23",
+      "time": "14:34:46",
+      "job_type": "weekday_education",
+      "post": "📚 Market Basics Market breadth counts how many stocks go up versus down. If 1,500 stocks rise and 500 fall, the health is good. It matters because it shows if the whole market is winning, not just big names. For information only. #ShareMarket",
+      "character_count": 242
     }
   ],
   "emails_sent": [
@@ -781,9 +788,15 @@
       "time": "12:37:00",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-23",
+      "time": "14:34:46",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 8,
+  "education_topic_index": 9,
   "sunday_tip_index": 3,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -791,7 +804,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
-    "weekday_education": 1,
+    "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
