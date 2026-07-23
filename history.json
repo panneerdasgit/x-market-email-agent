@@ -412,6 +412,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In NTPC Green Energy shares rose 3% after strong Q1 earnings. Good financial results show a company is growing its profits well. #Stocks #NTPC For information only.",
       "character_count": 171
+    },
+    {
+      "date": "2026-07-23",
+      "time": "12:37:00",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Gandhar Oil shares hit a 20% upper circuit because its Q1 net profit quadruples. Big profit jumps show a firm is growing quickly. #GandharOil #Stocks For information only.",
+      "character_count": 186
     }
   ],
   "emails_sent": [
@@ -767,6 +774,12 @@
       "date": "2026-07-23",
       "time": "11:08:19",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-23",
+      "time": "12:37:00",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
