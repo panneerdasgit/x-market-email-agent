@@ -447,6 +447,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Infosys shares fell after its quarterly profit dropped and guidance was cut. This matters because weak tech earnings can weigh heavily on major indices. For information only. #Infosys #Stocks",
       "character_count": 207
+    },
+    {
+      "date": "2026-07-24",
+      "time": "12:38:49",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Infosys shares fell after a Q1 profit drop and guidance cut. Brokerages turned cautious. Lower tech forecasts matter because they signal slowing revenue growth. For info only. #Infosys #Stocks",
+      "character_count": 206
     }
   ],
   "emails_sent": [
@@ -832,6 +839,12 @@
       "date": "2026-07-24",
       "time": "11:03:25",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-24",
+      "time": "12:38:49",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
