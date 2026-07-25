@@ -244,6 +244,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex dropped 900 pts as rising crude prices hit sentiment. Watch oil prices next. For information only. #Sensex #Crude",
       "character_count": 135
+    },
+    {
+      "date": "2026-07-25",
+      "time": "10:40:46",
+      "job_type": "saturday_weekly_recap",
+      "post": "📊 This Week: Nifty suffered its biggest weekly loss in four months as crude oil topped $100. Watch the 24,600 support level next week. For information only. #Nifty #Markets",
+      "character_count": 172
     }
   ],
   "emails_sent": [
@@ -455,6 +462,12 @@
       "date": "2026-07-24",
       "time": "15:59:00",
       "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-25",
+      "time": "10:40:46",
+      "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
     }
   ],
