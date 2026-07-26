@@ -258,6 +258,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "💡 Investing Tip Free cash flow is the cash left after paying bills. It matters because real cash gives companies freedom to grow. For info only. #Investing",
       "character_count": 155
+    },
+    {
+      "date": "2026-07-26",
+      "time": "10:53:31",
+      "job_type": "sunday_next_week_outlook",
+      "post": "👀 Week Ahead Q1 earnings updates are coming in for Indian companies. Checking these financial reports helps you see which businesses are growing profits reliably. #Earnings #Stocks For information only.",
+      "character_count": 202
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "16:47:01",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-26",
+      "time": "10:53:31",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
@@ -495,6 +508,6 @@
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
-    "sunday_next_week_outlook": 1
+    "sunday_next_week_outlook": 0
   }
 }
