@@ -293,6 +293,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? Don't put all your money in one stock. Spread it across different sectors. This matters because if one business struggles, others protect your savings. #Investing For information only.",
       "character_count": 200
+    },
+    {
+      "date": "2026-07-27",
+      "time": "17:12:07",
+      "job_type": "weekday_closing",
+      "post": "🟢 Market Close Sensex jumped 776 pts and Nifty neared 24,000 as easing global tensions helped end a five-day losing streak. Watch oil prices next. #Sensex #Nifty For information only.",
+      "character_count": 183
     }
   ],
   "emails_sent": [
@@ -547,6 +554,12 @@
       "time": "15:43:24",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-27",
+      "time": "17:12:07",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -555,7 +568,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 1,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
