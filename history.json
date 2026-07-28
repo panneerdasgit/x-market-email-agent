@@ -321,6 +321,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Godfrey Phillips shares fell 7.5% because its Q1 net profit dropped 44%. Falling profits matter as they hurt stock value. For information only. #GodfreyPhillips",
       "character_count": 174
+    },
+    {
+      "date": "2026-07-28",
+      "time": "14:43:53",
+      "job_type": "weekday_education",
+      "post": "📚 Market Basics The P/E ratio tells you how much you pay for every rupee a company earns. It matters because it helps you see if a stock is cheap or costly. For information only. #Investing",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -599,9 +606,15 @@
       "time": "12:45:40",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-28",
+      "time": "14:43:53",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 0,
+  "education_topic_index": 1,
   "sunday_tip_index": 4,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -609,7 +622,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 1,
-    "weekday_education": 1,
+    "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
