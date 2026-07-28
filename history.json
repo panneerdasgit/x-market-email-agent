@@ -307,6 +307,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today Keep an eye on Kalyan Jewellers as a mutual fund plans to sell shares. Large block deals matter because they can shift stock prices. #KalyanJewellers #Markets For information only.",
       "character_count": 194
+    },
+    {
+      "date": "2026-07-28",
+      "time": "10:58:33",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Kalyan Jewellers shares fell after news of a mutual fund selling shares. Large sales matter because heavy supply can push prices down quickly. #KalyanJewellers For information only.",
+      "character_count": 197
     }
   ],
   "emails_sent": [
@@ -573,13 +580,19 @@
       "time": "09:15:09",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-28",
+      "time": "10:58:33",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 4,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 1,
