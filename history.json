@@ -314,6 +314,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Kalyan Jewellers shares fell after news of a mutual fund selling shares. Large sales matter because heavy supply can push prices down quickly. #KalyanJewellers For information only.",
       "character_count": 197
+    },
+    {
+      "date": "2026-07-28",
+      "time": "12:45:40",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Godfrey Phillips shares fell 7.5% because its Q1 net profit dropped 44%. Falling profits matter as they hurt stock value. For information only. #GodfreyPhillips",
+      "character_count": 174
     }
   ],
   "emails_sent": [
@@ -585,6 +592,12 @@
       "date": "2026-07-28",
       "time": "10:58:33",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-28",
+      "time": "12:45:40",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
