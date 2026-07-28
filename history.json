@@ -328,6 +328,13 @@
       "job_type": "weekday_education",
       "post": "📚 Market Basics The P/E ratio tells you how much you pay for every rupee a company earns. It matters because it helps you see if a stock is cheap or costly. For information only. #Investing",
       "character_count": 189
+    },
+    {
+      "date": "2026-07-28",
+      "time": "16:15:57",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close Sensex rose 250 pts from the day's low and Nifty crossed 24,000 as IT buying helped recover losses. Watch Nifty 50 for consolidation next. For information only. #Nifty #Sensex",
+      "character_count": 190
     }
   ],
   "emails_sent": [
@@ -612,6 +619,12 @@
       "time": "14:43:53",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-28",
+      "time": "16:15:57",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
@@ -620,7 +633,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 1,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
