@@ -363,6 +363,13 @@
       "job_type": "weekday_education",
       "post": "💰 Investing Tip Market cap is just total company value, found by multiplying share price by total shares. If a company has 10 shares at Rs 100 each, it's worth Rs 1,000. This matters because it shows company size. #Investing For information only.",
       "character_count": 246
+    },
+    {
+      "date": "2026-07-29",
+      "time": "16:19:15",
+      "job_type": "weekday_closing",
+      "post": "🟢 Market Close Sensex rose 900 pts and Nifty hit 24,250 as buying in IT shares pushed the market up. Watch the US Fed decision next. For information only. #Sensex #Nifty",
+      "character_count": 169
     }
   ],
   "emails_sent": [
@@ -677,6 +684,12 @@
       "time": "14:48:50",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "16:19:15",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
@@ -685,7 +698,7 @@
     "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 1,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
