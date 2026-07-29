@@ -342,6 +342,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Watch GIFT Nifty today as it jumps 250 points and shows a gap-up start. This matters because Asian markets are rebounding ahead of the US Fed decision. #Nifty #Stocks For information only.",
       "character_count": 206
+    },
+    {
+      "date": "2026-07-29",
+      "time": "11:05:05",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In L&T shares jumped 3% after beating profit estimates. Strong Q1 results matter as they show steady business growth. #LT #Stocks For information only.",
+      "character_count": 158
     }
   ],
   "emails_sent": [
@@ -638,13 +645,19 @@
       "time": "09:18:57",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "11:05:05",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
   "sunday_tip_index": 4,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 1,
