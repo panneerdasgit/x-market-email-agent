@@ -335,6 +335,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Sensex rose 250 pts from the day's low and Nifty crossed 24,000 as IT buying helped recover losses. Watch Nifty 50 for consolidation next. For information only. #Nifty #Sensex",
       "character_count": 190
+    },
+    {
+      "date": "2026-07-29",
+      "time": "09:18:57",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Watch GIFT Nifty today as it jumps 250 points and shows a gap-up start. This matters because Asian markets are rebounding ahead of the US Fed decision. #Nifty #Stocks For information only.",
+      "character_count": 206
     }
   ],
   "emails_sent": [
@@ -625,12 +632,18 @@
       "time": "16:15:57",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "09:18:57",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
   "sunday_tip_index": 4,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
