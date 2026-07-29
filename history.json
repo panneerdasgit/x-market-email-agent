@@ -356,6 +356,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus L&T Q1 profit beat estimates, pushing its shares up by 3%. Good earnings matter because they show the business is growing well. #LT For information only.",
       "character_count": 167
+    },
+    {
+      "date": "2026-07-29",
+      "time": "14:48:50",
+      "job_type": "weekday_education",
+      "post": "💰 Investing Tip Market cap is just total company value, found by multiplying share price by total shares. If a company has 10 shares at Rs 100 each, it's worth Rs 1,000. This matters because it shows company size. #Investing For information only.",
+      "character_count": 246
     }
   ],
   "emails_sent": [
@@ -664,9 +671,15 @@
       "time": "12:51:06",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "14:48:50",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 1,
+  "education_topic_index": 2,
   "sunday_tip_index": 4,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -674,7 +687,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 1,
-    "weekday_education": 2,
+    "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
