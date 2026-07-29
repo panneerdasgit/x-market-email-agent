@@ -349,6 +349,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In L&T shares jumped 3% after beating profit estimates. Strong Q1 results matter as they show steady business growth. #LT #Stocks For information only.",
       "character_count": 158
+    },
+    {
+      "date": "2026-07-29",
+      "time": "12:51:06",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus L&T Q1 profit beat estimates, pushing its shares up by 3%. Good earnings matter because they show the business is growing well. #LT For information only.",
+      "character_count": 167
     }
   ],
   "emails_sent": [
@@ -650,6 +657,12 @@
       "date": "2026-07-29",
       "time": "11:05:05",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "12:51:06",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
