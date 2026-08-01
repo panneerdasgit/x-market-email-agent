@@ -244,6 +244,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Sensex rose after dropping because strong Q1 results lifted company values. Watch Nifty 24,400 levels next. #Nifty For information only.",
       "character_count": 151
+    },
+    {
+      "date": "2026-08-01",
+      "time": "10:52:26",
+      "job_type": "saturday_weekly_recap",
+      "post": "📊 This Week Strong Q1 results lifted Bajaj Finance shares. Good earnings matter because they show healthy business growth. Watch upcoming company results next. For information only. #Stocks",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -455,6 +462,12 @@
       "date": "2026-07-31",
       "time": "16:30:28",
       "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-01",
+      "time": "10:52:26",
+      "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
     }
   ],
