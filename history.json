@@ -258,6 +258,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "📚 Weekend Learning India imports most of its oil. When crude prices rise, our import costs go up. This matters because it hurts company profits. #CrudeOil For information only.",
       "character_count": 176
+    },
+    {
+      "date": "2026-08-02",
+      "time": "10:49:10",
+      "job_type": "sunday_next_week_outlook",
+      "post": "📅 Next Week Watch corporate results closely. Strong Q1 profit numbers are currently driving individual stock moves. This matters because company earnings show true business health. For information only. #Q1 #Earnings",
+      "character_count": 216
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "16:52:26",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-02",
+      "time": "10:49:10",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
@@ -495,6 +508,6 @@
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
-    "sunday_next_week_outlook": 0
+    "sunday_next_week_outlook": 1
   }
 }
