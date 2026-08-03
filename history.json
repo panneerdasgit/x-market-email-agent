@@ -286,6 +286,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Foreign investors bought $2.31 billion in July, ending a four-month selling streak. This matters because big inflows often help support stock prices. #FII #Stocks For information only.",
       "character_count": 200
+    },
+    {
+      "date": "2026-08-03",
+      "time": "13:27:40",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus ITC jumped after its Q1 update. Brokerages see tax hits easing and the outlook improving. This matters because lower taxes can boost earnings. #ITC For information only.",
+      "character_count": 183
     }
   ],
   "emails_sent": [
@@ -533,6 +540,12 @@
       "date": "2026-08-03",
       "time": "11:25:44",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-03",
+      "time": "13:27:40",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
