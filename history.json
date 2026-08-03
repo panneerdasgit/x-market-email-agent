@@ -272,6 +272,13 @@
       "job_type": "sunday_investing_tip",
       "post": "📚 Learn Today High sales look great, but profit and cash truly run a company. This matters because cash keeps businesses safe in tough times. #Investing #Finance For information only.",
       "character_count": 183
+    },
+    {
+      "date": "2026-08-03",
+      "time": "09:35:24",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Note new market timings today. F&O trading is extended till 3:40 pm. This matters as it changes end-of-day order execution. #Trading #Sensex For information only.",
+      "character_count": 180
     }
   ],
   "emails_sent": [
@@ -508,12 +515,18 @@
       "time": "16:47:30",
       "job_type": "sunday_investing_tip",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-03",
+      "time": "09:35:24",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
   "sunday_tip_index": 5,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
