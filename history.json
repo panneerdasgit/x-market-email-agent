@@ -279,6 +279,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Note new market timings today. F&O trading is extended till 3:40 pm. This matters as it changes end-of-day order execution. #Trading #Sensex For information only.",
       "character_count": 180
+    },
+    {
+      "date": "2026-08-03",
+      "time": "11:25:44",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Foreign investors bought $2.31 billion in July, ending a four-month selling streak. This matters because big inflows often help support stock prices. #FII #Stocks For information only.",
+      "character_count": 200
     }
   ],
   "emails_sent": [
@@ -521,13 +528,19 @@
       "time": "09:35:24",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-03",
+      "time": "11:25:44",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
   "sunday_tip_index": 5,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2,
