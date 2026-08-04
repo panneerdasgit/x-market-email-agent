@@ -328,6 +328,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 KEI Industries shares rose 5% following a 40% Q1 profit jump. The company is also expanding capacity, signaling confidence in future demand. #KEIIndustries #Stocks For information only.",
       "character_count": 187
+    },
+    {
+      "date": "2026-08-04",
+      "time": "14:48:20",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? FII means foreign investors, while DII means domestic institutions like our mutual funds. Knowing who buys helps you understand price moves. For information only. #Investing",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -612,9 +619,15 @@
       "time": "12:45:19",
       "job_type": "weekday_stock_focus",
       "model": "gemini-3.1-flash-lite-preview"
+    },
+    {
+      "date": "2026-08-04",
+      "time": "14:48:20",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 6,
+  "education_topic_index": 7,
   "sunday_tip_index": 5,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -622,7 +635,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 2,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
