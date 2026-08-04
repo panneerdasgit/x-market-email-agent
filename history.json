@@ -335,6 +335,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? FII means foreign investors, while DII means domestic institutions like our mutual funds. Knowing who buys helps you understand price moves. For information only. #Investing",
       "character_count": 189
+    },
+    {
+      "date": "2026-08-04",
+      "time": "16:27:57",
+      "job_type": "weekday_closing",
+      "post": "🟢 Market Close Sensex rose 200 pts as Nifty traded above 24,600. Watch global cues in the next session. This matters to track world market trends. #Sensex For information only.",
+      "character_count": 176
     }
   ],
   "emails_sent": [
@@ -625,6 +632,12 @@
       "time": "14:48:20",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-04",
+      "time": "16:27:57",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
@@ -633,7 +646,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 2,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
