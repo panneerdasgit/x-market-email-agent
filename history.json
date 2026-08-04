@@ -314,6 +314,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch: Crude oil prices dropped below $85. Watch crude-sensitive shares like IOC and IndiGo today. Oil drops help lower company costs. #CrudeOil For information only.",
       "character_count": 176
+    },
+    {
+      "date": "2026-08-04",
+      "time": "10:58:32",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In Brokers asked retail clients to square off trades by 3 PM due to Closing Auction Session rules. This matters because it changes how end-of-day orders execute. #Trading For information only.",
+      "character_count": 199
     }
   ],
   "emails_sent": [
@@ -586,13 +593,19 @@
       "time": "09:16:41",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-04",
+      "time": "10:58:32",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
   "sunday_tip_index": 5,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 2,
