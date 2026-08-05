@@ -356,6 +356,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update UPL shares dropped 6% after its quarterly profit missed estimates. This matters because weak earnings often disappoint analysts and push stock prices down. #UPL #Stocks For information only.",
       "character_count": 206
+    },
+    {
+      "date": "2026-08-05",
+      "time": "12:45:53",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus UPL shares fell 6% after its latest profit missed estimates and a brokerage cut its target price. This matters because weak earnings can quickly disappoint analysts. #UPL #Stocks For information only.",
+      "character_count": 214
     }
   ],
   "emails_sent": [
@@ -663,6 +670,12 @@
       "date": "2026-08-05",
       "time": "10:58:14",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-05",
+      "time": "12:45:53",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
