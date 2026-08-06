@@ -384,6 +384,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Watch rate-sensitive shares like real estate and auto today. The RBI decided to hold interest rates steady again. This matters because stable rates help lower borrowing costs. #RBI #Stocks For information only.",
       "character_count": 228
+    },
+    {
+      "date": "2026-08-06",
+      "time": "11:00:23",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In Small caps just hit a fresh peak due to strong earnings and steady SIP flows. This matters because retail inflows continue to drive smaller companies higher. #SmallCaps #Investing For information only.",
+      "character_count": 211
     }
   ],
   "emails_sent": [
@@ -716,13 +723,19 @@
       "time": "09:18:25",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-06",
+      "time": "11:00:23",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 8,
   "sunday_tip_index": 5,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2,
