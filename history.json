@@ -377,6 +377,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Traders stayed on edge as Nifty faced F&O expiry amid the new CAS rollout rules. Watch rate-sensitive stocks next. #Nifty #SEBI For information only.",
       "character_count": 164
+    },
+    {
+      "date": "2026-08-06",
+      "time": "09:18:25",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Watch rate-sensitive shares like real estate and auto today. The RBI decided to hold interest rates steady again. This matters because stable rates help lower borrowing costs. #RBI #Stocks For information only.",
+      "character_count": 228
     }
   ],
   "emails_sent": [
@@ -703,12 +710,18 @@
       "time": "16:17:05",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-06",
+      "time": "09:18:25",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 8,
   "sunday_tip_index": 5,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
