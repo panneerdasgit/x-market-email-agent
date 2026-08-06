@@ -391,6 +391,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In Small caps just hit a fresh peak due to strong earnings and steady SIP flows. This matters because retail inflows continue to drive smaller companies higher. #SmallCaps #Investing For information only.",
       "character_count": 211
+    },
+    {
+      "date": "2026-08-06",
+      "time": "12:46:55",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Hindalco stock slipped 1% following Novelis Q1 results. People are watching it to see how earnings recover. #Hindalco #Stocks For information only.",
+      "character_count": 161
     }
   ],
   "emails_sent": [
@@ -728,6 +735,12 @@
       "date": "2026-08-06",
       "time": "11:00:23",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-06",
+      "time": "12:46:55",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
