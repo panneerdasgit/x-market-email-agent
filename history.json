@@ -426,6 +426,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Tata Tech shares rose 7% after Honda outsourced a vehicle program to cut costs. This matters because major client wins can boost revenue growth. #TataTech #Stocks For information only.",
       "character_count": 200
+    },
+    {
+      "date": "2026-08-07",
+      "time": "11:26:12",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Tata Chemicals shares rose because RBI kept Tata Sons in the Upper Layer NBFC list. This update matters as regulatory lists often influence group stock moves. #TataChemicals #Stocks For information only.",
+      "character_count": 217
     }
   ],
   "emails_sent": [
@@ -793,6 +800,12 @@
       "date": "2026-08-07",
       "time": "10:05:21",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-07",
+      "time": "11:26:12",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
