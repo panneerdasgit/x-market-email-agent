@@ -1,209 +1,6 @@
 {
   "sent_posts": [
     {
-      "date": "2026-07-23",
-      "time": "12:37:00",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus: Gandhar Oil shares hit a 20% upper circuit because its Q1 net profit quadruples. Big profit jumps show a firm is growing quickly. #GandharOil #Stocks For information only.",
-      "character_count": 186
-    },
-    {
-      "date": "2026-07-23",
-      "time": "14:34:46",
-      "job_type": "weekday_education",
-      "post": "📚 Market Basics Market breadth counts how many stocks go up versus down. If 1,500 stocks rise and 500 fall, the health is good. It matters because it shows if the whole market is winning, not just big names. For information only. #ShareMarket",
-      "character_count": 242
-    },
-    {
-      "date": "2026-07-23",
-      "time": "16:05:53",
-      "job_type": "weekday_closing",
-      "post": "🟡 Market Close Sensex fell 350 pts and Nifty dipped below 23,900 as surging oil prices raised business costs. Watch crude oil prices next. #Markets For information only.",
-      "character_count": 169
-    },
-    {
-      "date": "2026-07-24",
-      "time": "09:22:28",
-      "job_type": "weekday_premarket",
-      "post": "📈 Before the Bell Watch Infosys shares today. The company reported lower profit and cut its revenue growth outlook. This matters because weak IT earnings can weigh on major stock indices. #Infosys #Stocks For information only.",
-      "character_count": 226
-    },
-    {
-      "date": "2026-07-24",
-      "time": "11:03:25",
-      "job_type": "weekday_breaking",
-      "post": "🚨 Market Update Infosys shares fell after its quarterly profit dropped and guidance was cut. This matters because weak tech earnings can weigh heavily on major indices. For information only. #Infosys #Stocks",
-      "character_count": 207
-    },
-    {
-      "date": "2026-07-24",
-      "time": "12:38:49",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus Infosys shares fell after a Q1 profit drop and guidance cut. Brokerages turned cautious. Lower tech forecasts matter because they signal slowing revenue growth. For info only. #Infosys #Stocks",
-      "character_count": 206
-    },
-    {
-      "date": "2026-07-24",
-      "time": "14:31:42",
-      "job_type": "weekday_education",
-      "post": "💰 Investing Tip Bond yields and stocks often pull in opposite directions. If safe bond returns rise, people pull money from stocks to buy bonds instead. That is why tracking yields helps you understand shifting money. #Bonds For information only.",
-      "character_count": 246
-    },
-    {
-      "date": "2026-07-24",
-      "time": "15:59:00",
-      "job_type": "weekday_closing",
-      "post": "🔴 Market Close Sensex dropped 900 pts as rising crude prices hit sentiment. Watch oil prices next. For information only. #Sensex #Crude",
-      "character_count": 135
-    },
-    {
-      "date": "2026-07-25",
-      "time": "10:40:46",
-      "job_type": "saturday_weekly_recap",
-      "post": "📊 This Week: Nifty suffered its biggest weekly loss in four months as crude oil topped $100. Watch the 24,600 support level next week. For information only. #Nifty #Markets",
-      "character_count": 172
-    },
-    {
-      "date": "2026-07-25",
-      "time": "16:47:01",
-      "job_type": "saturday_investing_lesson",
-      "post": "💡 Investing Tip Free cash flow is the cash left after paying bills. It matters because real cash gives companies freedom to grow. For info only. #Investing",
-      "character_count": 155
-    },
-    {
-      "date": "2026-07-26",
-      "time": "10:53:31",
-      "job_type": "sunday_next_week_outlook",
-      "post": "👀 Week Ahead Q1 earnings updates are coming in for Indian companies. Checking these financial reports helps you see which businesses are growing profits reliably. #Earnings #Stocks For information only.",
-      "character_count": 202
-    },
-    {
-      "date": "2026-07-26",
-      "time": "16:50:54",
-      "job_type": "sunday_investing_tip",
-      "post": "💡 Sunday Tip Don't put all your money into one company. Spread it across different businesses. This matters because if one struggles, your whole portfolio stays safe. #Investing For information only.",
-      "character_count": 199
-    },
-    {
-      "date": "2026-07-27",
-      "time": "09:42:09",
-      "job_type": "weekday_premarket",
-      "post": "📋 Today's Watch Watch crude oil prices as they cool down today. Lower oil costs matter because they reduce import bills for companies. #CrudeOil #Markets For information only.",
-      "character_count": 175
-    },
-    {
-      "date": "2026-07-27",
-      "time": "11:33:04",
-      "job_type": "weekday_breaking",
-      "post": "⚡ Just In IDFC First Bank posted a record profit of Rs 1,075 crore in the first quarter. This matters because strong earnings show the lender is growing its business well. For information only. #Banking #Stocks",
-      "character_count": 210
-    },
-    {
-      "date": "2026-07-27",
-      "time": "15:43:24",
-      "job_type": "weekday_education",
-      "post": "💡 Did You Know? Don't put all your money in one stock. Spread it across different sectors. This matters because if one business struggles, others protect your savings. #Investing For information only.",
-      "character_count": 200
-    },
-    {
-      "date": "2026-07-27",
-      "time": "17:12:07",
-      "job_type": "weekday_closing",
-      "post": "🟢 Market Close Sensex jumped 776 pts and Nifty neared 24,000 as easing global tensions helped end a five-day losing streak. Watch oil prices next. #Sensex #Nifty For information only.",
-      "character_count": 183
-    },
-    {
-      "date": "2026-07-28",
-      "time": "09:15:09",
-      "job_type": "weekday_premarket",
-      "post": "👀 Watch Today Keep an eye on Kalyan Jewellers as a mutual fund plans to sell shares. Large block deals matter because they can shift stock prices. #KalyanJewellers #Markets For information only.",
-      "character_count": 194
-    },
-    {
-      "date": "2026-07-28",
-      "time": "10:58:33",
-      "job_type": "weekday_breaking",
-      "post": "🚨 Market Update Kalyan Jewellers shares fell after news of a mutual fund selling shares. Large sales matter because heavy supply can push prices down quickly. #KalyanJewellers For information only.",
-      "character_count": 197
-    },
-    {
-      "date": "2026-07-28",
-      "time": "12:45:40",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus Godfrey Phillips shares fell 7.5% because its Q1 net profit dropped 44%. Falling profits matter as they hurt stock value. For information only. #GodfreyPhillips",
-      "character_count": 174
-    },
-    {
-      "date": "2026-07-28",
-      "time": "14:43:53",
-      "job_type": "weekday_education",
-      "post": "📚 Market Basics The P/E ratio tells you how much you pay for every rupee a company earns. It matters because it helps you see if a stock is cheap or costly. For information only. #Investing",
-      "character_count": 189
-    },
-    {
-      "date": "2026-07-28",
-      "time": "16:15:57",
-      "job_type": "weekday_closing",
-      "post": "🟡 Market Close Sensex rose 250 pts from the day's low and Nifty crossed 24,000 as IT buying helped recover losses. Watch Nifty 50 for consolidation next. For information only. #Nifty #Sensex",
-      "character_count": 190
-    },
-    {
-      "date": "2026-07-29",
-      "time": "09:18:57",
-      "job_type": "weekday_premarket",
-      "post": "📈 Before the Bell Watch GIFT Nifty today as it jumps 250 points and shows a gap-up start. This matters because Asian markets are rebounding ahead of the US Fed decision. #Nifty #Stocks For information only.",
-      "character_count": 206
-    },
-    {
-      "date": "2026-07-29",
-      "time": "11:05:05",
-      "job_type": "weekday_breaking",
-      "post": "⚡ Just In L&T shares jumped 3% after beating profit estimates. Strong Q1 results matter as they show steady business growth. #LT #Stocks For information only.",
-      "character_count": 158
-    },
-    {
-      "date": "2026-07-29",
-      "time": "12:51:06",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus L&T Q1 profit beat estimates, pushing its shares up by 3%. Good earnings matter because they show the business is growing well. #LT For information only.",
-      "character_count": 167
-    },
-    {
-      "date": "2026-07-29",
-      "time": "14:48:50",
-      "job_type": "weekday_education",
-      "post": "💰 Investing Tip Market cap is just total company value, found by multiplying share price by total shares. If a company has 10 shares at Rs 100 each, it's worth Rs 1,000. This matters because it shows company size. #Investing For information only.",
-      "character_count": 246
-    },
-    {
-      "date": "2026-07-29",
-      "time": "16:19:15",
-      "job_type": "weekday_closing",
-      "post": "🟢 Market Close Sensex rose 900 pts and Nifty hit 24,250 as buying in IT shares pushed the market up. Watch the US Fed decision next. For information only. #Sensex #Nifty",
-      "character_count": 169
-    },
-    {
-      "date": "2026-07-30",
-      "time": "09:10:13",
-      "job_type": "weekday_premarket",
-      "post": "📋 Today's Watch Watch the US Federal Reserve decision as interest rates are held steady with a split vote. This matters for global cues. #USFed #Markets For information only.",
-      "character_count": 174
-    },
-    {
-      "date": "2026-07-30",
-      "time": "10:51:56",
-      "job_type": "weekday_breaking",
-      "post": "🚨 Market Update US Fed kept rates steady with a rare split vote. This matters because differing views on future rates create global ripples. #USFed #Markets For information only.",
-      "character_count": 178
-    },
-    {
-      "date": "2026-07-30",
-      "time": "14:40:08",
-      "job_type": "weekday_education",
-      "post": "💡 Revenue is total sales, but profit is what remains after expenses. This matters because real business health depends on what is left. #Investing #Business For information only.",
-      "character_count": 178
-    },
-    {
       "date": "2026-07-30",
       "time": "16:04:53",
       "job_type": "weekday_closing",
@@ -440,183 +237,16 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? Bond yields are like a rival savings option for investors. When safe bond returns go up, people often pull money out of stocks. This matters because lower stock demand can push prices down. #Investing #Bonds For information only.",
       "character_count": 245
+    },
+    {
+      "date": "2026-08-07",
+      "time": "14:46:25",
+      "job_type": "weekday_closing",
+      "post": "🟢 Market Close Sensex fell 500 pts as rising oil prices weighed on trading. Watch oil prices next. #Sensex #Oil For information only.",
+      "character_count": 133
     }
   ],
   "emails_sent": [
-    {
-      "date": "2026-07-23",
-      "time": "12:37:00",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-23",
-      "time": "14:34:46",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-23",
-      "time": "16:05:53",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-24",
-      "time": "09:22:28",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-24",
-      "time": "11:03:25",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-24",
-      "time": "12:38:49",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-24",
-      "time": "14:31:42",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-24",
-      "time": "15:59:00",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-25",
-      "time": "10:40:46",
-      "job_type": "saturday_weekly_recap",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-25",
-      "time": "16:47:01",
-      "job_type": "saturday_investing_lesson",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-26",
-      "time": "10:53:31",
-      "job_type": "sunday_next_week_outlook",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-26",
-      "time": "16:50:54",
-      "job_type": "sunday_investing_tip",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-27",
-      "time": "09:42:09",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-27",
-      "time": "11:33:04",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-27",
-      "time": "15:43:24",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-27",
-      "time": "17:12:07",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-28",
-      "time": "09:15:09",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-28",
-      "time": "10:58:33",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-28",
-      "time": "12:45:40",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-28",
-      "time": "14:43:53",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-28",
-      "time": "16:15:57",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-29",
-      "time": "09:18:57",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-29",
-      "time": "11:05:05",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-29",
-      "time": "12:51:06",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-29",
-      "time": "14:48:50",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-29",
-      "time": "16:19:15",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-30",
-      "time": "09:10:13",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-30",
-      "time": "10:51:56",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-30",
-      "time": "14:40:08",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
     {
       "date": "2026-07-30",
       "time": "16:04:53",
@@ -820,6 +450,12 @@
       "time": "13:19:29",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-07",
+      "time": "14:46:25",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 10,
@@ -828,7 +464,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 2,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
