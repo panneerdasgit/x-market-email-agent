@@ -433,6 +433,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Tata Chemicals shares rose because RBI kept Tata Sons in the Upper Layer NBFC list. This update matters as regulatory lists often influence group stock moves. #TataChemicals #Stocks For information only.",
       "character_count": 217
+    },
+    {
+      "date": "2026-08-07",
+      "time": "13:19:29",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? Bond yields are like a rival savings option for investors. When safe bond returns go up, people often pull money out of stocks. This matters because lower stock demand can push prices down. #Investing #Bonds For information only.",
+      "character_count": 245
     }
   ],
   "emails_sent": [
@@ -807,9 +814,15 @@
       "time": "11:26:12",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-07",
+      "time": "13:19:29",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 9,
+  "education_topic_index": 10,
   "sunday_tip_index": 5,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -817,7 +830,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 2,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
