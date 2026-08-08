@@ -251,6 +251,13 @@
       "job_type": "saturday_weekly_recap",
       "post": "📊 This Week India moved past a decade of zero FII flows. This matters because domestic strength drives growth. Watch crude prices next. #India #Investing For information only.",
       "character_count": 175
+    },
+    {
+      "date": "2026-08-08",
+      "time": "16:10:07",
+      "job_type": "saturday_investing_lesson",
+      "post": "💡 Free cash flow is the cash left after paying all bills. If a tea stall earns ₹500 and spends ₹300, it has ₹200 free cash. This matters as real cash shows true business health. #Investing For information only.",
+      "character_count": 210
     }
   ],
   "emails_sent": [
@@ -469,9 +476,15 @@
       "time": "08:49:43",
       "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-08",
+      "time": "16:10:07",
+      "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 10,
+  "education_topic_index": 11,
   "sunday_tip_index": 5,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -481,7 +494,7 @@
     "sunday_investing_tip": 2,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
-    "saturday_investing_lesson": 1,
+    "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 1
   }
 }
