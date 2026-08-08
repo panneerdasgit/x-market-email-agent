@@ -244,6 +244,13 @@
       "job_type": "weekday_closing",
       "post": "🟢 Market Close Sensex fell 500 pts as rising oil prices weighed on trading. Watch oil prices next. #Sensex #Oil For information only.",
       "character_count": 133
+    },
+    {
+      "date": "2026-08-08",
+      "time": "08:49:43",
+      "job_type": "saturday_weekly_recap",
+      "post": "📊 This Week India moved past a decade of zero FII flows. This matters because domestic strength drives growth. Watch crude prices next. #India #Investing For information only.",
+      "character_count": 175
     }
   ],
   "emails_sent": [
@@ -455,6 +462,12 @@
       "date": "2026-08-07",
       "time": "14:46:25",
       "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-08",
+      "time": "08:49:43",
+      "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
     }
   ],
