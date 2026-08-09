@@ -265,6 +265,13 @@
       "job_type": "sunday_next_week_outlook",
       "post": "👀 Week Ahead Watch crude oil prices and the rupee this week after Brent spiked on Hormuz uncertainty. This matters because energy costs impact overall expenses. #CrudeOil #Economy For information only.",
       "character_count": 201
+    },
+    {
+      "date": "2026-08-09",
+      "time": "16:06:26",
+      "job_type": "sunday_investing_tip",
+      "post": "⚠️ Common Mistake Don't buy a stock just because everyone else is rushing into it. Buying out of panic or excitement often leads to costly mistakes. Stick to your own plan. #Investing For information only.",
+      "character_count": 205
     }
   ],
   "emails_sent": [
@@ -495,16 +502,22 @@
       "time": "08:55:10",
       "job_type": "sunday_next_week_outlook",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-09",
+      "time": "16:06:26",
+      "job_type": "sunday_investing_tip",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
-  "sunday_tip_index": 5,
+  "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
-    "sunday_investing_tip": 2,
+    "sunday_investing_tip": 0,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
