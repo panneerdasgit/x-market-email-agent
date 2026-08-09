@@ -258,6 +258,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "💡 Free cash flow is the cash left after paying all bills. If a tea stall earns ₹500 and spends ₹300, it has ₹200 free cash. This matters as real cash shows true business health. #Investing For information only.",
       "character_count": 210
+    },
+    {
+      "date": "2026-08-09",
+      "time": "08:55:10",
+      "job_type": "sunday_next_week_outlook",
+      "post": "👀 Week Ahead Watch crude oil prices and the rupee this week after Brent spiked on Hormuz uncertainty. This matters because energy costs impact overall expenses. #CrudeOil #Economy For information only.",
+      "character_count": 201
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "16:10:07",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-09",
+      "time": "08:55:10",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
@@ -495,6 +508,6 @@
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
-    "sunday_next_week_outlook": 1
+    "sunday_next_week_outlook": 0
   }
 }
