@@ -286,6 +286,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In: RITES signed an MoU with HPCL. Keep RITES shares in focus today. This matters because new business tie-ups help drive company growth. #RITES #Stocks For information only.",
       "character_count": 181
+    },
+    {
+      "date": "2026-08-10",
+      "time": "11:26:17",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Titan shares are in focus after a strong Q1 with solid jewellery growth. This matters because robust earnings drive business value. #Titan #Stocks For information only.",
+      "character_count": 182
     }
   ],
   "emails_sent": [
@@ -533,6 +540,12 @@
       "date": "2026-08-10",
       "time": "09:41:25",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-10",
+      "time": "11:26:17",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
