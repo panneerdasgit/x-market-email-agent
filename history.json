@@ -293,6 +293,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Titan shares are in focus after a strong Q1 with solid jewellery growth. This matters because robust earnings drive business value. #Titan #Stocks For information only.",
       "character_count": 182
+    },
+    {
+      "date": "2026-08-10",
+      "time": "13:41:23",
+      "job_type": "weekday_education",
+      "post": "📚 Market Basics Don't put all your money in one company. If that business struggles, your savings take a big hit. Spreading funds across different sectors keeps your risk low. #Investing #MutualFunds For information only.",
+      "character_count": 221
     }
   ],
   "emails_sent": [
@@ -547,9 +554,15 @@
       "time": "11:26:17",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-10",
+      "time": "13:41:23",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 11,
+  "education_topic_index": 0,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -557,7 +570,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
-    "weekday_education": 1,
+    "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
