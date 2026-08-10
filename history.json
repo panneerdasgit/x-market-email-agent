@@ -279,6 +279,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today Keep an eye on upcoming India and US inflation data this week. This matters as inflation numbers heavily influence interest rate decisions. #Inflation #Economy For information only.",
       "character_count": 195
+    },
+    {
+      "date": "2026-08-10",
+      "time": "09:41:25",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In: RITES signed an MoU with HPCL. Keep RITES shares in focus today. This matters because new business tie-ups help drive company growth. #RITES #Stocks For information only.",
+      "character_count": 181
     }
   ],
   "emails_sent": [
@@ -521,13 +528,19 @@
       "time": "08:10:12",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-10",
+      "time": "09:41:25",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
