@@ -300,6 +300,13 @@
       "job_type": "weekday_education",
       "post": "📚 Market Basics Don't put all your money in one company. If that business struggles, your savings take a big hit. Spreading funds across different sectors keeps your risk low. #Investing #MutualFunds For information only.",
       "character_count": 221
+    },
+    {
+      "date": "2026-08-10",
+      "time": "15:19:35",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close Nifty slipped below 24,550 as Brent crude prices climbed. Watch global oil prices next. This matters because dearer energy raises costs. #Nifty #Oil For information only.",
+      "character_count": 185
     }
   ],
   "emails_sent": [
@@ -560,6 +567,12 @@
       "time": "13:41:23",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-10",
+      "time": "15:19:35",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -568,7 +581,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 0,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
