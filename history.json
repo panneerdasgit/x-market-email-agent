@@ -328,6 +328,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Garuda Construction shares jumped 11% after reporting a 48% rise in Q1 net profit. Strong earnings help investors judge business health. #Stocks #Earnings For information only.",
       "character_count": 190
+    },
+    {
+      "date": "2026-08-11",
+      "time": "13:13:54",
+      "job_type": "weekday_education",
+      "post": "💰 Investing Tip The P/E ratio tells you how much you pay for every ₹1 of profit. If a shop costs ₹100 and earns ₹10, its P/E is 10. This matters to check if a stock is cheap or costly. #Investing For information only.",
+      "character_count": 217
     }
   ],
   "emails_sent": [
@@ -612,9 +619,15 @@
       "time": "11:05:26",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-11",
+      "time": "13:13:54",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 0,
+  "education_topic_index": 1,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -622,7 +635,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 0,
-    "weekday_education": 2,
+    "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
