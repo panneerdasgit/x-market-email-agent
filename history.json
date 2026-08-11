@@ -314,6 +314,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Watch Brent crude prices today. Rising oil costs pushed the Sensex down recently. This matters because dearer energy raises expenses. #Oil #Sensex For information only.",
       "character_count": 186
+    },
+    {
+      "date": "2026-08-11",
+      "time": "09:28:51",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update SEBI is probing trades from August 3-4 during CAS to check for manipulation. This matters because it ensures fair play. #SEBI #Stocks For information only.",
+      "character_count": 171
     }
   ],
   "emails_sent": [
@@ -586,13 +593,19 @@
       "time": "08:03:51",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-11",
+      "time": "09:28:51",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 0,
