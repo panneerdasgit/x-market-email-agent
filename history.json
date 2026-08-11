@@ -307,6 +307,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Nifty slipped below 24,550 as Brent crude prices climbed. Watch global oil prices next. This matters because dearer energy raises costs. #Nifty #Oil For information only.",
       "character_count": 185
+    },
+    {
+      "date": "2026-08-11",
+      "time": "08:03:51",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Watch Brent crude prices today. Rising oil costs pushed the Sensex down recently. This matters because dearer energy raises expenses. #Oil #Sensex For information only.",
+      "character_count": 186
     }
   ],
   "emails_sent": [
@@ -573,12 +580,18 @@
       "time": "15:19:35",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-11",
+      "time": "08:03:51",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 6,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
