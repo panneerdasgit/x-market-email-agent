@@ -363,6 +363,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Landmark Cars shares are in focus following strong Q1 earnings. Good financial results help track company growth. #LandmarkCars #Stocks For information only.",
       "character_count": 171
+    },
+    {
+      "date": "2026-08-12",
+      "time": "13:27:36",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? Market cap is just the total value of a company. If 1 share costs ₹100 and there are 10 shares, the cap is ₹1,000. This helps you know a firm's true size. #Investing #Stocks For information only.",
+      "character_count": 211
     }
   ],
   "emails_sent": [
@@ -677,9 +684,15 @@
       "time": "11:27:52",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-12",
+      "time": "13:27:36",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 1,
+  "education_topic_index": 2,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -687,7 +700,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 0,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
