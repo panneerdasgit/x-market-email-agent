@@ -356,6 +356,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In Mutual fund SIP inflows hit ₹31,961 crore in July. More retail money is coming into equities steadily. This shows long-term financial habits are growing in India. #MutualFunds #SIP For information only.",
       "character_count": 212
+    },
+    {
+      "date": "2026-08-12",
+      "time": "11:27:52",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Landmark Cars shares are in focus following strong Q1 earnings. Good financial results help track company growth. #LandmarkCars #Stocks For information only.",
+      "character_count": 171
     }
   ],
   "emails_sent": [
@@ -663,6 +670,12 @@
       "date": "2026-08-12",
       "time": "09:50:32",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-12",
+      "time": "11:27:52",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
