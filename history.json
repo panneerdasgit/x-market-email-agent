@@ -349,6 +349,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Watch hospital shares today after a panel suggested a 3-star room rent cap. This matters as caps can impact earnings. #Healthcare #Stocks For information only.",
       "character_count": 175
+    },
+    {
+      "date": "2026-08-12",
+      "time": "09:50:32",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In Mutual fund SIP inflows hit ₹31,961 crore in July. More retail money is coming into equities steadily. This shows long-term financial habits are growing in India. #MutualFunds #SIP For information only.",
+      "character_count": 212
     }
   ],
   "emails_sent": [
@@ -651,13 +658,19 @@
       "time": "08:33:39",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-12",
+      "time": "09:50:32",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 0,
