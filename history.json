@@ -391,6 +391,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update MSCI added four Indian stocks and removed three in its latest rejig, effective September 1. This matters as global index changes shift fund flows. #MSCI #Stocks For information only.",
       "character_count": 198
+    },
+    {
+      "date": "2026-08-13",
+      "time": "11:28:58",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Vodafone Idea shares rose 3% after brokerage reports estimated potential gains following Q1 results. Earnings reports help track financial health. #VodafoneIdea #Stocks For information only.",
+      "character_count": 204
     }
   ],
   "emails_sent": [
@@ -728,6 +735,12 @@
       "date": "2026-08-13",
       "time": "09:53:54",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-13",
+      "time": "11:28:58",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
