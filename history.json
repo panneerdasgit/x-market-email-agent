@@ -377,6 +377,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex fell 650 points as the Tata Sons chairman resigned. Watch if Tata stocks stabilize next. This matters because leadership changes shake investor confidence. #Sensex #Tata For information only.",
       "character_count": 213
+    },
+    {
+      "date": "2026-08-13",
+      "time": "08:36:59",
+      "job_type": "weekday_premarket",
+      "post": "👀 Watch Today Watch US inflation data and oil prices before the market opens. This matters because global economic updates guide big investor moves. #USInflation #CrudeOil For information only.",
+      "character_count": 193
     }
   ],
   "emails_sent": [
@@ -703,12 +710,18 @@
       "time": "15:02:46",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-13",
+      "time": "08:36:59",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
   "sunday_tip_index": 6,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
