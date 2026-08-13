@@ -384,6 +384,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today Watch US inflation data and oil prices before the market opens. This matters because global economic updates guide big investor moves. #USInflation #CrudeOil For information only.",
       "character_count": 193
+    },
+    {
+      "date": "2026-08-13",
+      "time": "09:53:54",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update MSCI added four Indian stocks and removed three in its latest rejig, effective September 1. This matters as global index changes shift fund flows. #MSCI #Stocks For information only.",
+      "character_count": 198
     }
   ],
   "emails_sent": [
@@ -716,13 +723,19 @@
       "time": "08:36:59",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-13",
+      "time": "09:53:54",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
