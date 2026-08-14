@@ -426,6 +426,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In Indigo Paints posted a 61% jump in Q1 profit. Strong quarterly earnings help investors track company growth. #IndigoPaints #Stocks For information only.",
       "character_count": 162
+    },
+    {
+      "date": "2026-08-14",
+      "time": "11:27:19",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Indigo Paints shares are in focus after reporting a 61% rise in Q1 profit. Strong quarterly earnings help you track company growth. #IndigoPaints #Stocks For information only.",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -793,6 +800,12 @@
       "date": "2026-08-14",
       "time": "09:51:09",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-14",
+      "time": "11:27:19",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
