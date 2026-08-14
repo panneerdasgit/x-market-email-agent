@@ -1,209 +1,6 @@
 {
   "sent_posts": [
     {
-      "date": "2026-07-30",
-      "time": "16:04:53",
-      "job_type": "weekday_closing",
-      "post": "🟢 Market Close Redington shares jumped up to 15% because its Q1 net profit nearly doubled. Good earnings matter as they boost stock value. Watch corporate results next. For information only. #Redington",
-      "character_count": 201
-    },
-    {
-      "date": "2026-07-31",
-      "time": "09:29:36",
-      "job_type": "weekday_premarket",
-      "post": "👀 Watch Today Watch IT shares today after their biggest monthly rally in six years. This matters because easing AI concerns are bringing buyers back. For information only. #Nifty #Stocks",
-      "character_count": 186
-    },
-    {
-      "date": "2026-07-31",
-      "time": "11:18:46",
-      "job_type": "weekday_breaking",
-      "post": "⚡ Just In Bajaj Finance shares jumped 6% after strong Q1 results and positive management views. Good earnings matter as they show strong business health. #BajajFinance For information only.",
-      "character_count": 189
-    },
-    {
-      "date": "2026-07-31",
-      "time": "12:53:05",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus Bajaj Finance shares jumped 6% after reporting a strong Q1 and upbeat management views. Good earnings matter because they show strong business health. #BajajFinance For information only.",
-      "character_count": 200
-    },
-    {
-      "date": "2026-07-31",
-      "time": "14:52:05",
-      "job_type": "weekday_education",
-      "post": "📚 Market Basics When the RBI cuts interest rates, banks often lower loan costs. This matters because your home loan EMI can decrease, leaving more cash in your hand. #Loans #RBI For information only.",
-      "character_count": 199
-    },
-    {
-      "date": "2026-07-31",
-      "time": "16:30:28",
-      "job_type": "weekday_closing",
-      "post": "🟡 Market Close Sensex rose after dropping because strong Q1 results lifted company values. Watch Nifty 24,400 levels next. #Nifty For information only.",
-      "character_count": 151
-    },
-    {
-      "date": "2026-08-01",
-      "time": "10:52:26",
-      "job_type": "saturday_weekly_recap",
-      "post": "📊 This Week Strong Q1 results lifted Bajaj Finance shares. Good earnings matter because they show healthy business growth. Watch upcoming company results next. For information only. #Stocks",
-      "character_count": 189
-    },
-    {
-      "date": "2026-08-01",
-      "time": "16:52:26",
-      "job_type": "saturday_investing_lesson",
-      "post": "📚 Weekend Learning India imports most of its oil. When crude prices rise, our import costs go up. This matters because it hurts company profits. #CrudeOil For information only.",
-      "character_count": 176
-    },
-    {
-      "date": "2026-08-02",
-      "time": "10:49:10",
-      "job_type": "sunday_next_week_outlook",
-      "post": "📅 Next Week Watch corporate results closely. Strong Q1 profit numbers are currently driving individual stock moves. This matters because company earnings show true business health. For information only. #Q1 #Earnings",
-      "character_count": 216
-    },
-    {
-      "date": "2026-08-02",
-      "time": "16:47:30",
-      "job_type": "sunday_investing_tip",
-      "post": "📚 Learn Today High sales look great, but profit and cash truly run a company. This matters because cash keeps businesses safe in tough times. #Investing #Finance For information only.",
-      "character_count": 183
-    },
-    {
-      "date": "2026-08-03",
-      "time": "09:35:24",
-      "job_type": "weekday_premarket",
-      "post": "📈 Before the Bell Note new market timings today. F&O trading is extended till 3:40 pm. This matters as it changes end-of-day order execution. #Trading #Sensex For information only.",
-      "character_count": 180
-    },
-    {
-      "date": "2026-08-03",
-      "time": "11:25:44",
-      "job_type": "weekday_breaking",
-      "post": "🚨 Market Update Foreign investors bought $2.31 billion in July, ending a four-month selling streak. This matters because big inflows often help support stock prices. #FII #Stocks For information only.",
-      "character_count": 200
-    },
-    {
-      "date": "2026-08-03",
-      "time": "13:27:40",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus ITC jumped after its Q1 update. Brokerages see tax hits easing and the outlook improving. This matters because lower taxes can boost earnings. #ITC For information only.",
-      "character_count": 183
-    },
-    {
-      "date": "2026-08-03",
-      "time": "15:40:30",
-      "job_type": "weekday_education",
-      "post": "💰 Investing Tip IT firms earn in US dollars. When the rupee falls against the dollar, their rupee earnings increase. This matters because foreign sales boost their profits. For information only. #IT #Stocks",
-      "character_count": 206
-    },
-    {
-      "date": "2026-08-03",
-      "time": "17:16:02",
-      "job_type": "weekday_closing",
-      "post": "🔴 Market Close Nifty climbed for the fourth straight day and crossed 24,700 because foreign investors returned with strong buying. Watch oil prices next. #Nifty For information only.",
-      "character_count": 182
-    },
-    {
-      "date": "2026-08-04",
-      "time": "09:16:41",
-      "job_type": "weekday_premarket",
-      "post": "📋 Today's Watch: Crude oil prices dropped below $85. Watch crude-sensitive shares like IOC and IndiGo today. Oil drops help lower company costs. #CrudeOil For information only.",
-      "character_count": 176
-    },
-    {
-      "date": "2026-08-04",
-      "time": "10:58:32",
-      "job_type": "weekday_breaking",
-      "post": "⚡ Just In Brokers asked retail clients to square off trades by 3 PM due to Closing Auction Session rules. This matters because it changes how end-of-day orders execute. #Trading For information only.",
-      "character_count": 199
-    },
-    {
-      "date": "2026-08-04",
-      "time": "12:45:19",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 KEI Industries shares rose 5% following a 40% Q1 profit jump. The company is also expanding capacity, signaling confidence in future demand. #KEIIndustries #Stocks For information only.",
-      "character_count": 187
-    },
-    {
-      "date": "2026-08-04",
-      "time": "14:48:20",
-      "job_type": "weekday_education",
-      "post": "💡 Did You Know? FII means foreign investors, while DII means domestic institutions like our mutual funds. Knowing who buys helps you understand price moves. For information only. #Investing",
-      "character_count": 189
-    },
-    {
-      "date": "2026-08-04",
-      "time": "16:27:57",
-      "job_type": "weekday_closing",
-      "post": "🟢 Market Close Sensex rose 200 pts as Nifty traded above 24,600. Watch global cues in the next session. This matters to track world market trends. #Sensex For information only.",
-      "character_count": 176
-    },
-    {
-      "date": "2026-08-05",
-      "time": "09:12:36",
-      "job_type": "weekday_premarket",
-      "post": "👀 Watch Today SEBI is looking to allow depository receipts for REIT and InvIT units. This helps global investors access real estate funds easily. #REIT #SEBI For information only.",
-      "character_count": 179
-    },
-    {
-      "date": "2026-08-05",
-      "time": "10:58:14",
-      "job_type": "weekday_breaking",
-      "post": "🚨 Market Update UPL shares dropped 6% after its quarterly profit missed estimates. This matters because weak earnings often disappoint analysts and push stock prices down. #UPL #Stocks For information only.",
-      "character_count": 206
-    },
-    {
-      "date": "2026-08-05",
-      "time": "12:45:53",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus UPL shares fell 6% after its latest profit missed estimates and a brokerage cut its target price. This matters because weak earnings can quickly disappoint analysts. #UPL #Stocks For information only.",
-      "character_count": 214
-    },
-    {
-      "date": "2026-08-05",
-      "time": "14:45:50",
-      "job_type": "weekday_education",
-      "post": "📚 Market Basics Nifty tracks 50 big companies, while Sensex tracks 30. Think of them like two report cards for the Indian stock market. Knowing this helps you track overall growth easily. #Nifty #Sensex For information only.",
-      "character_count": 224
-    },
-    {
-      "date": "2026-08-05",
-      "time": "16:17:05",
-      "job_type": "weekday_closing",
-      "post": "🟡 Market Close Traders stayed on edge as Nifty faced F&O expiry amid the new CAS rollout rules. Watch rate-sensitive stocks next. #Nifty #SEBI For information only.",
-      "character_count": 164
-    },
-    {
-      "date": "2026-08-06",
-      "time": "09:18:25",
-      "job_type": "weekday_premarket",
-      "post": "📈 Before the Bell Watch rate-sensitive shares like real estate and auto today. The RBI decided to hold interest rates steady again. This matters because stable rates help lower borrowing costs. #RBI #Stocks For information only.",
-      "character_count": 228
-    },
-    {
-      "date": "2026-08-06",
-      "time": "11:00:23",
-      "job_type": "weekday_breaking",
-      "post": "⚡ Just In Small caps just hit a fresh peak due to strong earnings and steady SIP flows. This matters because retail inflows continue to drive smaller companies higher. #SmallCaps #Investing For information only.",
-      "character_count": 211
-    },
-    {
-      "date": "2026-08-06",
-      "time": "12:46:55",
-      "job_type": "weekday_stock_focus",
-      "post": "📌 Stock Focus Hindalco stock slipped 1% following Novelis Q1 results. People are watching it to see how earnings recover. #Hindalco #Stocks For information only.",
-      "character_count": 161
-    },
-    {
-      "date": "2026-08-06",
-      "time": "14:48:30",
-      "job_type": "weekday_education",
-      "post": "💰 Investing Tip Market breadth counts how many stocks actually rise versus fall. If 400 shares go up and 100 drop, health is good. This matters to see real strength. #Investing For information only.",
-      "character_count": 198
-    },
-    {
       "date": "2026-08-06",
       "time": "16:19:23",
       "job_type": "weekday_closing",
@@ -440,183 +237,16 @@
       "job_type": "weekday_education",
       "post": "💰 Investing Tip When the RBI cuts interest rates, banks often lower loan rates too. This matters because your home loan EMI can drop, leaving more cash in your hand each month. #RBI #Banking For information only.",
       "character_count": 212
+    },
+    {
+      "date": "2026-08-14",
+      "time": "14:59:17",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex rose 100 points and Nifty closed near 24,400. Watch global cues next. This matters as international updates guide large trades. #Sensex #Nifty For information only.",
+      "character_count": 186
     }
   ],
   "emails_sent": [
-    {
-      "date": "2026-07-30",
-      "time": "16:04:53",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-31",
-      "time": "09:29:36",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-31",
-      "time": "11:18:46",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-31",
-      "time": "12:53:05",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-31",
-      "time": "14:52:05",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-07-31",
-      "time": "16:30:28",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-01",
-      "time": "10:52:26",
-      "job_type": "saturday_weekly_recap",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-01",
-      "time": "16:52:26",
-      "job_type": "saturday_investing_lesson",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-02",
-      "time": "10:49:10",
-      "job_type": "sunday_next_week_outlook",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-02",
-      "time": "16:47:30",
-      "job_type": "sunday_investing_tip",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-03",
-      "time": "09:35:24",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-03",
-      "time": "11:25:44",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-03",
-      "time": "13:27:40",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-03",
-      "time": "15:40:30",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-03",
-      "time": "17:16:02",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-04",
-      "time": "09:16:41",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-04",
-      "time": "10:58:32",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-04",
-      "time": "12:45:19",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-3.1-flash-lite-preview"
-    },
-    {
-      "date": "2026-08-04",
-      "time": "14:48:20",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-04",
-      "time": "16:27:57",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-05",
-      "time": "09:12:36",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-05",
-      "time": "10:58:14",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-05",
-      "time": "12:45:53",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-05",
-      "time": "14:45:50",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-05",
-      "time": "16:17:05",
-      "job_type": "weekday_closing",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-06",
-      "time": "09:18:25",
-      "job_type": "weekday_premarket",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-06",
-      "time": "11:00:23",
-      "job_type": "weekday_breaking",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-06",
-      "time": "12:46:55",
-      "job_type": "weekday_stock_focus",
-      "model": "gemini-flash-lite-latest"
-    },
-    {
-      "date": "2026-08-06",
-      "time": "14:48:30",
-      "job_type": "weekday_education",
-      "model": "gemini-flash-lite-latest"
-    },
     {
       "date": "2026-08-06",
       "time": "16:19:23",
@@ -820,6 +450,12 @@
       "time": "13:25:59",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-14",
+      "time": "14:59:17",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 4,
@@ -828,7 +464,7 @@
     "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 0,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
