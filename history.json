@@ -251,6 +251,13 @@
       "job_type": "saturday_weekly_recap",
       "post": "📊 This Week LG Electronics shares jumped after strong Q1 results. This matters because good earnings show company growth. Watch global cues next. #LG #Stocks For information only.",
       "character_count": 179
+    },
+    {
+      "date": "2026-08-15",
+      "time": "15:58:15",
+      "job_type": "saturday_investing_lesson",
+      "post": "📚 Weekend Learning India imports most of its crude oil. When global oil prices jump, importing costs rise. This matters as it strains company profits and the rupee. #CrudeOil For information only.",
+      "character_count": 196
     }
   ],
   "emails_sent": [
@@ -469,9 +476,15 @@
       "time": "08:16:10",
       "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-15",
+      "time": "15:58:15",
+      "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 4,
+  "education_topic_index": 5,
   "sunday_tip_index": 6,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -481,7 +494,7 @@
     "sunday_investing_tip": 0,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
-    "saturday_investing_lesson": 0,
+    "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 0
   }
 }
