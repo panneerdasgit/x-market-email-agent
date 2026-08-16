@@ -258,6 +258,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "📚 Weekend Learning India imports most of its crude oil. When global oil prices jump, importing costs rise. This matters as it strains company profits and the rupee. #CrudeOil For information only.",
       "character_count": 196
+    },
+    {
+      "date": "2026-08-16",
+      "time": "08:22:22",
+      "job_type": "sunday_next_week_outlook",
+      "post": "📅 Next Week Watch the NSE Clearing shorter-tenure SLBM contracts starting August 17. This matters as new contract options change how traders manage shares. #NSE #Trading For information only.",
+      "character_count": 191
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "15:58:15",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-16",
+      "time": "08:22:22",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
@@ -495,6 +508,6 @@
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
-    "sunday_next_week_outlook": 0
+    "sunday_next_week_outlook": 1
   }
 }
