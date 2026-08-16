@@ -265,6 +265,13 @@
       "job_type": "sunday_next_week_outlook",
       "post": "📅 Next Week Watch the NSE Clearing shorter-tenure SLBM contracts starting August 17. This matters as new contract options change how traders manage shares. #NSE #Trading For information only.",
       "character_count": 191
+    },
+    {
+      "date": "2026-08-16",
+      "time": "15:55:26",
+      "job_type": "sunday_investing_tip",
+      "post": "💡 Sunday Tip Always check a company's debt before looking at its growth. High loans eat away profits during tough times. This matters so you don't pick risky stocks. #Investing For information only.",
+      "character_count": 198
     }
   ],
   "emails_sent": [
@@ -495,16 +502,22 @@
       "time": "08:22:22",
       "job_type": "sunday_next_week_outlook",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-16",
+      "time": "15:55:26",
+      "job_type": "sunday_investing_tip",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
-  "sunday_tip_index": 6,
+  "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
-    "sunday_investing_tip": 0,
+    "sunday_investing_tip": 1,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
