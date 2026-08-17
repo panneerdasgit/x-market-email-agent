@@ -293,6 +293,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Amber Enterprises shares are up after JPMorgan upgraded the stock. Brokerage updates help you see how experts view a company's potential. #Stocks #Investing For information only.",
       "character_count": 192
+    },
+    {
+      "date": "2026-08-17",
+      "time": "12:59:15",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? IT firms earn in dollars but pay salaries in rupees. When the rupee falls, their profit in rupees goes up. This matters for tracking IT earnings. #IT #Stocks For information only.",
+      "character_count": 195
     }
   ],
   "emails_sent": [
@@ -547,9 +554,15 @@
       "time": "10:39:28",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-17",
+      "time": "12:59:15",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 5,
+  "education_topic_index": 6,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -557,7 +570,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 1,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
