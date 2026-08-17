@@ -286,6 +286,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Kalpataru Projects won new orders worth Rs 3,526 crore. Big contract wins help investors track steady company growth and future project execution. #Stocks #Investing For information only.",
       "character_count": 203
+    },
+    {
+      "date": "2026-08-17",
+      "time": "10:39:28",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Amber Enterprises shares are up after JPMorgan upgraded the stock. Brokerage updates help you see how experts view a company's potential. #Stocks #Investing For information only.",
+      "character_count": 192
     }
   ],
   "emails_sent": [
@@ -533,6 +540,12 @@
       "date": "2026-08-17",
       "time": "08:55:43",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-17",
+      "time": "10:39:28",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
