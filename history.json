@@ -307,6 +307,13 @@
       "job_type": "weekday_closing",
       "post": "🟢 Market Close Sensex recovered 400 points from day's low and Nifty closed above 24,350. Watch oil prices next. This matters as energy costs impact profits. #Sensex #Nifty For information only.",
       "character_count": 193
+    },
+    {
+      "date": "2026-08-18",
+      "time": "07:26:43",
+      "job_type": "weekday_premarket",
+      "post": "👀 Watch Today SEBI warned investors against social media trading tips. This matters as unverified advice often leads to big losses. #SEBI #Investing For information only.",
+      "character_count": 170
     }
   ],
   "emails_sent": [
@@ -573,12 +580,18 @@
       "time": "14:32:09",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-18",
+      "time": "07:26:43",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
   "sunday_tip_index": 7,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
