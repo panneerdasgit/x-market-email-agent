@@ -335,6 +335,13 @@
       "job_type": "weekday_education",
       "post": "📚 Market Basics FIIs are foreign investors and DIIs are local institutions like mutual funds. They buy large volumes of shares. This matters because their heavy trades often guide stock prices. #Investing For information only.",
       "character_count": 226
+    },
+    {
+      "date": "2026-08-18",
+      "time": "14:24:53",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close Sensex fell 400 pts and Nifty dipped below 24,200 as rising crude prices hurt stocks. Watch oil prices next. #Sensex #Nifty For information only.",
+      "character_count": 160
     }
   ],
   "emails_sent": [
@@ -625,6 +632,12 @@
       "time": "12:41:55",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-18",
+      "time": "14:24:53",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
@@ -633,7 +646,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 1,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
