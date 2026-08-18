@@ -314,6 +314,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today SEBI warned investors against social media trading tips. This matters as unverified advice often leads to big losses. #SEBI #Investing For information only.",
       "character_count": 170
+    },
+    {
+      "date": "2026-08-18",
+      "time": "08:44:34",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In SEBI has replaced three mutual fund forms with one single application. This matters because it makes paperwork much simpler for investors. #SEBI #MutualFunds For information only.",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -586,13 +593,19 @@
       "time": "07:26:43",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-18",
+      "time": "08:44:34",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 1,
