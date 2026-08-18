@@ -321,6 +321,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In SEBI has replaced three mutual fund forms with one single application. This matters because it makes paperwork much simpler for investors. #SEBI #MutualFunds For information only.",
       "character_count": 189
+    },
+    {
+      "date": "2026-08-18",
+      "time": "10:33:05",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Paytm saw a large block deal where a promoter entity sold shares worth nearly Rs 2,949 crore. Big share sales help you track major promoter movements. #Paytm #Stocks For information only.",
+      "character_count": 201
     }
   ],
   "emails_sent": [
@@ -598,6 +605,12 @@
       "date": "2026-08-18",
       "time": "08:44:34",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-18",
+      "time": "10:33:05",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
