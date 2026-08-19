@@ -363,6 +363,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Jubilant Ingrevia bought a 40% stake in Zettaone Technologies. Corporate buys help you track business expansion plans. #Stocks #Investing For information only.",
       "character_count": 173
+    },
+    {
+      "date": "2026-08-19",
+      "time": "12:42:51",
+      "job_type": "weekday_education",
+      "post": "💰 Investing Tip Nifty tracks 50 big companies, while Sensex tracks 30. Think of them as two different report cards for the stock market. Knowing this helps you track overall market health easily. #Nifty #Sensex For information only.",
+      "character_count": 232
     }
   ],
   "emails_sent": [
@@ -677,9 +684,15 @@
       "time": "10:33:08",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "12:42:51",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 7,
+  "education_topic_index": 8,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -687,7 +700,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 1,
-    "weekday_education": 2,
+    "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
