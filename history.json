@@ -349,6 +349,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Watch Nifty near 24,150 today. It lost half its August gains recently, which matters as traders eye the 24,000 level next. #Nifty #Stocks For information only.",
       "character_count": 177
+    },
+    {
+      "date": "2026-08-19",
+      "time": "08:53:46",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Jubilant Ingrevia shares are in focus today after acquiring a 40% stake in Zettaone Technologies. This matters for tracking corporate expansions. #Stocks #Investing For information only.",
+      "character_count": 202
     }
   ],
   "emails_sent": [
@@ -651,13 +658,19 @@
       "time": "07:28:42",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "08:53:46",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 1,
