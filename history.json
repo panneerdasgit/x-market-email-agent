@@ -342,6 +342,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Sensex fell 400 pts and Nifty dipped below 24,200 as rising crude prices hurt stocks. Watch oil prices next. #Sensex #Nifty For information only.",
       "character_count": 160
+    },
+    {
+      "date": "2026-08-19",
+      "time": "07:28:42",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Watch Nifty near 24,150 today. It lost half its August gains recently, which matters as traders eye the 24,000 level next. #Nifty #Stocks For information only.",
+      "character_count": 177
     }
   ],
   "emails_sent": [
@@ -638,12 +645,18 @@
       "time": "14:24:53",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "07:28:42",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
   "sunday_tip_index": 7,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
