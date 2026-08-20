@@ -384,6 +384,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Sugar stocks rallied up to 10% as domestic prices surged on tight supplies. Watch sugar prices as supply changes impact stock performance. #Sugar #Stocks For information only.",
       "character_count": 191
+    },
+    {
+      "date": "2026-08-20",
+      "time": "08:53:09",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In GIFT Nifty jumped 150 points, pointing to a strong start for Sensex and Nifty today. This matters as it signals a positive opening driven by global cues. #Nifty #Sensex For information only.",
+      "character_count": 200
     }
   ],
   "emails_sent": [
@@ -716,13 +723,19 @@
       "time": "07:27:26",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "08:53:09",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 8,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 1,
