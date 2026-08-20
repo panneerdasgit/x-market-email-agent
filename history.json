@@ -377,6 +377,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex dropped 350 pts and Nifty fell below 24,050 due to higher crude prices. Watch oil costs next as they impact company profits. #Sensex #Nifty For information only.",
       "character_count": 183
+    },
+    {
+      "date": "2026-08-20",
+      "time": "07:27:26",
+      "job_type": "weekday_premarket",
+      "post": "📋 Today's Watch Sugar stocks rallied up to 10% as domestic prices surged on tight supplies. Watch sugar prices as supply changes impact stock performance. #Sugar #Stocks For information only.",
+      "character_count": 191
     }
   ],
   "emails_sent": [
@@ -703,12 +710,18 @@
       "time": "14:26:16",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "07:27:26",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 8,
   "sunday_tip_index": 7,
   "header_indexes": {
-    "weekday_premarket": 1,
+    "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
