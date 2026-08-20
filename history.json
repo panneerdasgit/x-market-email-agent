@@ -398,6 +398,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus HDFC Bank rose after RBI allowed LIC to raise its stake to 9.99%. Big institutional buying helps you track major investor interest. #HDFC #Stocks For information only.",
       "character_count": 181
+    },
+    {
+      "date": "2026-08-20",
+      "time": "12:44:02",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? Market breadth counts how many stocks rise versus fall. If 1,000 stocks go up and 200 go down, health is good. This matters because it shows if the entire market joins a move. #Investing For information only.",
+      "character_count": 224
     }
   ],
   "emails_sent": [
@@ -742,9 +749,15 @@
       "time": "10:34:54",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "12:44:02",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 8,
+  "education_topic_index": 9,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 2,
@@ -752,7 +765,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 1,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
