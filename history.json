@@ -391,6 +391,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In GIFT Nifty jumped 150 points, pointing to a strong start for Sensex and Nifty today. This matters as it signals a positive opening driven by global cues. #Nifty #Sensex For information only.",
       "character_count": 200
+    },
+    {
+      "date": "2026-08-20",
+      "time": "10:34:54",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus HDFC Bank rose after RBI allowed LIC to raise its stake to 9.99%. Big institutional buying helps you track major investor interest. #HDFC #Stocks For information only.",
+      "character_count": 181
     }
   ],
   "emails_sent": [
@@ -728,6 +735,12 @@
       "date": "2026-08-20",
       "time": "08:53:09",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "10:34:54",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
