@@ -405,6 +405,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? Market breadth counts how many stocks rise versus fall. If 1,000 stocks go up and 200 go down, health is good. This matters because it shows if the entire market joins a move. #Investing For information only.",
       "character_count": 224
+    },
+    {
+      "date": "2026-08-20",
+      "time": "14:27:37",
+      "job_type": "weekday_closing",
+      "post": "🟢 Market Close Sensex rose 700 pts and Nifty crossed 24,250 on positive global cues. Watch global triggers next. #Sensex #Nifty For information only.",
+      "character_count": 149
     }
   ],
   "emails_sent": [
@@ -755,6 +762,12 @@
       "time": "12:44:02",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "14:27:37",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 9,
@@ -763,7 +776,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 1,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
