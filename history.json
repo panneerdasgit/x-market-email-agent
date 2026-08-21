@@ -433,6 +433,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus HDFC Bank shares gained after raising $1.75 billion through overseas bonds. Big global fundraising helps lenders expand their business operations. #HDFC #Stocks For information only.",
       "character_count": 196
+    },
+    {
+      "date": "2026-08-21",
+      "time": "12:44:45",
+      "job_type": "weekday_education",
+      "post": "📚 Market Basics When bond yields rise, safe returns attract investors away from stocks. This matters because money shifts from equities to fixed income. #Bonds #Investing For information only.",
+      "character_count": 192
     }
   ],
   "emails_sent": [
@@ -807,9 +814,15 @@
       "time": "10:35:02",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "12:44:45",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 9,
+  "education_topic_index": 10,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -817,7 +830,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 1,
-    "weekday_education": 1,
+    "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
