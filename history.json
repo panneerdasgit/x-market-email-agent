@@ -426,6 +426,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Gold hit a two-month peak, lifting Manappuram and Muthoot Finance shares. Higher gold prices matter because they boost the value of collateral for lenders. #Gold #Stocks For information only.",
       "character_count": 207
+    },
+    {
+      "date": "2026-08-21",
+      "time": "10:35:02",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus HDFC Bank shares gained after raising $1.75 billion through overseas bonds. Big global fundraising helps lenders expand their business operations. #HDFC #Stocks For information only.",
+      "character_count": 196
     }
   ],
   "emails_sent": [
@@ -793,6 +800,12 @@
       "date": "2026-08-21",
       "time": "08:58:00",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "10:35:02",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
