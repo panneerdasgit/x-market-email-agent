@@ -419,6 +419,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today Gold crossed a two-month peak due to a US Treasury move. Watch gold finance companies like Manappuram and Muthoot as higher gold prices impact their business. #Gold #Stocks For information only.",
       "character_count": 208
+    },
+    {
+      "date": "2026-08-21",
+      "time": "08:58:00",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Gold hit a two-month peak, lifting Manappuram and Muthoot Finance shares. Higher gold prices matter because they boost the value of collateral for lenders. #Gold #Stocks For information only.",
+      "character_count": 207
     }
   ],
   "emails_sent": [
@@ -781,13 +788,19 @@
       "time": "07:36:28",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "08:58:00",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 9,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 1,
