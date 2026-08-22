@@ -251,6 +251,13 @@
       "job_type": "saturday_weekly_recap",
       "post": "📊 This Week Nifty held a rangebound trend while Kotak downgraded major IT stocks due to AI shifts. Watch Nifty 24,200 support next. #Nifty #Stocks For information only.",
       "character_count": 168
+    },
+    {
+      "date": "2026-08-22",
+      "time": "15:59:37",
+      "job_type": "saturday_investing_lesson",
+      "post": "💡 Investing Tip Free cash flow is the real cash left after paying bills. It matters because companies use this money for dividends and growth. #Investing #Finance For information only.",
+      "character_count": 184
     }
   ],
   "emails_sent": [
@@ -469,9 +476,15 @@
       "time": "08:19:15",
       "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "15:59:37",
+      "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 10,
+  "education_topic_index": 11,
   "sunday_tip_index": 7,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -481,7 +494,7 @@
     "sunday_investing_tip": 1,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
-    "saturday_investing_lesson": 1,
+    "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 1
   }
 }
