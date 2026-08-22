@@ -244,6 +244,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close Sugar stocks dropped up to 5% after duty-free imports were allowed. Lower import duties impact domestic sugar prices. Watch sugar company earnings next. #Sugar #Stocks For information only.",
       "character_count": 204
+    },
+    {
+      "date": "2026-08-22",
+      "time": "08:19:15",
+      "job_type": "saturday_weekly_recap",
+      "post": "📊 This Week Nifty held a rangebound trend while Kotak downgraded major IT stocks due to AI shifts. Watch Nifty 24,200 support next. #Nifty #Stocks For information only.",
+      "character_count": 168
     }
   ],
   "emails_sent": [
@@ -455,6 +462,12 @@
       "date": "2026-08-21",
       "time": "14:29:32",
       "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "08:19:15",
+      "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
     }
   ],
