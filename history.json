@@ -258,6 +258,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "💡 Investing Tip Free cash flow is the real cash left after paying bills. It matters because companies use this money for dividends and growth. #Investing #Finance For information only.",
       "character_count": 184
+    },
+    {
+      "date": "2026-08-23",
+      "time": "08:24:56",
+      "job_type": "sunday_next_week_outlook",
+      "post": "👀 Week Ahead SEBI is proposing stricter ad rules for online bond platforms to curb fixed return claims. Watch how rules protect retail investors. #SEBI #Bonds For information only.",
+      "character_count": 180
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "15:59:37",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-23",
+      "time": "08:24:56",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
@@ -495,6 +508,6 @@
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
-    "sunday_next_week_outlook": 1
+    "sunday_next_week_outlook": 0
   }
 }
