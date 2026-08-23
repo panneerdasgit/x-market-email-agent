@@ -265,6 +265,13 @@
       "job_type": "sunday_next_week_outlook",
       "post": "👀 Week Ahead SEBI is proposing stricter ad rules for online bond platforms to curb fixed return claims. Watch how rules protect retail investors. #SEBI #Bonds For information only.",
       "character_count": 180
+    },
+    {
+      "date": "2026-08-23",
+      "time": "15:55:33",
+      "job_type": "sunday_investing_tip",
+      "post": "📚 Learn Today Keep a watchlist ready before the market opens. This saves time and stops you from rushing into trades. Planning early helps you stay calm when prices move fast. #Investing For information only.",
+      "character_count": 208
     }
   ],
   "emails_sent": [
@@ -495,16 +502,22 @@
       "time": "08:24:56",
       "job_type": "sunday_next_week_outlook",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-23",
+      "time": "15:55:33",
+      "job_type": "sunday_investing_tip",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
-  "sunday_tip_index": 7,
+  "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
-    "sunday_investing_tip": 1,
+    "sunday_investing_tip": 2,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
