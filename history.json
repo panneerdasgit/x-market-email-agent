@@ -300,6 +300,13 @@
       "job_type": "weekday_education",
       "post": "💰 Investing Tip Never put all your money in one company. If that business struggles, your whole savings takes a hit. Spreading your funds across different sectors protects you. #Investing #Finance For information only.",
       "character_count": 218
+    },
+    {
+      "date": "2026-08-24",
+      "time": "14:36:11",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex fell 550 points from its day's high as sugar stocks hit 52-week highs following tight stock limits. Watch US-Iran updates next. #Sensex #Stocks For information only.",
+      "character_count": 187
     }
   ],
   "emails_sent": [
@@ -560,6 +567,12 @@
       "time": "13:04:09",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-24",
+      "time": "14:36:11",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -568,7 +581,7 @@
     "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 2,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
