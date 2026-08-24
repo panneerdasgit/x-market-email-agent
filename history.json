@@ -293,6 +293,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Aurobindo Pharma is being watched after the USFDA issued an observation for its Telangana unit. Regulatory checks matter as they affect plant operations. #Pharma #Stocks For information only.",
       "character_count": 205
+    },
+    {
+      "date": "2026-08-24",
+      "time": "13:04:09",
+      "job_type": "weekday_education",
+      "post": "💰 Investing Tip Never put all your money in one company. If that business struggles, your whole savings takes a hit. Spreading your funds across different sectors protects you. #Investing #Finance For information only.",
+      "character_count": 218
     }
   ],
   "emails_sent": [
@@ -547,9 +554,15 @@
       "time": "10:42:26",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-24",
+      "time": "13:04:09",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 11,
+  "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -557,7 +570,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2,
-    "weekday_education": 2,
+    "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
