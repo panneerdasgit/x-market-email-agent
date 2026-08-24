@@ -272,6 +272,13 @@
       "job_type": "sunday_investing_tip",
       "post": "📚 Learn Today Keep a watchlist ready before the market opens. This saves time and stops you from rushing into trades. Planning early helps you stay calm when prices move fast. #Investing For information only.",
       "character_count": 208
+    },
+    {
+      "date": "2026-08-24",
+      "time": "07:36:00",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Keep an eye on companies like Meesho and Lenskart as they appear in the stocks to watch list today. Tracking company-specific updates helps you see where major action happens. #Stocks #Investing For information only.",
+      "character_count": 234
     }
   ],
   "emails_sent": [
@@ -508,12 +515,18 @@
       "time": "15:55:33",
       "job_type": "sunday_investing_tip",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-24",
+      "time": "07:36:00",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
   "sunday_tip_index": 0,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
