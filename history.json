@@ -279,6 +279,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Keep an eye on companies like Meesho and Lenskart as they appear in the stocks to watch list today. Tracking company-specific updates helps you see where major action happens. #Stocks #Investing For information only.",
       "character_count": 234
+    },
+    {
+      "date": "2026-08-24",
+      "time": "08:59:40",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In: Aurobindo Pharma is in focus after the USFDA issued an observation for its Telangana unit. Regulatory checks matter because they impact plant operations and company stock performance. #Stocks #Pharma For information only.",
+      "character_count": 232
     }
   ],
   "emails_sent": [
@@ -521,13 +528,19 @@
       "time": "07:36:00",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-24",
+      "time": "08:59:40",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
   "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 2,
