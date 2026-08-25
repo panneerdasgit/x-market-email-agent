@@ -321,6 +321,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update India’s new stock auction system is facing its first monthly expiry test. This matters as it brings fresh settlement rules for traders. #Markets #Stocks For information only.",
       "character_count": 190
+    },
+    {
+      "date": "2026-08-25",
+      "time": "10:35:52",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: TCS shares fell after its MHP buy. Brokerages flagged integration risks. Big takeovers take time to settle into operations. #TCS #Stocks For information only.",
+      "character_count": 173
     }
   ],
   "emails_sent": [
@@ -598,6 +605,12 @@
       "date": "2026-08-25",
       "time": "08:54:36",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "10:35:52",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
