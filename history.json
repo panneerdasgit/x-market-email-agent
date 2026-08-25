@@ -307,6 +307,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex fell 550 points from its day's high as sugar stocks hit 52-week highs following tight stock limits. Watch US-Iran updates next. #Sensex #Stocks For information only.",
       "character_count": 187
+    },
+    {
+      "date": "2026-08-25",
+      "time": "07:28:46",
+      "job_type": "weekday_premarket",
+      "post": "📋 Today's Watch US stocks fell as a chip rout overshadowed a drop in oil prices. Global tech moves matter because they often influence domestic sentiment. #USStocks #Markets For information only.",
+      "character_count": 195
     }
   ],
   "emails_sent": [
@@ -573,12 +580,18 @@
       "time": "14:36:11",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "07:28:46",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
-    "weekday_premarket": 1,
+    "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
