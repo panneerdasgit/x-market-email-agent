@@ -314,6 +314,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch US stocks fell as a chip rout overshadowed a drop in oil prices. Global tech moves matter because they often influence domestic sentiment. #USStocks #Markets For information only.",
       "character_count": 195
+    },
+    {
+      "date": "2026-08-25",
+      "time": "08:54:36",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update India’s new stock auction system is facing its first monthly expiry test. This matters as it brings fresh settlement rules for traders. #Markets #Stocks For information only.",
+      "character_count": 190
     }
   ],
   "emails_sent": [
@@ -586,13 +593,19 @@
       "time": "07:28:46",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "08:54:36",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 2,
