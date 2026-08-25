@@ -328,6 +328,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: TCS shares fell after its MHP buy. Brokerages flagged integration risks. Big takeovers take time to settle into operations. #TCS #Stocks For information only.",
       "character_count": 173
+    },
+    {
+      "date": "2026-08-25",
+      "time": "14:32:36",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Hindustan Copper shares fell up to 8% as the government launched an offer for sale. This matters as stake sales increase share supply in the market. Watch government stake updates next. #Stocks #MarketUpdate For information only.",
+      "character_count": 244
     }
   ],
   "emails_sent": [
@@ -612,6 +619,12 @@
       "time": "10:35:52",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "14:32:36",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -620,7 +633,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 2,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
