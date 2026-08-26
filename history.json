@@ -335,6 +335,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Hindustan Copper shares fell up to 8% as the government launched an offer for sale. This matters as stake sales increase share supply in the market. Watch government stake updates next. #Stocks #MarketUpdate For information only.",
       "character_count": 244
+    },
+    {
+      "date": "2026-08-26",
+      "time": "07:37:57",
+      "job_type": "weekday_premarket",
+      "post": "👀 Watch Today Keep an eye on Hindustan Copper as the government launches a share sale. This matters because stake sales increase the total share supply in the market. #Stocks #MarketUpdate For information only.",
+      "character_count": 210
     }
   ],
   "emails_sent": [
@@ -625,12 +632,18 @@
       "time": "14:32:36",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "07:37:57",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
