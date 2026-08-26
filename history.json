@@ -342,6 +342,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today Keep an eye on Hindustan Copper as the government launches a share sale. This matters because stake sales increase the total share supply in the market. #Stocks #MarketUpdate For information only.",
       "character_count": 210
+    },
+    {
+      "date": "2026-08-26",
+      "time": "09:01:04",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In: The Delhi HC ordered a Rs 53-crore tax refund payout to Vodafone Idea. Tax refunds matter as they improve cash flow for companies. #VodafoneIdea #Stocks For information only.",
+      "character_count": 185
     }
   ],
   "emails_sent": [
@@ -638,13 +645,19 @@
       "time": "07:37:57",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "09:01:04",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
   "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
