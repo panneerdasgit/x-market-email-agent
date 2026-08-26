@@ -349,6 +349,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In: The Delhi HC ordered a Rs 53-crore tax refund payout to Vodafone Idea. Tax refunds matter as they improve cash flow for companies. #VodafoneIdea #Stocks For information only.",
       "character_count": 185
+    },
+    {
+      "date": "2026-08-26",
+      "time": "10:36:30",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Hindustan Zinc jumped 3% after Jefferies raised its target on zinc and silver boosts. Higher metal prices help mining margins. #Metals #Stocks For information only.",
+      "character_count": 178
     }
   ],
   "emails_sent": [
@@ -650,6 +657,12 @@
       "date": "2026-08-26",
       "time": "09:01:04",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "10:36:30",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
