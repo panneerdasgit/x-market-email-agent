@@ -363,6 +363,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? The P/E ratio tells you if a stock is costly. If Company A trades at ₹20 per share for ₹1 earnings, its P/E is 20. It matters so you avoid paying too much. #Investing #Stocks For information only.",
       "character_count": 212
+    },
+    {
+      "date": "2026-08-26",
+      "time": "14:34:16",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close Hindustan Zinc jumped 5% after DIPAM eased OFS fears. This matters as policy relief removes major supply worries. Watch oil prices next. #Stocks #Market For information only.",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -677,6 +684,12 @@
       "time": "12:48:41",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "14:34:16",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 1,
@@ -685,7 +698,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 2,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
