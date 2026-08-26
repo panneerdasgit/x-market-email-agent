@@ -356,6 +356,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus Hindustan Zinc jumped 3% after Jefferies raised its target on zinc and silver boosts. Higher metal prices help mining margins. #Metals #Stocks For information only.",
       "character_count": 178
+    },
+    {
+      "date": "2026-08-26",
+      "time": "12:48:41",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? The P/E ratio tells you if a stock is costly. If Company A trades at ₹20 per share for ₹1 earnings, its P/E is 20. It matters so you avoid paying too much. #Investing #Stocks For information only.",
+      "character_count": 212
     }
   ],
   "emails_sent": [
@@ -664,9 +671,15 @@
       "time": "10:36:30",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "12:48:41",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 0,
+  "education_topic_index": 1,
   "sunday_tip_index": 0,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -674,7 +687,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 2,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 0
