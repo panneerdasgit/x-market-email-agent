@@ -384,6 +384,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Tata Power shares dropped after losing a legal appeal over a large charge. This matters as unexpected costs directly hurt earnings. #TataPower #Stocks For information only.",
       "character_count": 188
+    },
+    {
+      "date": "2026-08-27",
+      "time": "20:54:31",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Tata Power shares fell after losing a legal appeal over a large charge. This matters as unexpected costs directly hurt earnings. #TataPower #Stocks For information only.",
+      "character_count": 184
     }
   ],
   "emails_sent": [
@@ -715,6 +722,12 @@
       "date": "2026-08-27",
       "time": "18:27:05",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "20:54:31",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
