@@ -258,6 +258,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In Defence shares like BDL and HAL fell up to 4% after the government opened a general export licence framework. Policy changes matter as they alter rules for companies. #Defence #Stocks For information only.",
       "character_count": 215
+    },
+    {
+      "date": "2026-08-28",
+      "time": "22:21:02",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Ola Electric gained after launching a new scooter with in-house Bharat Cell. In-house tech matters as it can lower production costs. #OlaElectric #Stocks For information only.",
+      "character_count": 190
     }
   ],
   "emails_sent": [
@@ -481,6 +488,12 @@
       "date": "2026-08-28",
       "time": "19:57:26",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "22:21:02",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
