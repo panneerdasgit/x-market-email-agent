@@ -244,6 +244,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex dipped 539 points and Nifty fell below 24,100 as losses extended. Watch the 24,000 support level in the next session. #Markets #Sensex For information only.",
       "character_count": 178
+    },
+    {
+      "date": "2026-08-28",
+      "time": "17:06:18",
+      "job_type": "weekday_premarket",
+      "post": "📋 Today's Watch: Watch IT stocks like TCS and Infosys today. A strong Nvidia rally pushed global tech higher. This matters as international trends often sway local IT counters. #IT #Stocks For information only.",
+      "character_count": 210
     }
   ],
   "emails_sent": [
@@ -456,12 +463,18 @@
       "time": "00:35:07",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "17:06:18",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 2,
   "sunday_tip_index": 0,
   "header_indexes": {
-    "weekday_premarket": 1,
+    "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
