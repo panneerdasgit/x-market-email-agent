@@ -279,6 +279,13 @@
       "job_type": "weekday_closing",
       "post": "🟢 Market Close Nifty IT jumped nearly 3% after a global tech rally lifted TCS and Infosys. International tech moves matter as they steer local tech stocks. Watch global cues next. #IT #Stocks For information only.",
       "character_count": 213
+    },
+    {
+      "date": "2026-08-29",
+      "time": "14:01:53",
+      "job_type": "saturday_weekly_recap",
+      "post": "📊 This Week SEBI cleared the Jio Platforms IPO. Big public issues matter because they draw huge retail interest. Watch the Nifty 24,400 hurdle next week. #IPO #Stocks For information only.",
+      "character_count": 188
     }
   ],
   "emails_sent": [
@@ -520,6 +527,12 @@
       "date": "2026-08-29",
       "time": "01:42:53",
       "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "14:01:53",
+      "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
     }
   ],
