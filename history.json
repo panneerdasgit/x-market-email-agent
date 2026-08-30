@@ -300,6 +300,13 @@
       "job_type": "sunday_next_week_outlook",
       "post": "📅 Next Week SEBI cleared the Jio Platforms IPO. Big public share sales matter as they attract major investor attention. Watch how large issues impact liquidity. #IPO #Stocks For information only.",
       "character_count": 195
+    },
+    {
+      "date": "2026-08-30",
+      "time": "20:13:24",
+      "job_type": "sunday_investing_tip",
+      "post": "⚠️ Common Mistake Always understand how a business makes money before buying its stock. This matters because knowing its actual source of income keeps you safe from blind guesses. #Investing #Stocks For information only.",
+      "character_count": 220
     }
   ],
   "emails_sent": [
@@ -560,16 +567,22 @@
       "time": "13:10:52",
       "job_type": "sunday_next_week_outlook",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-30",
+      "time": "20:13:24",
+      "job_type": "sunday_investing_tip",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 4,
-  "sunday_tip_index": 0,
+  "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
-    "sunday_investing_tip": 2,
+    "sunday_investing_tip": 0,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
