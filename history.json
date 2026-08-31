@@ -314,6 +314,13 @@
       "job_type": "weekday_premarket",
       "post": "👀 Watch Today: Renewed US-Iran fighting and rising oil prices. This matters as geopolitical tension can push energy costs higher and hurt local stock values. #Markets #Oil For information only.",
       "character_count": 193
+    },
+    {
+      "date": "2026-08-31",
+      "time": "14:16:32",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update IT stocks fell as rate-hike bets grew. Global rate changes matter because they can shift foreign money away from local tech shares. #IT #Stocks For information only.",
+      "character_count": 181
     }
   ],
   "emails_sent": [
@@ -586,13 +593,19 @@
       "time": "11:22:28",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "14:16:32",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 4,
   "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 0,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
