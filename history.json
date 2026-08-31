@@ -335,6 +335,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? India imports most of its crude oil. When global oil prices go up, things like fuel and transport get costly here. This matters because higher business costs can squeeze company profits. #Oil #Stocks For information only.",
       "character_count": 237
+    },
+    {
+      "date": "2026-08-31",
+      "time": "21:40:46",
+      "job_type": "weekday_closing",
+      "post": "🟡 Market Close: Bank Nifty gained nearly 1% to close near 58,000. This happened as select banks led the recovery. Watch Nifty near 24,100 next. #BankNifty #Stocks For information only.",
+      "character_count": 184
     }
   ],
   "emails_sent": [
@@ -625,6 +632,12 @@
       "time": "19:41:43",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "21:40:46",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
@@ -633,7 +646,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 1,
+    "weekday_closing": 2,
     "sunday_investing_tip": 0,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
