@@ -307,6 +307,13 @@
       "job_type": "sunday_investing_tip",
       "post": "⚠️ Common Mistake Always understand how a business makes money before buying its stock. This matters because knowing its actual source of income keeps you safe from blind guesses. #Investing #Stocks For information only.",
       "character_count": 220
+    },
+    {
+      "date": "2026-08-31",
+      "time": "11:22:28",
+      "job_type": "weekday_premarket",
+      "post": "👀 Watch Today: Renewed US-Iran fighting and rising oil prices. This matters as geopolitical tension can push energy costs higher and hurt local stock values. #Markets #Oil For information only.",
+      "character_count": 193
     }
   ],
   "emails_sent": [
@@ -573,12 +580,18 @@
       "time": "20:13:24",
       "job_type": "sunday_investing_tip",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "11:22:28",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 4,
   "sunday_tip_index": 1,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
