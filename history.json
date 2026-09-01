@@ -356,6 +356,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In: Happiest Minds shares fell over 8% after its merger deal with ITC Infotech. Big business mergers matter as they can shake up stock prices quickly. Watch your holdings closely. #Stocks #Merger For information only.",
       "character_count": 224
+    },
+    {
+      "date": "2026-09-01",
+      "time": "15:02:46",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Maruti Suzuki shares dropped as monthly sales fell. Lower vehicle sales matter because they show a dip in buyer demand. Watch monthly updates closely. #Maruti #Stocks For information only.",
+      "character_count": 203
     }
   ],
   "emails_sent": [
@@ -663,6 +670,12 @@
       "date": "2026-09-01",
       "time": "13:24:46",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "15:02:46",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
