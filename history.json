@@ -342,6 +342,13 @@
       "job_type": "weekday_closing",
       "post": "🟡 Market Close: Bank Nifty gained nearly 1% to close near 58,000. This happened as select banks led the recovery. Watch Nifty near 24,100 next. #BankNifty #Stocks For information only.",
       "character_count": 184
+    },
+    {
+      "date": "2026-09-01",
+      "time": "10:54:47",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell Foreign funds pulled out billions following the latest MSCI index changes. Big foreign fund moves matter as they shift capital across local stocks. #MSCI #Stocks For information only.",
+      "character_count": 201
     }
   ],
   "emails_sent": [
@@ -638,12 +645,18 @@
       "time": "21:40:46",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "10:54:47",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
   "sunday_tip_index": 1,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
