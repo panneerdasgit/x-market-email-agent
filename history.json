@@ -349,6 +349,13 @@
       "job_type": "weekday_premarket",
       "post": "📈 Before the Bell Foreign funds pulled out billions following the latest MSCI index changes. Big foreign fund moves matter as they shift capital across local stocks. #MSCI #Stocks For information only.",
       "character_count": 201
+    },
+    {
+      "date": "2026-09-01",
+      "time": "13:24:46",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In: Happiest Minds shares fell over 8% after its merger deal with ITC Infotech. Big business mergers matter as they can shake up stock prices quickly. Watch your holdings closely. #Stocks #Merger For information only.",
+      "character_count": 224
     }
   ],
   "emails_sent": [
@@ -651,13 +658,19 @@
       "time": "10:54:47",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "13:24:46",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 5,
   "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 1,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 0,
