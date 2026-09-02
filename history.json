@@ -405,6 +405,13 @@
       "job_type": "weekday_education",
       "post": "💰 Investing Tip FII means foreign institutions investing from abroad. DII means domestic funds from India like mutual funds. Knowing who buys helps you understand price moves. #Investing #Stocks For information only.",
       "character_count": 216
+    },
+    {
+      "date": "2026-09-02",
+      "time": "18:17:49",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex fell 400 pts and Nifty settled near 23,900 today. Surging crude oil prices put pressure on the auto sector. Keep an eye on oil price moves in the next session as they impact business costs. For information only. #Stocks",
+      "character_count": 241
     }
   ],
   "emails_sent": [
@@ -755,6 +762,12 @@
       "time": "17:01:46",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "18:17:49",
+      "job_type": "weekday_closing",
+      "model": "gemini-3.1-flash-lite-preview"
     }
   ],
   "education_topic_index": 7,
@@ -763,7 +776,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 0,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
