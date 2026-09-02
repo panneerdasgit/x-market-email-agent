@@ -391,6 +391,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update Crude oil prices are surging. This matters because rising energy costs can increase expenses for companies and drag down auto stocks. #CrudeOil #Stocks For information only.",
       "character_count": 189
+    },
+    {
+      "date": "2026-09-02",
+      "time": "14:27:20",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Zerodha received SEBI approval to enter merchant banking. This matters because getting approval lets a firm expand its business into new areas. #Zerodha #Stocks For information only.",
+      "character_count": 197
     }
   ],
   "emails_sent": [
@@ -728,6 +735,12 @@
       "date": "2026-09-02",
       "time": "12:42:37",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "14:27:20",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
