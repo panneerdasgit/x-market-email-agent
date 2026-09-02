@@ -377,6 +377,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Nifty ended near 24,050. Sugar stocks dropped as the government halved dealer stock limits. Watch if Nifty holds the 24,000 level next. #Nifty #Stocks For information only.",
       "character_count": 187
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:22:10",
+      "job_type": "weekday_premarket",
+      "post": "📋 Today's Watch Crude oil prices are surging near $96. Watch energy costs closely because higher oil prices can increase expenses for local businesses and impact profits. #CrudeOil #Stocks For information only.",
+      "character_count": 210
     }
   ],
   "emails_sent": [
@@ -703,12 +710,18 @@
       "time": "19:01:02",
       "job_type": "weekday_closing",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:22:10",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
   "sunday_tip_index": 1,
   "header_indexes": {
-    "weekday_premarket": 1,
+    "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
