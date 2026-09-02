@@ -384,6 +384,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Crude oil prices are surging near $96. Watch energy costs closely because higher oil prices can increase expenses for local businesses and impact profits. #CrudeOil #Stocks For information only.",
       "character_count": 210
+    },
+    {
+      "date": "2026-09-02",
+      "time": "12:42:37",
+      "job_type": "weekday_breaking",
+      "post": "🚨 Market Update Crude oil prices are surging. This matters because rising energy costs can increase expenses for companies and drag down auto stocks. #CrudeOil #Stocks For information only.",
+      "character_count": 189
     }
   ],
   "emails_sent": [
@@ -716,13 +723,19 @@
       "time": "10:22:10",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "12:42:37",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 6,
   "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 0,
+    "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 0,
     "sunday_investing_tip": 0,
