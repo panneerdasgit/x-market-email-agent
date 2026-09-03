@@ -412,6 +412,13 @@
       "job_type": "weekday_closing",
       "post": "🔴 Market Close Sensex fell 400 pts and Nifty settled near 23,900 today. Surging crude oil prices put pressure on the auto sector. Keep an eye on oil price moves in the next session as they impact business costs. For information only. #Stocks",
       "character_count": 241
+    },
+    {
+      "date": "2026-09-03",
+      "time": "10:19:55",
+      "job_type": "weekday_premarket",
+      "post": "👀 Watch Today HDFC Bank is at risk of losing its top Nifty spot to rival ICICI Bank. This matters as index weights shift. #Banking #Stocks For information only.",
+      "character_count": 160
     }
   ],
   "emails_sent": [
@@ -768,12 +775,18 @@
       "time": "18:17:49",
       "job_type": "weekday_closing",
       "model": "gemini-3.1-flash-lite-preview"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "10:19:55",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 7,
   "sunday_tip_index": 1,
   "header_indexes": {
-    "weekday_premarket": 2,
+    "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
