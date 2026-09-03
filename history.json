@@ -433,6 +433,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: Prestige Estates shares rose after announcing a ₹5,600-crore project in Gurgaon. Large real estate orders matter because they often point to healthy business growth for the company. #PrestigeEstates #Stocks For information only.",
       "character_count": 243
+    },
+    {
+      "date": "2026-09-03",
+      "time": "16:58:03",
+      "job_type": "weekday_education",
+      "post": "💡 Did You Know? Nifty and Sensex are just different baskets of top stocks. Sensex tracks 30 big companies, while Nifty tracks 50. Knowing this matters because they help you check how the overall market is doing. #Nifty #Sensex For information only.",
+      "character_count": 248
     }
   ],
   "emails_sent": [
@@ -807,9 +814,15 @@
       "time": "14:36:07",
       "job_type": "weekday_stock_focus",
       "model": "gemini-3.1-flash-lite"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "16:58:03",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 7,
+  "education_topic_index": 8,
   "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 0,
@@ -817,7 +830,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
-    "weekday_education": 0,
+    "weekday_education": 1,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
