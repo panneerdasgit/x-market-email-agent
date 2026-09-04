@@ -461,6 +461,13 @@
       "job_type": "weekday_stock_focus",
       "post": "📌 Stock Focus: Coal India shares jumped 4% as a Mahanadi Coalfields IPO report lifted interest. Strong demand drives this. #CoalIndia #Stocks For information only.",
       "character_count": 163
+    },
+    {
+      "date": "2026-09-04",
+      "time": "17:01:15",
+      "job_type": "weekday_education",
+      "post": "📚 Market Basics Breadth checks how many shares actually rise or fall. If 1,000 stocks go up and 200 drop, health is good. This matters so you know if most companies are winning. #Investing #Stocks For information only.",
+      "character_count": 218
     }
   ],
   "emails_sent": [
@@ -859,9 +866,15 @@
       "time": "14:29:03",
       "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "17:01:15",
+      "job_type": "weekday_education",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 8,
+  "education_topic_index": 9,
   "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -869,7 +882,7 @@
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
     "sunday_investing_tip": 0,
-    "weekday_education": 1,
+    "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 1,
     "sunday_next_week_outlook": 1
