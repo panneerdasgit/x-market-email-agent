@@ -454,6 +454,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Market Update UltraTech launched Ultravolt, causing cable stocks like Polycab to drop. New competition matters as it tests established firm margins. #Stocks #Business For information only.",
       "character_count": 190
+    },
+    {
+      "date": "2026-09-04",
+      "time": "14:29:03",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus: Coal India shares jumped 4% as a Mahanadi Coalfields IPO report lifted interest. Strong demand drives this. #CoalIndia #Stocks For information only.",
+      "character_count": 163
     }
   ],
   "emails_sent": [
@@ -845,6 +852,12 @@
       "date": "2026-09-04",
       "time": "12:49:58",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "14:29:03",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
