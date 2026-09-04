@@ -440,6 +440,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? Nifty and Sensex are just different baskets of top stocks. Sensex tracks 30 big companies, while Nifty tracks 50. Knowing this matters because they help you check how the overall market is doing. #Nifty #Sensex For information only.",
       "character_count": 248
+    },
+    {
+      "date": "2026-09-04",
+      "time": "10:22:37",
+      "job_type": "weekday_premarket",
+      "post": "📈 Before the Bell SEBI is set to review derivative settlement rules soon. Watch this update because changes can impact trading costs for options. #SEBI #Stocks For information only.",
+      "character_count": 181
     }
   ],
   "emails_sent": [
@@ -820,12 +827,18 @@
       "time": "16:58:03",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "10:22:37",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 8,
   "sunday_tip_index": 1,
   "header_indexes": {
-    "weekday_premarket": 0,
+    "weekday_premarket": 1,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 1,
