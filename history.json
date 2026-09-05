@@ -251,6 +251,13 @@
       "job_type": "saturday_weekly_recap",
       "post": "📊 This Week: SEBI cleared the NSE IPO for a listing this month. This matters because a massive exchange listing creates big investor interest. Watch upcoming IPO approvals. #IPO For information only.",
       "character_count": 199
+    },
+    {
+      "date": "2026-09-05",
+      "time": "18:50:31",
+      "job_type": "saturday_investing_lesson",
+      "post": "💡 Investing Tip: Bond yields are safe returns from government debt. When yields rise, safe money looks better, so stocks often fall. This matters because funds shift between assets. For information only. #Bonds #Stocks",
+      "character_count": 218
     }
   ],
   "emails_sent": [
@@ -469,9 +476,15 @@
       "time": "12:05:38",
       "job_type": "saturday_weekly_recap",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-05",
+      "time": "18:50:31",
+      "job_type": "saturday_investing_lesson",
+      "model": "gemini-flash-lite-latest"
     }
   ],
-  "education_topic_index": 9,
+  "education_topic_index": 10,
   "sunday_tip_index": 1,
   "header_indexes": {
     "weekday_premarket": 1,
@@ -481,7 +494,7 @@
     "sunday_investing_tip": 0,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
-    "saturday_investing_lesson": 1,
+    "saturday_investing_lesson": 0,
     "sunday_next_week_outlook": 1
   }
 }
