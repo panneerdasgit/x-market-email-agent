@@ -265,6 +265,13 @@
       "job_type": "sunday_next_week_outlook",
       "post": "👀 Week Ahead LIC got RBI approval to buy up to 9.99% in ICICI Bank. Big bank investments matter as they show major institutional interest. Watch how financial sector stocks move this week. #Stocks #Banking For information only.",
       "character_count": 227
+    },
+    {
+      "date": "2026-09-06",
+      "time": "18:57:52",
+      "job_type": "sunday_investing_tip",
+      "post": "💡 Sunday Tip: A rising share price does not always mean the business is doing better. People simply pay more sometimes. This matters because you must check actual profits, not just the ticker. #Investing For information only.",
+      "character_count": 225
     }
   ],
   "emails_sent": [
@@ -495,16 +502,22 @@
       "time": "12:11:10",
       "job_type": "sunday_next_week_outlook",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-06",
+      "time": "18:57:52",
+      "job_type": "sunday_investing_tip",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 10,
-  "sunday_tip_index": 1,
+  "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 1,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
-    "sunday_investing_tip": 0,
+    "sunday_investing_tip": 1,
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
