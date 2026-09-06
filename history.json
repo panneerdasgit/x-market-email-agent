@@ -258,6 +258,13 @@
       "job_type": "saturday_investing_lesson",
       "post": "💡 Investing Tip: Bond yields are safe returns from government debt. When yields rise, safe money looks better, so stocks often fall. This matters because funds shift between assets. For information only. #Bonds #Stocks",
       "character_count": 218
+    },
+    {
+      "date": "2026-09-06",
+      "time": "12:11:10",
+      "job_type": "sunday_next_week_outlook",
+      "post": "👀 Week Ahead LIC got RBI approval to buy up to 9.99% in ICICI Bank. Big bank investments matter as they show major institutional interest. Watch how financial sector stocks move this week. #Stocks #Banking For information only.",
+      "character_count": 227
     }
   ],
   "emails_sent": [
@@ -482,6 +489,12 @@
       "time": "18:50:31",
       "job_type": "saturday_investing_lesson",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-06",
+      "time": "12:11:10",
+      "job_type": "sunday_next_week_outlook",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 10,
@@ -495,6 +508,6 @@
     "weekday_education": 2,
     "saturday_weekly_recap": 0,
     "saturday_investing_lesson": 0,
-    "sunday_next_week_outlook": 1
+    "sunday_next_week_outlook": 0
   }
 }
