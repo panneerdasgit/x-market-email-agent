@@ -272,6 +272,13 @@
       "job_type": "sunday_investing_tip",
       "post": "💡 Sunday Tip: A rising share price does not always mean the business is doing better. People simply pay more sometimes. This matters because you must check actual profits, not just the ticker. #Investing For information only.",
       "character_count": 225
+    },
+    {
+      "date": "2026-09-07",
+      "time": "10:29:58",
+      "job_type": "weekday_premarket",
+      "post": "📋 Today's Watch Watch US-Iran tensions and oil prices near $97. This matters because rising crude costs can impact domestic companies and overall market direction. #CrudeOil #Markets For information only.",
+      "character_count": 204
     }
   ],
   "emails_sent": [
@@ -508,12 +515,18 @@
       "time": "18:57:52",
       "job_type": "sunday_investing_tip",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "10:29:58",
+      "job_type": "weekday_premarket",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 10,
   "sunday_tip_index": 2,
   "header_indexes": {
-    "weekday_premarket": 1,
+    "weekday_premarket": 2,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
