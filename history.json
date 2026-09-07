@@ -286,6 +286,13 @@
       "job_type": "weekday_breaking",
       "post": "⚡ Just In PVR Inox shares dropped 8% due to an internal probe into alleged kickbacks. Such news matters because management issues create severe risks for shareholders. #PVRInox #Stocks For information only.",
       "character_count": 206
+    },
+    {
+      "date": "2026-09-07",
+      "time": "15:05:40",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus PVR Inox shares fell 8% due to an internal probe into alleged kickbacks. Governance issues matter because trust is vital for companies. #PVRInox #Stocks For information only.",
+      "character_count": 188
     }
   ],
   "emails_sent": [
@@ -533,6 +540,12 @@
       "date": "2026-09-07",
       "time": "12:56:37",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "15:05:40",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
