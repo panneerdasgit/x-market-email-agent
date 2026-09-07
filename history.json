@@ -300,6 +300,13 @@
       "job_type": "weekday_education",
       "post": "💰 Investing Tip Free cash flow is the cash left after paying bills. If a tea stall earns ₹500 and spends ₹300, ₹200 is left. This matters because real cash lets companies grow safely. #Investing #Stocks For information only.",
       "character_count": 224
+    },
+    {
+      "date": "2026-09-07",
+      "time": "19:46:32",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex fell 383 points as IT and media stocks dropped. This happened partly due to US-Iran tensions. Watch if Nifty tests the July swing low of 23,600 next. For information only. #Sensex #Nifty",
+      "character_count": 208
     }
   ],
   "emails_sent": [
@@ -560,6 +567,12 @@
       "time": "18:19:26",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "19:46:32",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 11,
@@ -568,7 +581,7 @@
     "weekday_premarket": 2,
     "weekday_breaking": 0,
     "weekday_stock_focus": 0,
-    "weekday_closing": 2,
+    "weekday_closing": 0,
     "sunday_investing_tip": 1,
     "weekday_education": 0,
     "saturday_weekly_recap": 0,
