@@ -279,6 +279,13 @@
       "job_type": "weekday_premarket",
       "post": "📋 Today's Watch Watch US-Iran tensions and oil prices near $97. This matters because rising crude costs can impact domestic companies and overall market direction. #CrudeOil #Markets For information only.",
       "character_count": 204
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:56:37",
+      "job_type": "weekday_breaking",
+      "post": "⚡ Just In PVR Inox shares dropped 8% due to an internal probe into alleged kickbacks. Such news matters because management issues create severe risks for shareholders. #PVRInox #Stocks For information only.",
+      "character_count": 206
     }
   ],
   "emails_sent": [
@@ -521,13 +528,19 @@
       "time": "10:29:58",
       "job_type": "weekday_premarket",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:56:37",
+      "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 10,
   "sunday_tip_index": 2,
   "header_indexes": {
     "weekday_premarket": 2,
-    "weekday_breaking": 1,
+    "weekday_breaking": 0,
     "weekday_stock_focus": 0,
     "weekday_closing": 2,
     "sunday_investing_tip": 1,
