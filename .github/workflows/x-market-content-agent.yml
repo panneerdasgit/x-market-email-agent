@@ -1,6 +1,6 @@
 name: X Market Content Agent V2.3 Stable
 
-on:
+off:
   schedule:
     # Monday-Friday — scheduled 2.5 hours early in IST
     # Expected delivery after the observed GitHub delay:
