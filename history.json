@@ -321,6 +321,13 @@
       "job_type": "weekday_breaking",
       "post": "🚨 Symphony shares surged 9% after announcing plans to enter the AC and air purifier markets. This matters because new product categories create fresh revenue streams. #Symphony #Stocks For information only.",
       "character_count": 206
+    },
+    {
+      "date": "2026-09-08",
+      "time": "14:29:45",
+      "job_type": "weekday_stock_focus",
+      "post": "📌 Stock Focus Bandhan Bank rose 4% after launching four new credit cards. New products matter as they help lenders grow revenue. For information only. #BandhanBank #Stocks",
+      "character_count": 171
     }
   ],
   "emails_sent": [
@@ -598,6 +605,12 @@
       "date": "2026-09-08",
       "time": "12:51:21",
       "job_type": "weekday_breaking",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "14:29:45",
+      "job_type": "weekday_stock_focus",
       "model": "gemini-flash-lite-latest"
     }
   ],
