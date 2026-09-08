@@ -335,6 +335,13 @@
       "job_type": "weekday_education",
       "post": "💡 Did You Know? Never put all your money into one stock. If that business struggles, your savings take a direct hit. Spreading funds across different sectors protects you from heavy losses. For information only. #Investing",
       "character_count": 222
+    },
+    {
+      "date": "2026-09-08",
+      "time": "18:23:19",
+      "job_type": "weekday_closing",
+      "post": "🔴 Market Close Sensex dropped 555 points as rising crude prices hit stocks. This matters because expensive oil hurts company profits. Watch if Nifty holds the 23,500 zone next. For information only. #Sensex #Nifty",
+      "character_count": 213
     }
   ],
   "emails_sent": [
@@ -625,6 +632,12 @@
       "time": "17:01:05",
       "job_type": "weekday_education",
       "model": "gemini-flash-lite-latest"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "18:23:19",
+      "job_type": "weekday_closing",
+      "model": "gemini-flash-lite-latest"
     }
   ],
   "education_topic_index": 0,
@@ -633,7 +646,7 @@
     "weekday_premarket": 0,
     "weekday_breaking": 1,
     "weekday_stock_focus": 0,
-    "weekday_closing": 0,
+    "weekday_closing": 1,
     "sunday_investing_tip": 1,
     "weekday_education": 1,
     "saturday_weekly_recap": 0,
